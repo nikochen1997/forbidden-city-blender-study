@@ -1,0 +1,89 @@
+{
+  "schema": "v18-explicit-caller-palette/1",
+  "custom": {
+    "green": {
+      "color": [
+        0.028,
+        0.2,
+        0.1
+      ],
+      "metallic": 0.08,
+      "roughness": 0.38
+    },
+    "grey": {
+      "color": [
+        0.085,
+        0.1,
+        0.11
+      ],
+      "metallic": 0.02,
+      "roughness": 0.72
+    },
+    "red": {
+      "color": [
+        0.36,
+        0.028,
+        0.018
+      ],
+      "metallic": 0.0,
+      "roughness": 0.68
+    },
+    "red_lacquer": {
+      "color": [
+        0.39,
+        0.018,
+        0.012
+      ],
+      "metallic": 0.0,
+      "roughness": 0.32
+    }
+  },
+  "materials": {
+    "green": {
+      "rgba": [
+        0.028,
+        0.2,
+        0.1,
+        1
+      ],
+      "metallic": 0.08,
+      "roughness": 0.38
+    },
+    "grey": {
+      "rgba": [
+        0.085,
+        0.1,
+        0.11,
+        1
+      ],
+      "metallic": 0.02,
+      "roughness": 0.72
+    },
+    "red": {
+      "rgba": [
+        0.36,
+        0.028,
+        0.018,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.68
+    },
+    "red_lacquer": {
+      "rgba": [
+        0.39,
+        0.018,
+        0.012,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.32
+    }
+  },
+  "source_files_sha256": {
+    "work/forbidden_city_geometry.py": "23f815fc93057a0f69b66adc25536485fc05a33935f67fb1613073963e276efc",
+    "work/restoration-v18/prepare_profiles_v1.py": "c3994b2054fbe186f5be6263be121c67bb0fbbccc811062f31cb25fa4accc770"
+  },
+  "scope": "Exact caller RGB controls read from frozen F.PALETTE; green-glazed category official, pigment/finish numeric unmeasured. Neutral unknown walls/beams/columns except photo-qualified front columns/frames only.",
+  "third_party_cost": 0
+}

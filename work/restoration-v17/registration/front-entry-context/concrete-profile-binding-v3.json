@@ -1,0 +1,157 @@
+{
+  "schema": "v17-front-entry-concrete-study-profile-binding/1",
+  "id": "shufang_front_entry_U_reference_passage",
+  "source_part_id": "way-42353090-p0",
+  "original_object": "way-42353090-p0_原轮廓主体",
+  "replacement_object": "R17_shufang_front_entry_U_reference_passage",
+  "allowed_additional_hidden_original_objects": [
+    "way-42353090-p0_原轮廓主体"
+  ],
+  "front_profile_file": "work/restoration-v17/profiles/building-profiles-v3.json",
+  "front_profile_sha256": "6bfd22e012990bf49d074ad7df0846ee2d7e4393b469b12cf4b00aed2efcc0c4",
+  "front_building_id": "shufang_front_hall",
+  "front_frame": {
+    "anchor": [
+      -634.0162098379684,
+      439.8196286762457,
+      0.0
+    ],
+    "rotation_z_rad": 0.01736171696979945
+  },
+  "expected_front_opening_control": {
+    "id": "shufang_front_hall_south_2",
+    "wall_side": "south",
+    "bay_index": 2,
+    "kind": "door",
+    "clear_width_m": 2.639603488954916,
+    "clear_height_m": 3.15,
+    "bottom_z_m": 0.35,
+    "formula": "door_width_fraction_of_bay * (enclosure_x_max_m-enclosure_x_min_m) / bays_x; equal spans per current caller profile",
+    "evidence_status": "explicit_caller_unmeasured_expected_control_not_actual_opening_readout",
+    "actual_G14_opening_row_must_match": true
+  },
+  "cutter": {
+    "center_local": [
+      0,
+      -4.624780417075891,
+      1.975
+    ],
+    "width_m": 2.639603488954916,
+    "depth_m": 4.346159974888993,
+    "cutter_bottom_z_m": 0.35,
+    "cutter_top_z_m": 3.6,
+    "height_m": 3.25,
+    "y_overrun_margin_each_side_m": 0.25,
+    "complete_width_strip_actual_U_intersection_bounds_local": [
+      -1.319801744477458,
+      -6.547860404520387,
+      1.319801744477458,
+      -2.7017004296313947
+    ],
+    "complete_width_strip_actual_U_intersection": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            1.319801744477458,
+            -2.7017004296313947
+          ],
+          [
+            1.319801744477458,
+            -6.547478272792949
+          ],
+          [
+            -1.319801744477458,
+            -6.547860404520387
+          ],
+          [
+            -1.319801744477458,
+            -2.701702445707848
+          ],
+          [
+            1.319801744477458,
+            -2.7017004296313947
+          ]
+        ]
+      ]
+    },
+    "polygon_local": [
+      [
+        1.319801744477458,
+        -6.797860404520387
+      ],
+      [
+        1.319801744477458,
+        -2.4517004296313947
+      ],
+      [
+        -1.319801744477458,
+        -2.4517004296313947
+      ],
+      [
+        -1.319801744477458,
+        -6.797860404520387
+      ]
+    ],
+    "polygon_world": [
+      [
+        -632.5785904027039,
+        433.0457056560585
+      ],
+      [
+        -632.6540434113366,
+        437.39121061760386
+      ],
+      [
+        -635.2932490834793,
+        437.3453848712003
+      ],
+      [
+        -635.2177960748465,
+        432.9998799096549
+      ]
+    ],
+    "removed_source_XY_area_m2": 10.151830289854022,
+    "derivation": "Complete width-strip intersection with actual full U footprint; local min/max Y plus .25m each. Not the single-axis length."
+  },
+  "source_proxy_critical_Z_m": [
+    0.0,
+    0.35,
+    3.6,
+    6.0
+  ],
+  "expected_Z_interval_domain_operations": [
+    "original_full_U",
+    "original_full_U_minus_finite_cutter",
+    "original_full_U"
+  ],
+  "source_positive_orientation_requires_reversal": false,
+  "clone_identity_contract": {
+    "single_user_mesh_required": true,
+    "copy_original_matrix_and_material_slots": true,
+    "old_actor_all_raw_metadata_matrix_materials_kept": true,
+    "new_clone_semantic_role": "unmeasured_source_context_reference_passage",
+    "context_source_object": "way-42353090-p0_原轮廓主体",
+    "context_source_part_id": "way-42353090-p0",
+    "must_not_inherit_original_source_building_id": true,
+    "original_source_mesh_count_must_stay": 2845,
+    "raw_source_record_may_be_kept_only_as_qualified_reference_provenance": true,
+    "not_archaeological_door_measurement": true
+  },
+  "keep_original_parent_matrix_materials_and_other_metadata": true,
+  "only_original_visibility_additional_exception": true,
+  "input_files_sha256": {
+    "work/restoration-v17/profiles/building-profiles-v3.json": "6bfd22e012990bf49d074ad7df0846ee2d7e4393b469b12cf4b00aed2efcc0c4",
+    "work/restoration-v17/registration/front-entry-context/source-context.json": "65726e73a8cdf2a33b7f39cae30f60febd834bc55600fef108e9080f6d76337f",
+    "work/restoration-v17/registration/front-entry-context/passage-proposal.json": "27b5b3247974387f0b43e52745559c0fd747ed5ee1b17dfa83d6b0d1975f3b6e",
+    "work/restoration-v17/registration/registered-buildings.json": "0ff859b0e1434e9ee1c0501aa2f301fd6b8416e85e32a5c2b525f9e3c18479bc"
+  },
+  "parameter_scope": "Unmeasured reference route controls, not archaeological door-position/height measurements.",
+  "east_route_completed": false,
+  "build_or_boolean_executed": false,
+  "actual_G14_opening_verified": false,
+  "third_party_cost": 0,
+  "paid_service_calls": 0,
+  "human_approval": "pending",
+  "whole_city_complete": false
+}

@@ -1,0 +1,970 @@
+{
+  "schema": "v16.source-context-wall-correction/1",
+  "id": "ciyin_north_passage_source_wall_42509831",
+  "building_context": "ciyinlou",
+  "source_wall_part_id": "way-42509831-l0",
+  "original_source_actor": "院墙_way-42509831-l0",
+  "replacement_object": "V16_ciyin_north_passage_context_wall",
+  "original_source_wall_record": {
+    "id": "way-42509831-l0",
+    "points": [
+      [
+        -819.02858,
+        66.541617
+      ],
+      [
+        -804.066492,
+        67.350568
+      ],
+      [
+        -780.281086,
+        68.325191
+      ],
+      [
+        -766.310866,
+        68.201639
+      ],
+      [
+        -763.284264,
+        68.234646
+      ]
+    ],
+    "name": null,
+    "source_refs": [
+      "https://www.openstreetmap.org/way/42509831"
+    ],
+    "original_tags": {
+      "barrier": "wall"
+    },
+    "assumptions": [
+      "height missing; draft height=3.0 m (unverified)",
+      "width missing; draft width=0.6 m (unverified)"
+    ],
+    "length_m": 55.78685529768363,
+    "height": 3.0,
+    "width": 0.6,
+    "min_height": 0.0,
+    "material": "brick"
+  },
+  "source_probe_file": "work/restoration-v16/registration/actual-ciyin-context-wall-01.json",
+  "source_probe_sha256": "64ea2a7c0fa4f9b4f4dc70a9174ca09d9ccdacc142e36e99f5dccbfb8d0e3ce8",
+  "source_model_data_sha256": "06dfa30cbd6401d2b555b842c03dd47fa055a4de6024b4904b39cc2652a2248e",
+  "original_native_provenance_sha256": "0887a39941eb444b99b77fe2f8ae31ae07e51d25a8f1e14ad83ca0e93635bdce",
+  "original_manifest_provenance_sha256": "af1ba4804ac871be45d89d7a71f3a4757d4bde60bc1982c258945b12221cd27f",
+  "original_actor_record": {
+    "raw_vertices": [
+      [
+        -819.0447998046875,
+        66.84117889404297,
+        0.0
+      ],
+      [
+        -804.0827026367188,
+        67.65013122558594,
+        0.0
+      ],
+      [
+        -804.05029296875,
+        67.0510025024414,
+        0.0
+      ],
+      [
+        -819.0123901367188,
+        66.24205780029297,
+        0.0
+      ],
+      [
+        -819.0447998046875,
+        66.84117889404297,
+        3.0
+      ],
+      [
+        -804.0827026367188,
+        67.65013122558594,
+        3.0
+      ],
+      [
+        -804.05029296875,
+        67.0510025024414,
+        3.0
+      ],
+      [
+        -819.0123901367188,
+        66.24205780029297,
+        3.0
+      ],
+      [
+        -804.0787963867188,
+        67.65031433105469,
+        0.0
+      ],
+      [
+        -780.2933959960938,
+        68.62493896484375,
+        0.0
+      ],
+      [
+        -780.268798828125,
+        68.02544403076172,
+        0.0
+      ],
+      [
+        -804.05419921875,
+        67.05081939697266,
+        0.0
+      ],
+      [
+        -804.0787963867188,
+        67.65031433105469,
+        3.0
+      ],
+      [
+        -780.2933959960938,
+        68.62493896484375,
+        3.0
+      ],
+      [
+        -780.268798828125,
+        68.02544403076172,
+        3.0
+      ],
+      [
+        -804.05419921875,
+        67.05081939697266,
+        3.0
+      ],
+      [
+        -780.2784423828125,
+        68.62517547607422,
+        0.0
+      ],
+      [
+        -766.3082275390625,
+        68.50162506103516,
+        0.0
+      ],
+      [
+        -766.3135375976562,
+        67.90164947509766,
+        0.0
+      ],
+      [
+        -780.2837524414062,
+        68.02519989013672,
+        0.0
+      ],
+      [
+        -780.2784423828125,
+        68.62517547607422,
+        3.0
+      ],
+      [
+        -766.3082275390625,
+        68.50162506103516,
+        3.0
+      ],
+      [
+        -766.3135375976562,
+        67.90164947509766,
+        3.0
+      ],
+      [
+        -780.2837524414062,
+        68.02519989013672,
+        3.0
+      ],
+      [
+        -766.3141479492188,
+        68.50161743164062,
+        0.0
+      ],
+      [
+        -763.2875366210938,
+        68.53462982177734,
+        0.0
+      ],
+      [
+        -763.281005859375,
+        67.93466186523438,
+        0.0
+      ],
+      [
+        -766.3076171875,
+        67.90165710449219,
+        0.0
+      ],
+      [
+        -766.3141479492188,
+        68.50161743164062,
+        3.0
+      ],
+      [
+        -763.2875366210938,
+        68.53462982177734,
+        3.0
+      ],
+      [
+        -763.281005859375,
+        67.93466186523438,
+        3.0
+      ],
+      [
+        -766.3076171875,
+        67.90165710449219,
+        3.0
+      ]
+    ],
+    "raw_faces": [
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        5,
+        4
+      ],
+      [
+        1,
+        2,
+        6,
+        5
+      ],
+      [
+        2,
+        3,
+        7,
+        6
+      ],
+      [
+        3,
+        0,
+        4,
+        7
+      ],
+      [
+        8,
+        11,
+        10,
+        9
+      ],
+      [
+        12,
+        13,
+        14,
+        15
+      ],
+      [
+        8,
+        9,
+        13,
+        12
+      ],
+      [
+        9,
+        10,
+        14,
+        13
+      ],
+      [
+        10,
+        11,
+        15,
+        14
+      ],
+      [
+        11,
+        8,
+        12,
+        15
+      ],
+      [
+        16,
+        19,
+        18,
+        17
+      ],
+      [
+        20,
+        21,
+        22,
+        23
+      ],
+      [
+        16,
+        17,
+        21,
+        20
+      ],
+      [
+        17,
+        18,
+        22,
+        21
+      ],
+      [
+        18,
+        19,
+        23,
+        22
+      ],
+      [
+        19,
+        16,
+        20,
+        23
+      ],
+      [
+        24,
+        27,
+        26,
+        25
+      ],
+      [
+        28,
+        29,
+        30,
+        31
+      ],
+      [
+        24,
+        25,
+        29,
+        28
+      ],
+      [
+        25,
+        26,
+        30,
+        29
+      ],
+      [
+        26,
+        27,
+        31,
+        30
+      ],
+      [
+        27,
+        24,
+        28,
+        31
+      ]
+    ],
+    "raw_face_material_indices": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "evaluated_world_vertices": [
+      [
+        -819.0447998046875,
+        66.84117889404297,
+        0.0
+      ],
+      [
+        -804.0827026367188,
+        67.65013122558594,
+        0.0
+      ],
+      [
+        -804.05029296875,
+        67.0510025024414,
+        0.0
+      ],
+      [
+        -819.0123901367188,
+        66.24205780029297,
+        0.0
+      ],
+      [
+        -819.0447998046875,
+        66.84117889404297,
+        3.0
+      ],
+      [
+        -804.0827026367188,
+        67.65013122558594,
+        3.0
+      ],
+      [
+        -804.05029296875,
+        67.0510025024414,
+        3.0
+      ],
+      [
+        -819.0123901367188,
+        66.24205780029297,
+        3.0
+      ],
+      [
+        -804.0787963867188,
+        67.65031433105469,
+        0.0
+      ],
+      [
+        -780.2933959960938,
+        68.62493896484375,
+        0.0
+      ],
+      [
+        -780.268798828125,
+        68.02544403076172,
+        0.0
+      ],
+      [
+        -804.05419921875,
+        67.05081939697266,
+        0.0
+      ],
+      [
+        -804.0787963867188,
+        67.65031433105469,
+        3.0
+      ],
+      [
+        -780.2933959960938,
+        68.62493896484375,
+        3.0
+      ],
+      [
+        -780.268798828125,
+        68.02544403076172,
+        3.0
+      ],
+      [
+        -804.05419921875,
+        67.05081939697266,
+        3.0
+      ],
+      [
+        -780.2784423828125,
+        68.62517547607422,
+        0.0
+      ],
+      [
+        -766.3082275390625,
+        68.50162506103516,
+        0.0
+      ],
+      [
+        -766.3135375976562,
+        67.90164947509766,
+        0.0
+      ],
+      [
+        -780.2837524414062,
+        68.02519989013672,
+        0.0
+      ],
+      [
+        -780.2784423828125,
+        68.62517547607422,
+        3.0
+      ],
+      [
+        -766.3082275390625,
+        68.50162506103516,
+        3.0
+      ],
+      [
+        -766.3135375976562,
+        67.90164947509766,
+        3.0
+      ],
+      [
+        -780.2837524414062,
+        68.02519989013672,
+        3.0
+      ],
+      [
+        -766.3141479492188,
+        68.50161743164062,
+        0.0
+      ],
+      [
+        -763.2875366210938,
+        68.53462982177734,
+        0.0
+      ],
+      [
+        -763.281005859375,
+        67.93466186523438,
+        0.0
+      ],
+      [
+        -766.3076171875,
+        67.90165710449219,
+        0.0
+      ],
+      [
+        -766.3141479492188,
+        68.50161743164062,
+        3.0
+      ],
+      [
+        -763.2875366210938,
+        68.53462982177734,
+        3.0
+      ],
+      [
+        -763.281005859375,
+        67.93466186523438,
+        3.0
+      ],
+      [
+        -766.3076171875,
+        67.90165710449219,
+        3.0
+      ]
+    ],
+    "evaluated_world_triangles": [
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        5,
+        4
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        6,
+        5
+      ],
+      [
+        2,
+        3,
+        7
+      ],
+      [
+        2,
+        7,
+        6
+      ],
+      [
+        3,
+        0,
+        4
+      ],
+      [
+        3,
+        4,
+        7
+      ],
+      [
+        8,
+        11,
+        10
+      ],
+      [
+        8,
+        10,
+        9
+      ],
+      [
+        12,
+        13,
+        14
+      ],
+      [
+        12,
+        14,
+        15
+      ],
+      [
+        8,
+        9,
+        13
+      ],
+      [
+        8,
+        13,
+        12
+      ],
+      [
+        9,
+        10,
+        14
+      ],
+      [
+        9,
+        14,
+        13
+      ],
+      [
+        10,
+        11,
+        15
+      ],
+      [
+        10,
+        15,
+        14
+      ],
+      [
+        11,
+        8,
+        12
+      ],
+      [
+        11,
+        12,
+        15
+      ],
+      [
+        16,
+        19,
+        18
+      ],
+      [
+        16,
+        18,
+        17
+      ],
+      [
+        20,
+        21,
+        22
+      ],
+      [
+        20,
+        22,
+        23
+      ],
+      [
+        16,
+        17,
+        21
+      ],
+      [
+        16,
+        21,
+        20
+      ],
+      [
+        17,
+        18,
+        22
+      ],
+      [
+        17,
+        22,
+        21
+      ],
+      [
+        18,
+        19,
+        23
+      ],
+      [
+        18,
+        23,
+        22
+      ],
+      [
+        19,
+        16,
+        20
+      ],
+      [
+        19,
+        20,
+        23
+      ],
+      [
+        24,
+        27,
+        26
+      ],
+      [
+        24,
+        26,
+        25
+      ],
+      [
+        28,
+        29,
+        30
+      ],
+      [
+        28,
+        30,
+        31
+      ],
+      [
+        24,
+        25,
+        29
+      ],
+      [
+        24,
+        29,
+        28
+      ],
+      [
+        25,
+        26,
+        30
+      ],
+      [
+        25,
+        30,
+        29
+      ],
+      [
+        26,
+        27,
+        31
+      ],
+      [
+        26,
+        31,
+        30
+      ],
+      [
+        27,
+        24,
+        28
+      ],
+      [
+        27,
+        28,
+        31
+      ]
+    ],
+    "actual_material_slots": [
+      "FC_red"
+    ],
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "matrix_local": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parent": null,
+    "collections": [
+      "source_inner_walls"
+    ],
+    "visibility": {
+      "hide_render": false,
+      "global_hide_viewport": false,
+      "hide_get": false
+    },
+    "custom_properties": {
+      "source_refs": "[\"https://www.openstreetmap.org/way/42509831\"]",
+      "assumptions": "[\"height missing; draft height=3.0 m (unverified)\", \"width missing; draft width=0.6 m (unverified)\"]"
+    }
+  },
+  "passage_opening_id": "ciyin_ground_east_passage_north",
+  "passage_opening_record": {
+    "id": "ciyin_ground_east_passage_north",
+    "type": "door",
+    "destination": "documented_passage_with_unbuilt_interior_floor_details",
+    "center": [
+      8.856016375971155,
+      4.665233508821016,
+      1.76
+    ],
+    "width": 2.6,
+    "height": 2.92,
+    "depth": 0.72,
+    "normal_axis": "Y",
+    "cutter_bottom_extension_m": 0.02,
+    "semantic_bottom_z_m": 0.32,
+    "semantic_top_z_m": 3.2199999999999998,
+    "wall": "V16_ciyinlou_s0_north",
+    "cutter_center_local": [
+      8.856016375971155,
+      4.665233508821016,
+      1.76
+    ],
+    "cutter_height_m": 2.92,
+    "kind": "passage",
+    "wall_id": "s0_north",
+    "wall_side": "north",
+    "storey_index": 0,
+    "center_local": [
+      8.856016375971155,
+      4.665233508821016,
+      1.77
+    ],
+    "normal_local": [
+      0,
+      1,
+      0
+    ],
+    "clear_width_m": 2.6,
+    "clear_height_m": 2.9,
+    "bottom_z_m": 0.32,
+    "leaf_count": null,
+    "leaf_reference_names": [],
+    "infill_proxy_names": [],
+    "frame_names": [
+      "V16_ciyinlou_ciyin_ground_east_passage_north_jamb",
+      "V16_ciyinlou_ciyin_ground_east_passage_north_jamb.001",
+      "V16_ciyinlou_ciyin_ground_east_passage_north_head"
+    ],
+    "dimension_status": "unmeasured_study",
+    "category_scope": "Officialeastend groundpassage north/southdoors; leafcountunknown andnotfabricated, clearstudy apertures inactualwalls.",
+    "pattern_category": null,
+    "opening_method": "Independent Exact Boolean applied before surround",
+    "center_world": [
+      -783.29443359375,
+      67.47109985351562,
+      1.7699999809265137
+    ],
+    "normal_world": [
+      -0.04094131290912628,
+      0.9991615414619446,
+      0.0
+    ]
+  },
+  "ciyin_registered_frame": {
+    "anchor": [
+      -791.9520553750372,
+      62.44720096928556,
+      0.0
+    ],
+    "rotation_z_rad": 0.04095276250419804
+  },
+  "cutter": {
+    "normal_axis": "Y",
+    "rotation_z_rad": 0.04095276250419804,
+    "anchor": [
+      -791.9520553750372,
+      62.44720096928556,
+      0.0
+    ],
+    "center_local": [
+      8.856016375971155,
+      5.395237524304631,
+      1.7699999999999998
+    ],
+    "width_m": 2.6,
+    "depth_m": 0.6999995330514327,
+    "semantic_bottom_z_m": 0.32,
+    "semantic_top_z_m": 3.2199999999999998,
+    "cutter_bottom_z_m": 0.3,
+    "cutter_top_z_m": 3.2399999999999998,
+    "bottom_extension_m": 0.02,
+    "top_extension_m": 0.02,
+    "source_wall_slice_y_min_m": 5.095237757778914,
+    "source_wall_slice_y_max_m": 5.695237290830347,
+    "dimension_status": "unmeasured_study",
+    "depth_evidence": "Complete actual wall horizontal top face clipped by documented north-passage clearwidth strip; actual full Y range plus .05m each side, not bbox swallowing neighboring actors."
+  },
+  "allowed_hidden_source_actor_names": [
+    "院墙_way-42509831-l0"
+  ],
+  "preservation_contract": "Original complete raw/data/materials/matrix/metadata unchanged; only original display hidden. New single-user clone exact actual mesh except finite Boolean subtraction at independently source-qualified Ciyin north passage. All original wall outside cutter remains. No new historical gate styling claimed.",
+  "evidence_class": "Official north/south passage + registered source-context proxy wall conflict correction; geometry dimensions unmeasured study",
+  "original_wall_height_width_measured": false,
+  "third_party_cost": 0,
+  "paid_service_calls": 0,
+  "human_approval": "pending",
+  "absolute_accuracy_claim": false
+}

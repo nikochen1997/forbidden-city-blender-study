@@ -1,0 +1,43 @@
+{
+  "schema": "v17-caller-profile-stage-row-equivalence-proof/1",
+  "verified_utc": "2026-10-24T10:02:29.914475+00:00",
+  "caller_profile_path": "./work/restoration-v17/profiles/building-profiles-v3.json",
+  "caller_profile_sha256": "6bfd22e012990bf49d074ad7df0846ee2d7e4393b469b12cf4b00aed2efcc0c4",
+  "selected_path": [
+    "buildings",
+    2
+  ],
+  "selected_building_id": "shufang_large_stage",
+  "selected_stage_row_sha256": "7521b63bf5023bcad34d40dc7a157691a96b50916b8ab1897866ec012368a518",
+  "comparison": "complete decoded JSON row recursively equal, not selected-field approximation",
+  "old6d1_stage_row_exact_equal": true,
+  "executed850a89_stage_row_exact_equal": true,
+  "executed_profile_path": "./work/restoration-v17/profiles/building-profiles-v2.json",
+  "executed_profile_sha256": "850a89fabee35f6f60e979eb00bae04ff248aff3511da19131d7529f8a3b5813",
+  "existing_actual_evidence": {
+    "stage_report_path": "./work/restoration-v17/stage-qa/production-run-02/actual-stage-tests.json",
+    "stage_report_sha256": "6ce89baa1852a416127918c8c4c77134054c85b8fbd75e2be1e45171a925e9a1",
+    "strict_source_path": "./work/restoration-v17/stage-qa/production-run-02/strict-world-source-and-stage-02.json",
+    "strict_source_sha256": "45a5e7b15af696586535c11f23e32e8e1bd3b5911c04625d05a6b0c080fa7b87",
+    "actual_passed": 14,
+    "actual_failed": 0,
+    "module_geometry_plus_source_verified": true
+  },
+  "runtime_input_sha256_not_rewritten": {
+    "module": "362cae133fa1b7685292bc9e9fa46ad87e3e92ec1390d4b0cf616cb3d2f0ab25",
+    "profile": "850a89fabee35f6f60e979eb00bae04ff248aff3511da19131d7529f8a3b5813",
+    "source_support": "2c7fbaafca5c60f5ced08acf672f8dbfce8c2055fca71467e5263f42e25a3cd4",
+    "palette": "8b834bfb063095211841f569427209d0c787f252d018295c7237074918ee914b"
+  },
+  "reference_scope": "v3 caller may cite existing factory stage evidence because complete selected stage input row is exactly identical and producer/source/palette unchanged; no fresh stage execution claimed",
+  "test_spec": {
+    "input": "profiles6d1/850a89/6bfd selectedstage row and immutable actual report",
+    "operation": "deep equality of every key/value, verify report executed850a89 and strictworldlink",
+    "expected": "rows equal; retain actual profile850a89 metadata; v3 may reference existing report without fake rerun",
+    "passed": true
+  },
+  "Blender_launched": false,
+  "actual_new_v3_caller_native_geometry_verified": false,
+  "city_native_integration_verified": false,
+  "V17_render_verified": false
+}

@@ -1,0 +1,3977 @@
+{
+  "schema": "four-source-qualified-building-profiles/v17",
+  "buildings": [
+    {
+      "building_id": "shufang_front_hall",
+      "name_zh": "漱芳斋前殿",
+      "official_entity_id": "front_hall",
+      "source_part_id": "way-40632242-p0",
+      "source_component_id": "source_south_lobe",
+      "original_source_record": {
+        "id": "way-40632242-p0",
+        "osm_type": "way",
+        "osm_id": "40632242",
+        "name": "漱芳斋",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -645.017655,
+            454.208005
+          ],
+          [
+            -644.898604,
+            446.646641
+          ],
+          [
+            -637.452167,
+            446.701532
+          ],
+          [
+            -637.435426,
+            442.426756
+          ],
+          [
+            -644.890415,
+            442.382969
+          ],
+          [
+            -644.745537,
+            436.931231
+          ],
+          [
+            -623.107225,
+            437.306947
+          ],
+          [
+            -623.311968,
+            442.703173
+          ],
+          [
+            -630.997793,
+            442.592771
+          ],
+          [
+            -631.074419,
+            446.434523
+          ],
+          [
+            -623.260355,
+            446.589327
+          ],
+          [
+            -623.379395,
+            454.55041
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40632242"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "漱芳斋",
+          "name:vi": "Thấu Phương Trai",
+          "name:zh": "漱芳斋"
+        },
+        "area_m2": 311.5134123246822,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "4b0fb47bb7f2aa2b8f1197739b5089869f538c3e6379f818b9ec1111bddcce26",
+      "original_source_polygon_world": [
+        [
+          -645.017655,
+          454.208005
+        ],
+        [
+          -644.898604,
+          446.646641
+        ],
+        [
+          -637.452167,
+          446.701532
+        ],
+        [
+          -637.435426,
+          442.426756
+        ],
+        [
+          -644.890415,
+          442.382969
+        ],
+        [
+          -644.745537,
+          436.931231
+        ],
+        [
+          -623.107225,
+          437.306947
+        ],
+        [
+          -623.311968,
+          442.703173
+        ],
+        [
+          -630.997793,
+          442.592771
+        ],
+        [
+          -631.074419,
+          446.434523
+        ],
+        [
+          -623.260355,
+          446.589327
+        ],
+        [
+          -623.379395,
+          454.55041
+        ]
+      ],
+      "original_source_holes_world": [],
+      "source_polygon_world": [
+        [
+          -637.435426,
+          442.426756
+        ],
+        [
+          -644.890415,
+          442.382969
+        ],
+        [
+          -644.745537,
+          436.931231
+        ],
+        [
+          -623.107225,
+          437.306947
+        ],
+        [
+          -623.311968,
+          442.703173
+        ],
+        [
+          -630.997793,
+          442.592771
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          -3.373438916411094,
+          2.6660948824465187
+        ],
+        [
+          -10.82806454819825,
+          2.751739388348892
+        ],
+        [
+          -10.777855159979124,
+          -2.701692180201538
+        ],
+        [
+          10.86371845937679,
+          -2.7016921802015537
+        ],
+        [
+          10.752689358246581,
+          2.697275061579726
+        ],
+        [
+          3.0661060232689445,
+          2.7203221150449344
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -634.0162098379684,
+        439.8196286762457,
+        0.0
+      ],
+      "rotation_z_rad": 0.01736171696979945,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "south",
+      "source_component_geometry": {
+        "component_id": "source_south_lobe",
+        "source_polygon_world": [
+          [
+            -637.435426,
+            442.426756
+          ],
+          [
+            -644.890415,
+            442.382969
+          ],
+          [
+            -644.745537,
+            436.931231
+          ],
+          [
+            -623.107225,
+            437.306947
+          ],
+          [
+            -623.311968,
+            442.703173
+          ],
+          [
+            -630.997793,
+            442.592771
+          ]
+        ],
+        "source_holes_world": [],
+        "source_polygon_local": [
+          [
+            -3.373438916411094,
+            2.6660948824465187
+          ],
+          [
+            -10.82806454819825,
+            2.751739388348892
+          ],
+          [
+            -10.777855159979124,
+            -2.701692180201538
+          ],
+          [
+            10.86371845937679,
+            -2.7016921802015537
+          ],
+          [
+            10.752689358246581,
+            2.697275061579726
+          ],
+          [
+            3.0661060232689445,
+            2.7203221150449344
+          ]
+        ],
+        "source_holes_local": [],
+        "anchor": [
+          -634.0162098379684,
+          439.8196286762457,
+          0.0
+        ],
+        "rotation_z_rad": 0.01736171696979945,
+        "semantic_front": "negative-y",
+        "study_front_cardinal": "south",
+        "frame_method": "Fullcomponentcentroid and sourceMRR edge nearest declaredqualifiedfront; no measuredazimuth.",
+        "study_body_width_m": 19.408849183492027,
+        "study_body_depth_m": 4.092177646385392,
+        "study_body_square": false,
+        "study_roof_reference_envelope_width_m": 20.408849183492027,
+        "study_roof_reference_envelope_depth_m": 5.092177646385392,
+        "parameter_scope": "ALL metricvalues unmeasured studies derived from sourcecontext; not publishedmeasurements or sourceflat6mheight.",
+        "source_containment_proof": {
+          "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+          "coordinate_clearance_inset_m": 0.12,
+          "reserved_support_margin_m": 0.5,
+          "safe_rectangle_local": [
+            [
+              10.204424591746013,
+              -2.546088823192696
+            ],
+            [
+              10.204424591746013,
+              2.546088823192696
+            ],
+            [
+              -10.204424591746013,
+              2.546088823192696
+            ],
+            [
+              -10.204424591746013,
+              -2.546088823192696
+            ]
+          ],
+          "body_rectangle_local": [
+            [
+              9.704424591746013,
+              -2.046088823192696
+            ],
+            [
+              9.704424591746013,
+              2.046088823192696
+            ],
+            [
+              -9.704424591746013,
+              2.046088823192696
+            ],
+            [
+              -9.704424591746013,
+              -2.046088823192696
+            ]
+          ],
+          "complete_body_plus_support_envelope_local": [
+            [
+              10.204424591746013,
+              -2.546088823192696
+            ],
+            [
+              -10.204424591746013,
+              -2.546088823192696
+            ],
+            [
+              -10.204424591746013,
+              2.546088823192696
+            ],
+            [
+              10.204424591746013,
+              2.546088823192696
+            ]
+          ],
+          "body_plus_support_outside_source_area_m2": 0.0,
+          "full_source_covers_body_plus_support": true
+        },
+        "source_part_id": "way-40632242-p0",
+        "owner_kind": "building",
+        "owner_id": "shufang_front_hall",
+        "historical_identity_confirmed": false,
+        "measured_world_azimuth": null
+      },
+      "study_body_width_m": 19.408849183492027,
+      "study_body_depth_m": 4.092177646385392,
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            10.204424591746013,
+            -2.546088823192696
+          ],
+          [
+            10.204424591746013,
+            2.546088823192696
+          ],
+          [
+            -10.204424591746013,
+            2.546088823192696
+          ],
+          [
+            -10.204424591746013,
+            -2.546088823192696
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            9.704424591746013,
+            -2.046088823192696
+          ],
+          [
+            9.704424591746013,
+            2.046088823192696
+          ],
+          [
+            -9.704424591746013,
+            2.046088823192696
+          ],
+          [
+            -9.704424591746013,
+            -2.046088823192696
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            10.204424591746013,
+            -2.546088823192696
+          ],
+          [
+            -10.204424591746013,
+            -2.546088823192696
+          ],
+          [
+            -10.204424591746013,
+            2.546088823192696
+          ],
+          [
+            10.204424591746013,
+            2.546088823192696
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "source_actual_actor_names": [
+        "way-40632242-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40632242-p0_原轮廓主体"
+      ],
+      "original_typed_factual_source_fields": {
+        "roof_type": {
+          "value": "歇山",
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX143–146 / 主文第2段前半",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "occupied_storeys": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_bays": {
+          "value": 5,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX139–143 / 主文第2段前半",
+          "note": null
+        },
+        "depth_bays": {
+          "value": 3,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX139–143 / 主文第2段前半",
+          "note": null
+        },
+        "reported_bays_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "roof_color_class": {
+          "value": "黄琉璃瓦",
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX143–146 / 主文第2段前半",
+          "note": null
+        },
+        "facing": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "door_types": {
+          "value": [
+            "前檐明间风门"
+          ],
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX147–151 / 主文第2段前半",
+          "note": null
+        },
+        "window_types": {
+          "value": [
+            "前檐明间之外为槛窗"
+          ],
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX147–151 / 主文第2段前半",
+          "note": null
+        },
+        "door_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "depth_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "height_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_floor_datum_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_world_registration": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "source_ring_identity": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "published_stage_area_m2": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        }
+      },
+      "typed_factual_source_fields": {
+        "roof_type": {
+          "value": "歇山",
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX143–146 / 主文第2段前半",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "occupied_storeys": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_bays": {
+          "value": 5,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX139–143 / 主文第2段前半",
+          "note": null
+        },
+        "depth_bays": {
+          "value": 3,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX139–143 / 主文第2段前半",
+          "note": null
+        },
+        "reported_bays_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "roof_color_class": {
+          "value": "黄琉璃瓦",
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX143–146 / 主文第2段前半",
+          "note": null
+        },
+        "facing": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "door_types": {
+          "value": [
+            "前檐明间风门"
+          ],
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX147–151 / 主文第2段前半",
+          "note": null
+        },
+        "window_types": {
+          "value": [
+            "前檐明间之外为槛窗"
+          ],
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX147–151 / 主文第2段前半",
+          "note": null
+        },
+        "door_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "depth_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "height_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_floor_datum_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_world_registration": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "source_ring_identity": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "published_stage_area_m2": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        }
+      },
+      "factual_supplements": [],
+      "qualified_semantic_join_evidence": {
+        "id": "SUP-JOIN-H",
+        "source_part_id": "way-40632242-p0",
+        "source_status": "qualified_official_plan_visual_join_not_metric_registration",
+        "official_plan": "SUP-HARDGABLE2020",
+        "locator": "刊136图九右上工字形+官网前后殿/穿堂正文",
+        "components": {
+          "south_crossbar": "front_hall",
+          "neck": "connecting_corridor",
+          "north_crossbar": "rear_hall"
+        },
+        "independent_anchors": [
+          "重华宫在西邻",
+          "重华宫北排与H北横对应",
+          "H南横漱芳斋字与院中戏台分列",
+          "后殿西侧室内小戏台不同于院中独立大戏台"
+        ],
+        "world_registration": null,
+        "official_angle_deg": null,
+        "official_dimensions_m": null,
+        "source_depth_ratio_is_bay_evidence": false,
+        "restriction": "源体北横较深不推翻官网前殿5×3/后殿5×1；没有把屋檐外轮廓深度当柱间数。"
+      },
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "measured_world_azimuth": null,
+      "metric_scope": "unmeasured_study",
+      "source6m_proxy_height_is_real_building_height": false,
+      "frontage_evidence_class": "qualified_official_plan_visual_join_not_measured_azimuth",
+      "third_party_cost": 0,
+      "human_approval": "pending",
+      "builder": "hall",
+      "bays_x": 5,
+      "bays_y": 3,
+      "occupied_storeys": null,
+      "reference_floor_count": 1,
+      "eaves_tiers": null,
+      "paid_service_calls": 0,
+      "parameter_evidence": {
+        "all_metric_controls": "Unmeasured caller study: source polygon is retained; body reserve, heights, thickness, openings and supports are not Palace Museum measurements.",
+        "published_90m2": "Not used to derive any stage width/depth or source scaling.",
+        "source_height_6m": "An inherited assumed proxy height, never used as measured building height.",
+        "unknown_eaves": "Front/rear factual eaves remain null. One modeled shell is provisional, not a newly established historical tier count."
+      },
+      "unbuilt": [
+        "Current metric survey/world datum, precise joinery, dougong, individual roof tiles, lattice and paintwork",
+        "All unverified enclosures/opening leaf counts and complete interiors",
+        "Front hall separate veranda roof topology remains unknown; current body reference is not exact joined roof proof"
+      ],
+      "known_facts": {
+        "roof_type": "xieshan",
+        "typed_original_fields": {
+          "roof_type": {
+            "value": "歇山",
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX143–146 / 主文第2段前半",
+            "note": null
+          },
+          "eaves_tiers": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "occupied_storeys": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "width_bays": {
+            "value": 5,
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX139–143 / 主文第2段前半",
+            "note": null
+          },
+          "depth_bays": {
+            "value": 3,
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX139–143 / 主文第2段前半",
+            "note": null
+          },
+          "reported_bays_count": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "roof_color_class": {
+            "value": "黄琉璃瓦",
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX143–146 / 主文第2段前半",
+            "note": null
+          },
+          "facing": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "door_types": {
+            "value": [
+              "前檐明间风门"
+            ],
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX147–151 / 主文第2段前半",
+            "note": null
+          },
+          "window_types": {
+            "value": [
+              "前檐明间之外为槛窗"
+            ],
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX147–151 / 主文第2段前半",
+            "note": null
+          },
+          "door_leaf_count": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "window_leaf_count": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "width_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "depth_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "height_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "current_floor_datum_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "current_world_registration": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "source_ring_identity": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "published_stage_area_m2": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          }
+        },
+        "qualified_factual_supplements": []
+      },
+      "dimensions": {
+        "body_width_m": 19.408849183492027,
+        "body_depth_m": 4.092177646385392,
+        "floor_z_m": 0.35,
+        "source_reference_slab_bottom_z_m": 0,
+        "source_reference_slab_top_z_m": 0.35,
+        "slab_thickness_m": 0.35,
+        "wall_thickness_m": 0.2,
+        "column_radius_m": 0.17,
+        "column_base_radius_m": 0.27,
+        "column_base_height_m": 0.15,
+        "column_top_z_m": 4.6,
+        "beam_width_m": 0.36,
+        "beam_height_m": 0.28,
+        "wall_top_z_m": 4.88,
+        "enclosure_x_min_m": -9.704424591746013,
+        "enclosure_x_max_m": 9.704424591746013,
+        "enclosure_y_min_m": -1.1960888231926958,
+        "enclosure_y_max_m": 2.046088823192696,
+        "veranda_front_depth_m": 0.85,
+        "veranda_rear_depth_m": 0,
+        "veranda_west_depth_m": 0,
+        "veranda_east_depth_m": 0,
+        "door_height_m": 3.15,
+        "window_height_m": 1.95,
+        "window_sill_height_above_floor_m": 0.9,
+        "door_width_fraction_of_bay": 0.68,
+        "window_width_fraction_of_bay": 0.7,
+        "opening_frame_width_m": 0.075,
+        "opening_frame_depth_m": 0.12,
+        "leaf_panel_depth_m": 0.05
+      },
+      "roof_tiers": [
+        {
+          "tier_index": 0,
+          "roof_type": "xieshan",
+          "outer_width_m": 20.658849183492027,
+          "outer_depth_m": 5.342177646385392,
+          "eave_z_m": 5.5,
+          "top_z_m": 8.1,
+          "corner_lift_m": 0.12,
+          "additional_overhang_m": 0,
+          "annular": false,
+          "inner_width_m": null,
+          "inner_depth_m": null
+        }
+      ],
+      "material_scheme": {
+        "base": "white_stone",
+        "column": "green_paint",
+        "beam": "painted_beam",
+        "wall": "red",
+        "frame": "red_lacquer",
+        "infill": "dark_wood",
+        "roof_main": "yellow",
+        "roof_edge": "yellow",
+        "roof_under": "dark_wood"
+      },
+      "material_scope": "Rear neutral gray explicitly means unknown tile color; RGB values and unverified rear paint are study references, not pigment measurement.",
+      "facades": {
+        "south": {
+          "schedule": [
+            {
+              "bay_index": 0,
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "槛窗",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            },
+            {
+              "bay_index": 1,
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "槛窗",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            },
+            {
+              "bay_index": 2,
+              "kind": "door",
+              "leaf_count": null,
+              "pattern_category": "风门",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            },
+            {
+              "bay_index": 3,
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "槛窗",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            },
+            {
+              "bay_index": 4,
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "槛窗",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            }
+          ]
+        },
+        "north": {
+          "schedule": [
+            {
+              "bay_index": 0,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 1,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 2,
+              "kind": "passage",
+              "leaf_count": null,
+              "pattern_category": "穿堂通口",
+              "category_scope": "qualified official H connection; aperture dimensions unmeasured"
+            },
+            {
+              "bay_index": 3,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 4,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            }
+          ]
+        },
+        "east": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_not_inferred"
+        },
+        "west": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_not_inferred"
+        }
+      }
+    },
+    {
+      "building_id": "shufang_rear_hall",
+      "name_zh": "金昭玉粹（漱芳斋后殿）",
+      "official_entity_id": "rear_hall",
+      "source_part_id": "way-40632242-p0",
+      "source_component_id": "source_north_lobe",
+      "original_source_record": {
+        "id": "way-40632242-p0",
+        "osm_type": "way",
+        "osm_id": "40632242",
+        "name": "漱芳斋",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -645.017655,
+            454.208005
+          ],
+          [
+            -644.898604,
+            446.646641
+          ],
+          [
+            -637.452167,
+            446.701532
+          ],
+          [
+            -637.435426,
+            442.426756
+          ],
+          [
+            -644.890415,
+            442.382969
+          ],
+          [
+            -644.745537,
+            436.931231
+          ],
+          [
+            -623.107225,
+            437.306947
+          ],
+          [
+            -623.311968,
+            442.703173
+          ],
+          [
+            -630.997793,
+            442.592771
+          ],
+          [
+            -631.074419,
+            446.434523
+          ],
+          [
+            -623.260355,
+            446.589327
+          ],
+          [
+            -623.379395,
+            454.55041
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40632242"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "漱芳斋",
+          "name:vi": "Thấu Phương Trai",
+          "name:zh": "漱芳斋"
+        },
+        "area_m2": 311.5134123246822,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "4b0fb47bb7f2aa2b8f1197739b5089869f538c3e6379f818b9ec1111bddcce26",
+      "original_source_polygon_world": [
+        [
+          -645.017655,
+          454.208005
+        ],
+        [
+          -644.898604,
+          446.646641
+        ],
+        [
+          -637.452167,
+          446.701532
+        ],
+        [
+          -637.435426,
+          442.426756
+        ],
+        [
+          -644.890415,
+          442.382969
+        ],
+        [
+          -644.745537,
+          436.931231
+        ],
+        [
+          -623.107225,
+          437.306947
+        ],
+        [
+          -623.311968,
+          442.703173
+        ],
+        [
+          -630.997793,
+          442.592771
+        ],
+        [
+          -631.074419,
+          446.434523
+        ],
+        [
+          -623.260355,
+          446.589327
+        ],
+        [
+          -623.379395,
+          454.55041
+        ]
+      ],
+      "original_source_holes_world": [],
+      "source_polygon_world": [
+        [
+          -645.017655,
+          454.208005
+        ],
+        [
+          -644.898604,
+          446.646641
+        ],
+        [
+          -637.452167,
+          446.701532
+        ],
+        [
+          -631.074419,
+          446.434523
+        ],
+        [
+          -623.260355,
+          446.589327
+        ],
+        [
+          -623.379395,
+          454.55041
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          -10.948154998030299,
+          3.8996361632310923
+        ],
+        [
+          -10.948755356969448,
+          -3.6626649627930856
+        ],
+        [
+          -3.5023819889787053,
+          -3.725598906952094
+        ],
+        [
+          2.8703430286823393,
+          -4.0934836808446695
+        ],
+        [
+          10.685878209111097,
+          -4.062333753189508
+        ],
+        [
+          10.692813950046464,
+          3.899636163231068
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -634.0091701276384,
+        450.48207949330214,
+        0.0
+      ],
+      "rotation_z_rad": 0.015822733658342695,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "south",
+      "source_component_geometry": {
+        "component_id": "source_north_lobe",
+        "source_polygon_world": [
+          [
+            -645.017655,
+            454.208005
+          ],
+          [
+            -644.898604,
+            446.646641
+          ],
+          [
+            -637.452167,
+            446.701532
+          ],
+          [
+            -631.074419,
+            446.434523
+          ],
+          [
+            -623.260355,
+            446.589327
+          ],
+          [
+            -623.379395,
+            454.55041
+          ]
+        ],
+        "source_holes_world": [],
+        "source_polygon_local": [
+          [
+            -10.948154998030299,
+            3.8996361632310923
+          ],
+          [
+            -10.948755356969448,
+            -3.6626649627930856
+          ],
+          [
+            -3.5023819889787053,
+            -3.725598906952094
+          ],
+          [
+            2.8703430286823393,
+            -4.0934836808446695
+          ],
+          [
+            10.685878209111097,
+            -4.062333753189508
+          ],
+          [
+            10.692813950046464,
+            3.899636163231068
+          ]
+        ],
+        "source_holes_local": [],
+        "anchor": [
+          -634.0091701276384,
+          450.48207949330214,
+          0.0
+        ],
+        "rotation_z_rad": 0.015822733658342695,
+        "semantic_front": "negative-y",
+        "study_front_cardinal": "south",
+        "frame_method": "Fullcomponentcentroid and sourceMRR edge nearest declaredqualifiedfront; no measuredazimuth.",
+        "study_body_width_m": 18.483904048675214,
+        "study_body_depth_m": 6.1057195219232625,
+        "study_body_square": false,
+        "study_roof_reference_envelope_width_m": 19.483904048675214,
+        "study_roof_reference_envelope_depth_m": 7.1057195219232625,
+        "parameter_scope": "ALL metricvalues unmeasured studies derived from sourcecontext; not publishedmeasurements or sourceflat6mheight.",
+        "source_containment_proof": {
+          "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+          "coordinate_clearance_inset_m": 0.12,
+          "reserved_support_margin_m": 0.5,
+          "safe_rectangle_local": [
+            [
+              9.741952024337607,
+              -3.5528597609616313
+            ],
+            [
+              9.741952024337607,
+              3.5528597609616313
+            ],
+            [
+              -9.741952024337607,
+              3.5528597609616313
+            ],
+            [
+              -9.741952024337607,
+              -3.5528597609616313
+            ]
+          ],
+          "body_rectangle_local": [
+            [
+              9.241952024337607,
+              -3.0528597609616313
+            ],
+            [
+              9.241952024337607,
+              3.0528597609616313
+            ],
+            [
+              -9.241952024337607,
+              3.0528597609616313
+            ],
+            [
+              -9.241952024337607,
+              -3.0528597609616313
+            ]
+          ],
+          "complete_body_plus_support_envelope_local": [
+            [
+              9.741952024337607,
+              -3.5528597609616313
+            ],
+            [
+              -9.741952024337607,
+              -3.5528597609616313
+            ],
+            [
+              -9.741952024337607,
+              3.5528597609616313
+            ],
+            [
+              9.741952024337607,
+              3.5528597609616313
+            ]
+          ],
+          "body_plus_support_outside_source_area_m2": 0.0,
+          "full_source_covers_body_plus_support": true
+        },
+        "source_part_id": "way-40632242-p0",
+        "owner_kind": "building",
+        "owner_id": "shufang_rear_hall",
+        "historical_identity_confirmed": false,
+        "measured_world_azimuth": null
+      },
+      "study_body_width_m": 18.483904048675214,
+      "study_body_depth_m": 6.1057195219232625,
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            9.741952024337607,
+            -3.5528597609616313
+          ],
+          [
+            9.741952024337607,
+            3.5528597609616313
+          ],
+          [
+            -9.741952024337607,
+            3.5528597609616313
+          ],
+          [
+            -9.741952024337607,
+            -3.5528597609616313
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            9.241952024337607,
+            -3.0528597609616313
+          ],
+          [
+            9.241952024337607,
+            3.0528597609616313
+          ],
+          [
+            -9.241952024337607,
+            3.0528597609616313
+          ],
+          [
+            -9.241952024337607,
+            -3.0528597609616313
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            9.741952024337607,
+            -3.5528597609616313
+          ],
+          [
+            -9.741952024337607,
+            -3.5528597609616313
+          ],
+          [
+            -9.741952024337607,
+            3.5528597609616313
+          ],
+          [
+            9.741952024337607,
+            3.5528597609616313
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "source_actual_actor_names": [
+        "way-40632242-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40632242-p0_原轮廓主体"
+      ],
+      "original_typed_factual_source_fields": {
+        "roof_type": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "occupied_storeys": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_bays": {
+          "value": 5,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX158–160 / 主文第3段",
+          "note": null
+        },
+        "depth_bays": {
+          "value": 1,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX158–160 / 主文第3段",
+          "note": null
+        },
+        "reported_bays_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "roof_color_class": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "facing": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "door_types": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_types": {
+          "value": [
+            "前檐明间接穿堂，余为槛窗"
+          ],
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX158–160 / 主文第3段",
+          "note": null
+        },
+        "door_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "depth_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "height_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_floor_datum_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_world_registration": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "source_ring_identity": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "published_stage_area_m2": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        }
+      },
+      "typed_factual_source_fields": {
+        "roof_type": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "occupied_storeys": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_bays": {
+          "value": 5,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX158–160 / 主文第3段",
+          "note": null
+        },
+        "depth_bays": {
+          "value": 1,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX158–160 / 主文第3段",
+          "note": null
+        },
+        "reported_bays_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "roof_color_class": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "facing": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "door_types": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_types": {
+          "value": [
+            "前檐明间接穿堂，余为槛窗"
+          ],
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX158–160 / 主文第3段",
+          "note": null
+        },
+        "door_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "depth_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "height_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_floor_datum_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_world_registration": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "source_ring_identity": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "published_stage_area_m2": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        }
+      },
+      "factual_supplements": [
+        {
+          "id": "SUP-NEW-01",
+          "entity": "rear_hall",
+          "field": "roof_type",
+          "value": "硬山（不出墀头）",
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SUP-HARDGABLE2020",
+          "locator": "刊135末段明确将漱芳斋后殿列入现存不出墀头硬山建筑；只取此具名正文",
+          "frozen_old_value": null,
+          "eaves_tiers": null,
+          "occupied_storeys": null,
+          "roof_color_class": null,
+          "current_measurement": null,
+          "restriction": "图六是储秀宫后殿及配殿，排除为漱芳斋照片证据；不复制屋型给前院东/西配殿或全部U源。"
+        }
+      ],
+      "qualified_semantic_join_evidence": {
+        "id": "SUP-JOIN-H",
+        "source_part_id": "way-40632242-p0",
+        "source_status": "qualified_official_plan_visual_join_not_metric_registration",
+        "official_plan": "SUP-HARDGABLE2020",
+        "locator": "刊136图九右上工字形+官网前后殿/穿堂正文",
+        "components": {
+          "south_crossbar": "front_hall",
+          "neck": "connecting_corridor",
+          "north_crossbar": "rear_hall"
+        },
+        "independent_anchors": [
+          "重华宫在西邻",
+          "重华宫北排与H北横对应",
+          "H南横漱芳斋字与院中戏台分列",
+          "后殿西侧室内小戏台不同于院中独立大戏台"
+        ],
+        "world_registration": null,
+        "official_angle_deg": null,
+        "official_dimensions_m": null,
+        "source_depth_ratio_is_bay_evidence": false,
+        "restriction": "源体北横较深不推翻官网前殿5×3/后殿5×1；没有把屋檐外轮廓深度当柱间数。"
+      },
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "measured_world_azimuth": null,
+      "metric_scope": "unmeasured_study",
+      "source6m_proxy_height_is_real_building_height": false,
+      "frontage_evidence_class": "qualified_official_plan_visual_join_not_measured_azimuth",
+      "third_party_cost": 0,
+      "human_approval": "pending",
+      "builder": "hall",
+      "bays_x": 5,
+      "bays_y": 1,
+      "occupied_storeys": null,
+      "reference_floor_count": 1,
+      "eaves_tiers": null,
+      "paid_service_calls": 0,
+      "parameter_evidence": {
+        "all_metric_controls": "Unmeasured caller study: source polygon is retained; body reserve, heights, thickness, openings and supports are not Palace Museum measurements.",
+        "published_90m2": "Not used to derive any stage width/depth or source scaling.",
+        "source_height_6m": "An inherited assumed proxy height, never used as measured building height.",
+        "unknown_eaves": "Front/rear factual eaves remain null. One modeled shell is provisional, not a newly established historical tier count.",
+        "rear_enclosure_x_inset": {
+          "status": "unmeasured_caller_compatibility_control",
+          "inset_m": 0.11,
+          "reason": "Keep full wall/roof-closure thickness inside the existing non-projecting hard-gable skin; body column grid and roof dimensions unchanged.",
+          "original_actual_failure": "work/restoration-v17/hall-qa/run-01/actual-hall-tests.json",
+          "declared_side_offsets_scope": "Matching column-axis-to-wall study offset only; not proof of an archaeological walkable side veranda.",
+          "parameter_validation_red": "work/restoration-v17/hall-qa/run-02/actual-hall-tests.json"
+        }
+      },
+      "unbuilt": [
+        "Current metric survey/world datum, precise joinery, dougong, individual roof tiles, lattice and paintwork",
+        "All unverified enclosures/opening leaf counts and complete interiors",
+        "Front hall separate veranda roof topology remains unknown; current body reference is not exact joined roof proof",
+        "Roof tile color and factual eave/storey counts remain null; gray roof is neutral category reference",
+        "Indoor Fengyacun stage/partitions and west ear-room doorway not modeled"
+      ],
+      "known_facts": {
+        "roof_type": "yingshan",
+        "typed_original_fields": {
+          "roof_type": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "eaves_tiers": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "occupied_storeys": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "width_bays": {
+            "value": 5,
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX158–160 / 主文第3段",
+            "note": null
+          },
+          "depth_bays": {
+            "value": 1,
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX158–160 / 主文第3段",
+            "note": null
+          },
+          "reported_bays_count": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "roof_color_class": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "facing": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "door_types": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "window_types": {
+            "value": [
+              "前檐明间接穿堂，余为槛窗"
+            ],
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX158–160 / 主文第3段",
+            "note": null
+          },
+          "door_leaf_count": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "window_leaf_count": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "width_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "depth_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "height_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "current_floor_datum_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "current_world_registration": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "source_ring_identity": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "published_stage_area_m2": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          }
+        },
+        "qualified_factual_supplements": [
+          {
+            "id": "SUP-NEW-01",
+            "entity": "rear_hall",
+            "field": "roof_type",
+            "value": "硬山（不出墀头）",
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SUP-HARDGABLE2020",
+            "locator": "刊135末段明确将漱芳斋后殿列入现存不出墀头硬山建筑；只取此具名正文",
+            "frozen_old_value": null,
+            "eaves_tiers": null,
+            "occupied_storeys": null,
+            "roof_color_class": null,
+            "current_measurement": null,
+            "restriction": "图六是储秀宫后殿及配殿，排除为漱芳斋照片证据；不复制屋型给前院东/西配殿或全部U源。"
+          }
+        ]
+      },
+      "dimensions": {
+        "body_width_m": 18.483904048675214,
+        "body_depth_m": 6.1057195219232625,
+        "floor_z_m": 0.35,
+        "source_reference_slab_bottom_z_m": 0,
+        "source_reference_slab_top_z_m": 0.35,
+        "slab_thickness_m": 0.35,
+        "wall_thickness_m": 0.2,
+        "column_radius_m": 0.17,
+        "column_base_radius_m": 0.27,
+        "column_base_height_m": 0.15,
+        "column_top_z_m": 4.6,
+        "beam_width_m": 0.36,
+        "beam_height_m": 0.28,
+        "wall_top_z_m": 4.88,
+        "enclosure_x_min_m": -9.131952024337608,
+        "enclosure_x_max_m": 9.131952024337608,
+        "enclosure_y_min_m": -2.352859760961631,
+        "enclosure_y_max_m": 3.0528597609616313,
+        "veranda_front_depth_m": 0.7,
+        "veranda_rear_depth_m": 0,
+        "veranda_west_depth_m": 0.11,
+        "veranda_east_depth_m": 0.11,
+        "door_height_m": 3.15,
+        "window_height_m": 1.95,
+        "window_sill_height_above_floor_m": 0.9,
+        "door_width_fraction_of_bay": 0.68,
+        "window_width_fraction_of_bay": 0.7,
+        "opening_frame_width_m": 0.075,
+        "opening_frame_depth_m": 0.12,
+        "leaf_panel_depth_m": 0.05
+      },
+      "roof_tiers": [
+        {
+          "tier_index": 0,
+          "roof_type": "yingshan",
+          "outer_width_m": 18.483904048675214,
+          "outer_depth_m": 7.3557195219232625,
+          "eave_z_m": 5.5,
+          "top_z_m": 8.1,
+          "corner_lift_m": 0,
+          "additional_overhang_m": 0,
+          "annular": false,
+          "inner_width_m": null,
+          "inner_depth_m": null
+        }
+      ],
+      "material_scheme": {
+        "base": "white_stone",
+        "column": "green_paint",
+        "beam": "painted_beam",
+        "wall": "red",
+        "frame": "red_lacquer",
+        "infill": "dark_wood",
+        "roof_main": "grey",
+        "roof_edge": "grey",
+        "roof_under": "dark_wood"
+      },
+      "material_scope": "Rear neutral gray explicitly means unknown tile color; RGB values and unverified rear paint are study references, not pigment measurement.",
+      "facades": {
+        "south": {
+          "schedule": [
+            {
+              "bay_index": 0,
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "槛窗",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            },
+            {
+              "bay_index": 1,
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "槛窗",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            },
+            {
+              "bay_index": 2,
+              "kind": "passage",
+              "leaf_count": null,
+              "pattern_category": "穿堂通口",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            },
+            {
+              "bay_index": 3,
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "槛窗",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            },
+            {
+              "bay_index": 4,
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "槛窗",
+              "category_scope": "official_current_category_or_qualified_H_connection; all metric controls unmeasured"
+            }
+          ]
+        },
+        "north": {
+          "schedule": [
+            {
+              "bay_index": 0,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 1,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 2,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 3,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 4,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            }
+          ]
+        },
+        "east": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_not_inferred"
+        },
+        "west": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_not_inferred"
+        }
+      }
+    },
+    {
+      "building_id": "shufang_large_stage",
+      "name_zh": "升平叶庆（漱芳斋大戏台）",
+      "official_entity_id": "large_stage",
+      "source_part_id": "way-40632241-p0",
+      "source_component_id": "source_north_projection",
+      "original_source_record": {
+        "id": "way-40632241-p0",
+        "osm_type": "way",
+        "osm_id": "40632241",
+        "name": "戏台",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -639.215502,
+            420.653314
+          ],
+          [
+            -644.097165,
+            420.642621
+          ],
+          [
+            -644.088715,
+            419.465669
+          ],
+          [
+            -644.029149,
+            416.145775
+          ],
+          [
+            -643.969714,
+            411.28252
+          ],
+          [
+            -622.365548,
+            411.402864
+          ],
+          [
+            -622.467764,
+            416.010746
+          ],
+          [
+            -622.53581,
+            420.296629
+          ],
+          [
+            -622.552862,
+            420.8629
+          ],
+          [
+            -627.434527,
+            420.818886
+          ],
+          [
+            -627.536457,
+            428.868794
+          ],
+          [
+            -639.249024,
+            428.725423
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40632241"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "戏台",
+          "name:vi": "Hí Đài",
+          "name:zh": "戏台"
+        },
+        "area_m2": 297.42012574138715,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "16f3cda9bd067ab3f76c8499538a1803610d2841d3cc7be180cd97cadb9ade46",
+      "original_source_polygon_world": [
+        [
+          -639.215502,
+          420.653314
+        ],
+        [
+          -644.097165,
+          420.642621
+        ],
+        [
+          -644.088715,
+          419.465669
+        ],
+        [
+          -644.029149,
+          416.145775
+        ],
+        [
+          -643.969714,
+          411.28252
+        ],
+        [
+          -622.365548,
+          411.402864
+        ],
+        [
+          -622.467764,
+          416.010746
+        ],
+        [
+          -622.53581,
+          420.296629
+        ],
+        [
+          -622.552862,
+          420.8629
+        ],
+        [
+          -627.434527,
+          420.818886
+        ],
+        [
+          -627.536457,
+          428.868794
+        ],
+        [
+          -639.249024,
+          428.725423
+        ]
+      ],
+      "original_source_holes_world": [],
+      "source_polygon_world": [
+        [
+          -639.215502,
+          420.653314
+        ],
+        [
+          -627.434527,
+          420.818886
+        ],
+        [
+          -627.536457,
+          428.868794
+        ],
+        [
+          -639.249024,
+          428.725423
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          5.90563100389932,
+          4.034884827656249
+        ],
+        [
+          -5.87649601873852,
+          4.018487869508453
+        ],
+        [
+          -5.876496018738503,
+          -4.032065436529795
+        ],
+        [
+          5.836947395037323,
+          -4.037001568610608
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -633.3614310235982,
+        424.76264802510894,
+        0.0
+      ],
+      "rotation_z_rad": -3.1289310737367124,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "north",
+      "source_component_geometry": {
+        "component_id": "source_north_projection",
+        "source_polygon_world": [
+          [
+            -639.215502,
+            420.653314
+          ],
+          [
+            -627.434527,
+            420.818886
+          ],
+          [
+            -627.536457,
+            428.868794
+          ],
+          [
+            -639.249024,
+            428.725423
+          ]
+        ],
+        "source_holes_world": [],
+        "source_polygon_local": [
+          [
+            5.90563100389932,
+            4.034884827656249
+          ],
+          [
+            -5.87649601873852,
+            4.018487869508453
+          ],
+          [
+            -5.876496018738503,
+            -4.032065436529795
+          ],
+          [
+            5.836947395037323,
+            -4.037001568610608
+          ]
+        ],
+        "source_holes_local": [],
+        "anchor": [
+          -633.3614310235982,
+          424.76264802510894,
+          0.0
+        ],
+        "rotation_z_rad": -3.1289310737367124,
+        "semantic_front": "negative-y",
+        "study_front_cardinal": "north",
+        "frame_method": "Fullcomponentcentroid and sourceMRR edge nearest declaredqualifiedfront; no measuredazimuth.",
+        "study_body_width_m": 10.356491090777501,
+        "study_body_depth_m": 6.797526527964523,
+        "study_body_square": false,
+        "study_roof_reference_envelope_width_m": 11.356491090777501,
+        "study_roof_reference_envelope_depth_m": 7.797526527964523,
+        "parameter_scope": "ALL metricvalues unmeasured studies derived from sourcecontext; not publishedmeasurements or sourceflat6mheight.",
+        "source_containment_proof": {
+          "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+          "coordinate_clearance_inset_m": 0.12,
+          "reserved_support_margin_m": 0.5,
+          "safe_rectangle_local": [
+            [
+              5.678245545388751,
+              -3.8987632639822616
+            ],
+            [
+              5.678245545388751,
+              3.8987632639822616
+            ],
+            [
+              -5.678245545388751,
+              3.8987632639822616
+            ],
+            [
+              -5.678245545388751,
+              -3.8987632639822616
+            ]
+          ],
+          "body_rectangle_local": [
+            [
+              5.178245545388751,
+              -3.3987632639822616
+            ],
+            [
+              5.178245545388751,
+              3.3987632639822616
+            ],
+            [
+              -5.178245545388751,
+              3.3987632639822616
+            ],
+            [
+              -5.178245545388751,
+              -3.3987632639822616
+            ]
+          ],
+          "complete_body_plus_support_envelope_local": [
+            [
+              5.678245545388751,
+              -3.8987632639822616
+            ],
+            [
+              -5.678245545388751,
+              -3.8987632639822616
+            ],
+            [
+              -5.678245545388751,
+              3.8987632639822616
+            ],
+            [
+              5.678245545388751,
+              3.8987632639822616
+            ]
+          ],
+          "body_plus_support_outside_source_area_m2": 0.0,
+          "full_source_covers_body_plus_support": true
+        },
+        "source_part_id": "way-40632241-p0",
+        "owner_kind": "building",
+        "owner_id": "shufang_large_stage",
+        "historical_identity_confirmed": false,
+        "measured_world_azimuth": null
+      },
+      "study_body_width_m": 10.356491090777501,
+      "study_body_depth_m": 6.797526527964523,
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            5.678245545388751,
+            -3.8987632639822616
+          ],
+          [
+            5.678245545388751,
+            3.8987632639822616
+          ],
+          [
+            -5.678245545388751,
+            3.8987632639822616
+          ],
+          [
+            -5.678245545388751,
+            -3.8987632639822616
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            5.178245545388751,
+            -3.3987632639822616
+          ],
+          [
+            5.178245545388751,
+            3.3987632639822616
+          ],
+          [
+            -5.178245545388751,
+            3.3987632639822616
+          ],
+          [
+            -5.178245545388751,
+            -3.3987632639822616
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            5.678245545388751,
+            -3.8987632639822616
+          ],
+          [
+            -5.678245545388751,
+            -3.8987632639822616
+          ],
+          [
+            -5.678245545388751,
+            3.8987632639822616
+          ],
+          [
+            5.678245545388751,
+            3.8987632639822616
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "source_actual_actor_names": [
+        "way-40632241-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40632241-p0_原轮廓主体"
+      ],
+      "original_typed_factual_source_fields": {
+        "roof_type": {
+          "value": "四角攒尖",
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": 2,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": "重檐规范化为2檐；不是占用2层。"
+        },
+        "occupied_storeys": {
+          "value": 1,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX157 / 主文第2段末",
+          "note": "来源明确单层戏台；不扩写为所有房屋单层。"
+        },
+        "width_bays": {
+          "value": 3,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": null
+        },
+        "depth_bays": {
+          "value": 3,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": null
+        },
+        "reported_bays_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "roof_color_class": {
+          "value": "黄琉璃瓦",
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": null
+        },
+        "facing": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "door_types": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_types": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "door_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "depth_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "height_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_floor_datum_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_world_registration": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "source_ring_identity": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "published_stage_area_m2": {
+          "value": 90,
+          "source_status": "official_published_approximation",
+          "source_id": "SF-SITE236449",
+          "locator": "AX157 / 主文第2段末",
+          "note": "约数、台面面积；不是精确实测占地/屋面面积，也不据此开平方求边长。"
+        }
+      },
+      "typed_factual_source_fields": {
+        "roof_type": {
+          "value": "四角攒尖",
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": 2,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": "重檐规范化为2檐；不是占用2层。"
+        },
+        "occupied_storeys": {
+          "value": 1,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX157 / 主文第2段末",
+          "note": "来源明确单层戏台；不扩写为所有房屋单层。"
+        },
+        "width_bays": {
+          "value": 3,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": null
+        },
+        "depth_bays": {
+          "value": 3,
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": null
+        },
+        "reported_bays_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "roof_color_class": {
+          "value": "黄琉璃瓦",
+          "source_status": "official_existing_descriptive_text",
+          "source_id": "SF-SITE236449",
+          "locator": "AX155–157 / 主文第2段后半",
+          "note": null
+        },
+        "facing": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "door_types": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_types": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "door_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "window_leaf_count": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "width_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "depth_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "height_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_floor_datum_m": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "current_world_registration": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "source_ring_identity": {
+          "value": null,
+          "source_status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "note": null
+        },
+        "published_stage_area_m2": {
+          "value": 90,
+          "source_status": "official_published_approximation",
+          "source_id": "SF-SITE236449",
+          "locator": "AX157 / 主文第2段末",
+          "note": "约数、台面面积；不是精确实测占地/屋面面积，也不据此开平方求边长。"
+        }
+      },
+      "factual_supplements": [],
+      "qualified_semantic_join_evidence": {
+        "id": "SUP-JOIN-T",
+        "source_part_id": "way-40632241-p0",
+        "source_status": "qualified_official_plan_and_current_text_join_not_metric_registration",
+        "official_plan": "SUP-HARDGABLE2020",
+        "locator": "刊136图九院中戏台及其南长房；刊143现状及刊144扮戏房照片",
+        "components": {
+          "north_projection": "large_stage",
+          "south_wide_crossbar": "south_house"
+        },
+        "current_relative_relation": "大戏台在北，南侧扮戏房与其背靠背；扮戏房朝南，工字殿在院落北侧",
+        "whole_source_part_is_large_stage": false,
+        "whole_source_part_is_south_house": false,
+        "world_registration": null,
+        "official_angle_deg": null,
+        "official_dimensions_m": null,
+        "restriction": "没有把约90平方米反推拆分尺寸或分界；源分区由registration读原环独立处理。"
+      },
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "measured_world_azimuth": null,
+      "metric_scope": "unmeasured_study",
+      "source6m_proxy_height_is_real_building_height": false,
+      "frontage_evidence_class": "qualified_official_plan_visual_join_not_measured_azimuth",
+      "third_party_cost": 0,
+      "human_approval": "pending",
+      "builder": "stage",
+      "bays_x": 3,
+      "bays_y": 3,
+      "occupied_storeys": 1,
+      "reference_floor_count": 1,
+      "eaves_tiers": 2,
+      "paid_service_calls": 0,
+      "parameter_evidence": {
+        "all_metric_controls": "Unmeasured caller study: source polygon is retained; body reserve, heights, thickness, openings and supports are not Palace Museum measurements.",
+        "published_90m2": "Not used to derive any stage width/depth or source scaling.",
+        "source_height_6m": "An inherited assumed proxy height, never used as measured building height.",
+        "unknown_eaves": "Front/rear factual eaves remain null. One modeled shell is provisional, not a newly established historical tier count."
+      },
+      "unbuilt": [
+        "Current metric survey/world datum, precise joinery, dougong, individual roof tiles, lattice and paintwork",
+        "All unverified enclosures/opening leaf counts and complete interiors",
+        "Front hall separate veranda roof topology remains unknown; current body reference is not exact joined roof proof",
+        "Side/rear stage enclosure and exact backstage connection/roof not reconstructed",
+        "Only front railing category visible in official photo; repeated bars are illustrative, not a historical count",
+        "Precise upper band fenestration, plaques, decorative inscriptions and finial"
+      ],
+      "known_facts": {
+        "roof_type": "sijiao_zanjian",
+        "typed_original_fields": {
+          "roof_type": {
+            "value": "四角攒尖",
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX155–157 / 主文第2段后半",
+            "note": null
+          },
+          "eaves_tiers": {
+            "value": 2,
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX155–157 / 主文第2段后半",
+            "note": "重檐规范化为2檐；不是占用2层。"
+          },
+          "occupied_storeys": {
+            "value": 1,
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX157 / 主文第2段末",
+            "note": "来源明确单层戏台；不扩写为所有房屋单层。"
+          },
+          "width_bays": {
+            "value": 3,
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX155–157 / 主文第2段后半",
+            "note": null
+          },
+          "depth_bays": {
+            "value": 3,
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX155–157 / 主文第2段后半",
+            "note": null
+          },
+          "reported_bays_count": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "roof_color_class": {
+            "value": "黄琉璃瓦",
+            "source_status": "official_existing_descriptive_text",
+            "source_id": "SF-SITE236449",
+            "locator": "AX155–157 / 主文第2段后半",
+            "note": null
+          },
+          "facing": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "door_types": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "window_types": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "door_leaf_count": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "window_leaf_count": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "width_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "depth_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "height_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "current_floor_datum_m": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "current_world_registration": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "source_ring_identity": {
+            "value": null,
+            "source_status": "unknown",
+            "source_id": null,
+            "locator": null,
+            "note": null
+          },
+          "published_stage_area_m2": {
+            "value": 90,
+            "source_status": "official_published_approximation",
+            "source_id": "SF-SITE236449",
+            "locator": "AX157 / 主文第2段末",
+            "note": "约数、台面面积；不是精确实测占地/屋面面积，也不据此开平方求边长。"
+          }
+        },
+        "qualified_factual_supplements": []
+      },
+      "dimensions": {
+        "body_width_m": 10.356491090777501,
+        "body_depth_m": 6.797526527964523,
+        "slab_bottom_z_m": 0,
+        "floor_z_m": 0.85,
+        "column_top_z_m": 4.6,
+        "column_radius_m": 0.16,
+        "column_base_radius_m": 0.25,
+        "column_base_height_m": 0.14,
+        "beam_width_m": 0.42,
+        "beam_height_m": 0.28,
+        "upper_band": {
+          "width_m": 5.3853753672043005,
+          "depth_m": 3.534713794541552,
+          "bottom_z_m": 6.08,
+          "wall_thickness_m": 0.12,
+          "occupied_floor": false
+        }
+      },
+      "roof_tiers": [
+        {
+          "tier_index": 0,
+          "outer_width_m": 11.756491090777502,
+          "outer_depth_m": 8.197526527964524,
+          "inner_width_m": 5.3853753672043005,
+          "inner_depth_m": 3.534713794541552,
+          "eave_z_m": 5.1,
+          "top_z_m": 6.2,
+          "skin_thickness_m": 0.14,
+          "curve_power": 1.65,
+          "corner_lift_m": 0.12
+        },
+        {
+          "tier_index": 1,
+          "outer_width_m": 6.785375367204301,
+          "outer_depth_m": 4.934713794541552,
+          "inner_width_m": 0,
+          "inner_depth_m": 0,
+          "eave_z_m": 6.85,
+          "top_z_m": 9.15,
+          "skin_thickness_m": 0.2,
+          "curve_power": 1.65,
+          "corner_lift_m": 0.1
+        }
+      ],
+      "material_scheme": {
+        "column": "green_paint",
+        "beam": "painted_beam",
+        "wall": "green_paint",
+        "stone": "white_stone",
+        "railing": "red_lacquer",
+        "roof_main": "yellow",
+        "roof_edge": "yellow",
+        "roof_under": "dark_wood"
+      }
+    },
+    {
+      "building_id": "baohuadian_main",
+      "name_zh": "宝华殿主殿",
+      "official_entity_id": "baohuadian_main",
+      "source_part_id": "way-40627498-p0",
+      "source_component_id": "source_main_sixpoint",
+      "original_source_record": {
+        "id": "way-40627498-p0",
+        "osm_type": "way",
+        "osm_id": "40627498",
+        "name": "宝华殿",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -764.798039,
+            319.49151
+          ],
+          [
+            -747.049358,
+            320.100434
+          ],
+          [
+            -747.373312,
+            329.538278
+          ],
+          [
+            -751.46849,
+            329.483164
+          ],
+          [
+            -751.698881,
+            333.99113
+          ],
+          [
+            -760.504807,
+            333.714419
+          ],
+          [
+            -760.368438,
+            329.484045
+          ],
+          [
+            -765.147572,
+            329.406799
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40627498"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "宝华殿",
+          "name:vi": "Bảo Hoa Điện",
+          "name:zh": "宝华殿"
+        },
+        "area_m2": 210.8252471873795,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "4faeb89c11812855c73fff6bce0aafcdc9e61edb4ba6b4bd64ba82dcb93e21eb",
+      "original_source_polygon_world": [
+        [
+          -764.798039,
+          319.49151
+        ],
+        [
+          -747.049358,
+          320.100434
+        ],
+        [
+          -747.373312,
+          329.538278
+        ],
+        [
+          -751.46849,
+          329.483164
+        ],
+        [
+          -751.698881,
+          333.99113
+        ],
+        [
+          -760.504807,
+          333.714419
+        ],
+        [
+          -760.368438,
+          329.484045
+        ],
+        [
+          -765.147572,
+          329.406799
+        ]
+      ],
+      "original_source_holes_world": [],
+      "source_polygon_world": [
+        [
+          -764.798039,
+          319.49151
+        ],
+        [
+          -747.049358,
+          320.100434
+        ],
+        [
+          -747.373312,
+          329.538278
+        ],
+        [
+          -751.46849,
+          329.483164
+        ],
+        [
+          -760.368438,
+          329.484045
+        ],
+        [
+          -765.147572,
+          329.406799
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          -8.796629319935063,
+          -4.846348480882656
+        ],
+        [
+          8.962494129085112,
+          -4.8463484808826545
+        ],
+        [
+          8.962334972309868,
+          4.597053741681037
+        ],
+        [
+          4.867675210171397,
+          4.68238742203909
+        ],
+        [
+          -4.027009370404536,
+          4.988428907674055
+        ],
+        [
+          -8.805981824151441,
+          5.075095053315093
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -756.1727535115514,
+        324.63662722249865,
+        0.0
+      ],
+      "rotation_z_rad": 0.03429467562944632,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "south",
+      "source_component_geometry": {
+        "component_id": "source_main_sixpoint",
+        "source_polygon_world": [
+          [
+            -764.798039,
+            319.49151
+          ],
+          [
+            -747.049358,
+            320.100434
+          ],
+          [
+            -747.373312,
+            329.538278
+          ],
+          [
+            -751.46849,
+            329.483164
+          ],
+          [
+            -760.368438,
+            329.484045
+          ],
+          [
+            -765.147572,
+            329.406799
+          ]
+        ],
+        "source_holes_world": [],
+        "source_polygon_local": [
+          [
+            -8.796629319935063,
+            -4.846348480882656
+          ],
+          [
+            8.962494129085112,
+            -4.8463484808826545
+          ],
+          [
+            8.962334972309868,
+            4.597053741681037
+          ],
+          [
+            4.867675210171397,
+            4.68238742203909
+          ],
+          [
+            -4.027009370404536,
+            4.988428907674055
+          ],
+          [
+            -8.805981824151441,
+            5.075095053315093
+          ]
+        ],
+        "source_holes_local": [],
+        "anchor": [
+          -756.1727535115514,
+          324.63662722249865,
+          0.0
+        ],
+        "rotation_z_rad": 0.03429467562944632,
+        "semantic_front": "negative-y",
+        "study_front_cardinal": "south",
+        "frame_method": "Fullcomponentcentroid and sourceMRR edge nearest declaredqualifiedfront; no measuredazimuth.",
+        "study_body_width_m": 15.330203142128703,
+        "study_body_depth_m": 7.987283504640537,
+        "study_body_square": false,
+        "study_roof_reference_envelope_width_m": 16.330203142128703,
+        "study_roof_reference_envelope_depth_m": 8.987283504640537,
+        "parameter_scope": "ALL metricvalues unmeasured studies derived from sourcecontext; not publishedmeasurements or sourceflat6mheight.",
+        "source_containment_proof": {
+          "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+          "coordinate_clearance_inset_m": 0.12,
+          "reserved_support_margin_m": 0.5,
+          "safe_rectangle_local": [
+            [
+              8.165101571064351,
+              -4.4936417523202685
+            ],
+            [
+              8.165101571064351,
+              4.4936417523202685
+            ],
+            [
+              -8.165101571064351,
+              4.4936417523202685
+            ],
+            [
+              -8.165101571064351,
+              -4.4936417523202685
+            ]
+          ],
+          "body_rectangle_local": [
+            [
+              7.665101571064351,
+              -3.9936417523202685
+            ],
+            [
+              7.665101571064351,
+              3.9936417523202685
+            ],
+            [
+              -7.665101571064351,
+              3.9936417523202685
+            ],
+            [
+              -7.665101571064351,
+              -3.9936417523202685
+            ]
+          ],
+          "complete_body_plus_support_envelope_local": [
+            [
+              8.165101571064351,
+              -4.4936417523202685
+            ],
+            [
+              -8.165101571064351,
+              -4.4936417523202685
+            ],
+            [
+              -8.165101571064351,
+              4.4936417523202685
+            ],
+            [
+              8.165101571064351,
+              4.4936417523202685
+            ]
+          ],
+          "body_plus_support_outside_source_area_m2": 0.0,
+          "full_source_covers_body_plus_support": true
+        },
+        "source_part_id": "way-40627498-p0",
+        "owner_kind": "building",
+        "owner_id": "baohuadian_main",
+        "historical_identity_confirmed": false,
+        "measured_world_azimuth": null
+      },
+      "study_body_width_m": 15.330203142128703,
+      "study_body_depth_m": 7.987283504640537,
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            8.165101571064351,
+            -4.4936417523202685
+          ],
+          [
+            8.165101571064351,
+            4.4936417523202685
+          ],
+          [
+            -8.165101571064351,
+            4.4936417523202685
+          ],
+          [
+            -8.165101571064351,
+            -4.4936417523202685
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            7.665101571064351,
+            -3.9936417523202685
+          ],
+          [
+            7.665101571064351,
+            3.9936417523202685
+          ],
+          [
+            -7.665101571064351,
+            3.9936417523202685
+          ],
+          [
+            -7.665101571064351,
+            -3.9936417523202685
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            8.165101571064351,
+            -4.4936417523202685
+          ],
+          [
+            -8.165101571064351,
+            -4.4936417523202685
+          ],
+          [
+            -8.165101571064351,
+            4.4936417523202685
+          ],
+          [
+            8.165101571064351,
+            4.4936417523202685
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "source_actual_actor_names": [
+        "way-40627498-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40627498-p0_原轮廓主体"
+      ],
+      "original_typed_factual_source_fields": {
+        "orientation_cardinal": {
+          "value": "south",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX130",
+          "current_site_survey_verified": false
+        },
+        "frontage_bays": {
+          "value": 3,
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX131–132",
+          "current_site_survey_verified": false
+        },
+        "depth_bays": {
+          "value": 1,
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX133–134",
+          "current_site_survey_verified": false
+        },
+        "roof_subtype": {
+          "value": "xieshan",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX134–137",
+          "current_site_survey_verified": false
+        },
+        "roof_covering": {
+          "value": "glazed_tile",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX134–136",
+          "current_site_survey_verified": false
+        },
+        "roof_main_color": {
+          "value": "yellow",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX134–136",
+          "current_site_survey_verified": false
+        },
+        "eaves_tiers": {
+          "value": 1,
+          "status": "primary_image_visual_observation",
+          "source_id": "BH-8202",
+          "locator": "entire visible main-hall facade/roof, single continuous eave; no second tier visible",
+          "current_site_survey_verified": false
+        },
+        "rear_attachment_count": {
+          "value": 1,
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX138–140",
+          "current_site_survey_verified": false
+        },
+        "rear_attachment_position": {
+          "value": "north_rear_central_bay",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX130,138–140",
+          "current_site_survey_verified": false
+        },
+        "width_m": {
+          "value": null,
+          "status": "unknown",
+          "reason": "No current survey or metric datum in the primary page/photo"
+        },
+        "depth_m": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Source polygon size is not a column-grid survey"
+        },
+        "height_m": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Legacy6m is an explicit draft assumption"
+        },
+        "bay_widths_m": {
+          "value": null,
+          "status": "unknown",
+          "reason": "No individual column spacings given"
+        },
+        "occupied_storeys": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Visible wall level is not an occupied-storey survey"
+        },
+        "roof_edge_color": {
+          "value": null,
+          "status": "unknown",
+          "reason": "No textual trim category; small photo not a color measurement"
+        },
+        "door_window_schedule": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Small illustration does not establish every facade/opening/leaf count"
+        },
+        "front_veranda_geometry": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Do not infer exact porch depth or hidden column enclosure from small image"
+        },
+        "current_layout_exact": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Official page states intact building with layout alterations; precise present arrangement not supplied"
+        }
+      },
+      "typed_factual_source_fields": {
+        "orientation_cardinal": {
+          "value": "south",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX130",
+          "current_site_survey_verified": false
+        },
+        "frontage_bays": {
+          "value": 3,
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX131–132",
+          "current_site_survey_verified": false
+        },
+        "depth_bays": {
+          "value": 1,
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX133–134",
+          "current_site_survey_verified": false
+        },
+        "roof_subtype": {
+          "value": "xieshan",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX134–137",
+          "current_site_survey_verified": false
+        },
+        "roof_covering": {
+          "value": "glazed_tile",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX134–136",
+          "current_site_survey_verified": false
+        },
+        "roof_main_color": {
+          "value": "yellow",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX134–136",
+          "current_site_survey_verified": false
+        },
+        "eaves_tiers": {
+          "value": 1,
+          "status": "primary_image_visual_observation",
+          "source_id": "BH-8202",
+          "locator": "entire visible main-hall facade/roof, single continuous eave; no second tier visible",
+          "current_site_survey_verified": false
+        },
+        "rear_attachment_count": {
+          "value": 1,
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX138–140",
+          "current_site_survey_verified": false
+        },
+        "rear_attachment_position": {
+          "value": "north_rear_central_bay",
+          "status": "official_primary_body",
+          "source_id": "BH-236532",
+          "locator": "AX130,138–140",
+          "current_site_survey_verified": false
+        },
+        "width_m": {
+          "value": null,
+          "status": "unknown",
+          "reason": "No current survey or metric datum in the primary page/photo"
+        },
+        "depth_m": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Source polygon size is not a column-grid survey"
+        },
+        "height_m": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Legacy6m is an explicit draft assumption"
+        },
+        "bay_widths_m": {
+          "value": null,
+          "status": "unknown",
+          "reason": "No individual column spacings given"
+        },
+        "occupied_storeys": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Visible wall level is not an occupied-storey survey"
+        },
+        "roof_edge_color": {
+          "value": null,
+          "status": "unknown",
+          "reason": "No textual trim category; small photo not a color measurement"
+        },
+        "door_window_schedule": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Small illustration does not establish every facade/opening/leaf count"
+        },
+        "front_veranda_geometry": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Do not infer exact porch depth or hidden column enclosure from small image"
+        },
+        "current_layout_exact": {
+          "value": null,
+          "status": "unknown",
+          "reason": "Official page states intact building with layout alterations; precise present arrangement not supplied"
+        }
+      },
+      "factual_supplements": [],
+      "qualified_semantic_join_evidence": {
+        "source_part_id": "way-40627498-p0",
+        "source_file": "work/forbidden-city-research/geospatial/model-data.json",
+        "source_record": {
+          "id": "way-40627498-p0",
+          "osm_type": "way",
+          "osm_id": "40627498",
+          "name": "宝华殿",
+          "parent_name": null,
+          "parent_relation_ids": [],
+          "polygon": [
+            [
+              -764.798039,
+              319.49151
+            ],
+            [
+              -747.049358,
+              320.100434
+            ],
+            [
+              -747.373312,
+              329.538278
+            ],
+            [
+              -751.46849,
+              329.483164
+            ],
+            [
+              -751.698881,
+              333.99113
+            ],
+            [
+              -760.504807,
+              333.714419
+            ],
+            [
+              -760.368438,
+              329.484045
+            ],
+            [
+              -765.147572,
+              329.406799
+            ]
+          ],
+          "holes": [],
+          "min_height": 0.0,
+          "height": 6.0,
+          "roof_height": 0.0,
+          "roof_shape": "flat",
+          "roof_direction": null,
+          "roof_orientation": null,
+          "tile_color": "grey",
+          "wall_color": "grey",
+          "source_refs": [
+            "https://www.openstreetmap.org/way/40627498"
+          ],
+          "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+          "assumptions": [
+            "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+            "roof:shape missing/unsupported; draft flat top, unverified",
+            "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+            "No wall colour/material tag; neutral grey palette"
+          ],
+          "original_tags": {
+            "building": "yes",
+            "name": "宝华殿",
+            "name:vi": "Bảo Hoa Điện",
+            "name:zh": "宝华殿"
+          },
+          "area_m2": 210.8252471873795,
+          "source_geometry_retained": true,
+          "intersects_site": true,
+          "included_by_building_group": false
+        },
+        "original_actor_name_from_historical_census": "way-40627498-p0_原轮廓主体",
+        "identity_status": "source_label_and_north_projection_are_qualified_candidates_not_official_registration",
+        "current_native_probe_verified": false,
+        "official_compound_identity_confirmed": false,
+        "source_height_is_measured": false,
+        "source_flat_roof_is_historical_fact": false,
+        "source_gray_is_current_material": false
+      },
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "measured_world_azimuth": null,
+      "metric_scope": "unmeasured_study",
+      "source6m_proxy_height_is_real_building_height": false,
+      "frontage_evidence_class": "official_primary_body",
+      "third_party_cost": 0,
+      "human_approval": "pending",
+      "builder": "hall",
+      "bays_x": 3,
+      "bays_y": 1,
+      "occupied_storeys": null,
+      "reference_floor_count": 1,
+      "eaves_tiers": 1,
+      "paid_service_calls": 0,
+      "parameter_evidence": {
+        "all_metric_controls": "Unmeasured caller study: source polygon is retained; body reserve, heights, thickness, openings and supports are not Palace Museum measurements.",
+        "published_90m2": "Not used to derive any stage width/depth or source scaling.",
+        "source_height_6m": "An inherited assumed proxy height, never used as measured building height.",
+        "unknown_eaves": "Front/rear factual eaves remain null. One modeled shell is provisional, not a newly established historical tier count."
+      },
+      "unbuilt": [
+        "Current metric survey/world datum, precise joinery, dougong, individual roof tiles, lattice and paintwork",
+        "All unverified enclosures/opening leaf counts and complete interiors",
+        "Front hall separate veranda roof topology remains unknown; current body reference is not exact joined roof proof",
+        "All door/window schedule unverified; no invented leaf counts or guessed apertures",
+        "North baoxia roof/join remains complete explicit gray source proxy"
+      ],
+      "known_facts": {
+        "roof_type": "xieshan",
+        "typed_original_fields": {
+          "orientation_cardinal": {
+            "value": "south",
+            "status": "official_primary_body",
+            "source_id": "BH-236532",
+            "locator": "AX130",
+            "current_site_survey_verified": false
+          },
+          "frontage_bays": {
+            "value": 3,
+            "status": "official_primary_body",
+            "source_id": "BH-236532",
+            "locator": "AX131–132",
+            "current_site_survey_verified": false
+          },
+          "depth_bays": {
+            "value": 1,
+            "status": "official_primary_body",
+            "source_id": "BH-236532",
+            "locator": "AX133–134",
+            "current_site_survey_verified": false
+          },
+          "roof_subtype": {
+            "value": "xieshan",
+            "status": "official_primary_body",
+            "source_id": "BH-236532",
+            "locator": "AX134–137",
+            "current_site_survey_verified": false
+          },
+          "roof_covering": {
+            "value": "glazed_tile",
+            "status": "official_primary_body",
+            "source_id": "BH-236532",
+            "locator": "AX134–136",
+            "current_site_survey_verified": false
+          },
+          "roof_main_color": {
+            "value": "yellow",
+            "status": "official_primary_body",
+            "source_id": "BH-236532",
+            "locator": "AX134–136",
+            "current_site_survey_verified": false
+          },
+          "eaves_tiers": {
+            "value": 1,
+            "status": "primary_image_visual_observation",
+            "source_id": "BH-8202",
+            "locator": "entire visible main-hall facade/roof, single continuous eave; no second tier visible",
+            "current_site_survey_verified": false
+          },
+          "rear_attachment_count": {
+            "value": 1,
+            "status": "official_primary_body",
+            "source_id": "BH-236532",
+            "locator": "AX138–140",
+            "current_site_survey_verified": false
+          },
+          "rear_attachment_position": {
+            "value": "north_rear_central_bay",
+            "status": "official_primary_body",
+            "source_id": "BH-236532",
+            "locator": "AX130,138–140",
+            "current_site_survey_verified": false
+          },
+          "width_m": {
+            "value": null,
+            "status": "unknown",
+            "reason": "No current survey or metric datum in the primary page/photo"
+          },
+          "depth_m": {
+            "value": null,
+            "status": "unknown",
+            "reason": "Source polygon size is not a column-grid survey"
+          },
+          "height_m": {
+            "value": null,
+            "status": "unknown",
+            "reason": "Legacy6m is an explicit draft assumption"
+          },
+          "bay_widths_m": {
+            "value": null,
+            "status": "unknown",
+            "reason": "No individual column spacings given"
+          },
+          "occupied_storeys": {
+            "value": null,
+            "status": "unknown",
+            "reason": "Visible wall level is not an occupied-storey survey"
+          },
+          "roof_edge_color": {
+            "value": null,
+            "status": "unknown",
+            "reason": "No textual trim category; small photo not a color measurement"
+          },
+          "door_window_schedule": {
+            "value": null,
+            "status": "unknown",
+            "reason": "Small illustration does not establish every facade/opening/leaf count"
+          },
+          "front_veranda_geometry": {
+            "value": null,
+            "status": "unknown",
+            "reason": "Do not infer exact porch depth or hidden column enclosure from small image"
+          },
+          "current_layout_exact": {
+            "value": null,
+            "status": "unknown",
+            "reason": "Official page states intact building with layout alterations; precise present arrangement not supplied"
+          }
+        },
+        "qualified_factual_supplements": []
+      },
+      "dimensions": {
+        "body_width_m": 15.330203142128703,
+        "body_depth_m": 7.987283504640537,
+        "floor_z_m": 0.35,
+        "source_reference_slab_bottom_z_m": 0,
+        "source_reference_slab_top_z_m": 0.35,
+        "slab_thickness_m": 0.35,
+        "wall_thickness_m": 0.2,
+        "column_radius_m": 0.17,
+        "column_base_radius_m": 0.27,
+        "column_base_height_m": 0.15,
+        "column_top_z_m": 4.6,
+        "beam_width_m": 0.36,
+        "beam_height_m": 0.28,
+        "wall_top_z_m": 4.88,
+        "enclosure_x_min_m": -7.665101571064351,
+        "enclosure_x_max_m": 7.665101571064351,
+        "enclosure_y_min_m": -3.1936417523202687,
+        "enclosure_y_max_m": 3.9936417523202685,
+        "veranda_front_depth_m": 0.8,
+        "veranda_rear_depth_m": 0,
+        "veranda_west_depth_m": 0,
+        "veranda_east_depth_m": 0,
+        "door_height_m": 3.15,
+        "window_height_m": 1.95,
+        "window_sill_height_above_floor_m": 0.9,
+        "door_width_fraction_of_bay": 0.68,
+        "window_width_fraction_of_bay": 0.7,
+        "opening_frame_width_m": 0.075,
+        "opening_frame_depth_m": 0.12,
+        "leaf_panel_depth_m": 0.05
+      },
+      "roof_tiers": [
+        {
+          "tier_index": 0,
+          "roof_type": "xieshan",
+          "outer_width_m": 16.580203142128703,
+          "outer_depth_m": 9.237283504640537,
+          "eave_z_m": 5.5,
+          "top_z_m": 8.1,
+          "corner_lift_m": 0.12,
+          "additional_overhang_m": 0,
+          "annular": false,
+          "inner_width_m": null,
+          "inner_depth_m": null
+        }
+      ],
+      "material_scheme": {
+        "base": "white_stone",
+        "column": "green_paint",
+        "beam": "painted_beam",
+        "wall": "red",
+        "frame": "red_lacquer",
+        "infill": "dark_wood",
+        "roof_main": "yellow",
+        "roof_edge": "yellow",
+        "roof_under": "dark_wood"
+      },
+      "material_scope": "Rear neutral gray explicitly means unknown tile color; RGB values and unverified rear paint are study references, not pigment measurement.",
+      "facades": {
+        "south": {
+          "schedule": [
+            {
+              "bay_index": 0,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 1,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 2,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            }
+          ]
+        },
+        "north": {
+          "schedule": [
+            {
+              "bay_index": 0,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 1,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 2,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            }
+          ]
+        },
+        "east": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_not_inferred"
+        },
+        "west": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_not_inferred"
+        }
+      }
+    }
+  ],
+  "source_files": {
+    "work/restoration-v17/registration/registered-buildings.json": "0ff859b0e1434e9ee1c0501aa2f301fd6b8416e85e32a5c2b525f9e3c18479bc",
+    "work/restoration-v17/registration/actual-registration-freeze.json": "fd5f23fe1eb37ff1cb6c0087e68e9356139a914480891071367f528dbb633d58",
+    "work/restoration-v17/research/shufang/facts.json": "6f6ac3833ecc13fec202dbcb7b337aa2c8da87d90f81d59a5ba49e848387eb3b",
+    "work/restoration-v17/research/shufang/supplemental-01/supplemental-evidence.json": "7c9d4fc830aeef5fc6551706522d3bc8dcc5d2ea39d560c6baea2c35f8c56995",
+    "work/restoration-v17/research/baohuadian/facts.json": "0797cb6c3658399b48a74020a99ff676e774e593a3d322298ad795c85562f1a7",
+    "work/theatre_stage_buildings.py": "362cae133fa1b7685292bc9e9fa46ad87e3e92ec1390d4b0cf616cb3d2f0ab25",
+    "work/courtyard_hall_buildings.py": "5123db7be8948e9bdb4dc6d8edb712d01ad98075e5e6a40251be5aa8f666a86d",
+    "work/restoration-v17/prepare_profiles.py": "b837047acdab51398b3090a17410aa427e72746ecbaf62177cbd276f8c149195"
+  },
+  "facts_are_not_metric_survey": true,
+  "whole_city_objective_complete": false,
+  "human_approval": "pending",
+  "third_party_cost": 0,
+  "paid_service_calls": 0,
+  "previous_profile_file_sha256": "850a89fabee35f6f60e979eb00bae04ff248aff3511da19131d7529f8a3b5813"
+}

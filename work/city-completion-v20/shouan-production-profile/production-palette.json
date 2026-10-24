@@ -1,0 +1,118 @@
+{
+  "schema": "v20-source-bounded-shouan79-study-palette/1",
+  "materials": {
+    "base": {
+      "rgba": [
+        0.66,
+        0.64,
+        0.58,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.82
+    },
+    "column": {
+      "rgba": [
+        0.39,
+        0.018,
+        0.012,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.32
+    },
+    "beam": {
+      "rgba": [
+        0.025,
+        0.13,
+        0.11,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.68
+    },
+    "wall": {
+      "rgba": [
+        0.36,
+        0.028,
+        0.018,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.68
+    },
+    "frame": {
+      "rgba": [
+        0.39,
+        0.018,
+        0.012,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.32
+    },
+    "infill": {
+      "rgba": [
+        0.055,
+        0.027,
+        0.012,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.71
+    },
+    "roof_main": {
+      "rgba": [
+        0.6,
+        0.285,
+        0.025,
+        1
+      ],
+      "metallic": 0.12,
+      "roughness": 0.32
+    },
+    "roof_edge": {
+      "rgba": [
+        0.6,
+        0.285,
+        0.025,
+        1
+      ],
+      "metallic": 0.12,
+      "roughness": 0.32
+    },
+    "roof_under": {
+      "rgba": [
+        0.085,
+        0.1,
+        0.11,
+        1
+      ],
+      "metallic": 0.02,
+      "roughness": 0.72
+    }
+  },
+  "category_scope": "Only yellow-glazed-tile roof category is official fact. All RGB/finishes and nonroof material colors are visual study controls, not measured current materials.",
+  "numeric_status": "unmeasured_study",
+  "third_party_cost": 0,
+  "paid_service_calls": 0,
+  "human_approval": "pending",
+  "inputs_sha256": {
+    "work/city-completion-v20/plan-registration/shouan79-source-bounded-qualification-proposal-02.json": "af9cd952bd51fa5eb7f512a7b2544ebb3ab25c88d2943cc047e152b400d78872",
+    "work/city-completion-v20/shouan-registration/run-01/actual-source-actors.json": "7f22e6c002a86d856ebdcc10af1784b94444d9d433b4ac2d55f7eade7f31c54b",
+    "work/city-completion-v20/shouan-registration/run-01/actual-source-domain-CPU-01.json": "69f6002e258e48ed86e20902db84497643f7bfd137ec36e81c4ba3043999665e",
+    "work/city-completion-v20/shouan-registration/source-local-frame-draft-01.json": "33c09627e9da6af437a9b212dc6c9a71bb2a421eadcb8c8a20220b2ef32255c5",
+    "work/city-completion-v20/shouan-research/typed-facts-and-candidates.json": "6daeb1468755ebebb670fb77540c9814160a4bfed94c86deaa7a510f3a9ef6ab",
+    "work/city-completion-v20/plan-registration/plan-source-diagnostic-01.json": "60c4263c7c486df0c7ce09272fd6be2c9a960c1a8710f538027bd79f331fc25f",
+    "work/city-completion-v20/plan-registration/official-plan10-embedded.png": "a7a3c47e48c1864fe3dd5a53244e25a9da108f08ef22f467f3b55ec3f62f2a83",
+    "work/city-completion-v20/shouan-research/shouan-official-236505.html": "1dde848ad38f1cf092378c9cd365ce47b9f45e066d26f27df6f4a5e733551f30",
+    "work/city-completion-v20/shouan-research/official-2025-stone-paving.pdf": "398799d8941b230c6ef2aaf1cb9c13e882b9cb2c0cc411c4d6ede75828f263b1",
+    "work/forbidden-city-research/geospatial/model-data.json": "06dfa30cbd6401d2b555b842c03dd47fa055a4de6024b4904b39cc2652a2248e",
+    "work/courtyard_hall_buildings.py": "5123db7be8948e9bdb4dc6d8edb712d01ad98075e5e6a40251be5aa8f666a86d",
+    "work/restoration_buildings.py": "aac18ca8c219b8de544dd78d8a7b99000a4d0fe83d40553614065e0c998aaf60",
+    "work/forbidden_city_geometry.py": "23f815fc93057a0f69b66adc25536485fc05a33935f67fb1613073963e276efc",
+    "work/four_hall_buildings.py": "1d3267d25946ecf468da3a9d60103ef522c202452f60d0e500643d14ce9dcc1a",
+    "work/city-completion-v20/shouan-production-profile/prepare_profile.py": "58dc9816e0fe40131fcbe8e08a3b318a7659022414132765994fa805654f0110",
+    "work/city-completion-v20/shouan-production-profile/source_bounded_profile.py": "49e96d6c6d827383383cc8258627c5503a18097d49c34e7ae4c364a68d5702a1"
+  }
+}

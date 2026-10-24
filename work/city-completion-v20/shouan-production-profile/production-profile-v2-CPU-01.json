@@ -1,0 +1,801 @@
+{
+  "schema": "v20-shouan79-one-beam-width-revision-CPU/1",
+  "checks": [
+    {
+      "id": "BEAM-01",
+      "input": "真实旧profile44fd及actual12/1 red ceb125",
+      "operation": "新v2只改beam_width及对应声明",
+      "expected": "原证据SHA一致；唯一直接尺寸修正",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "id": "BEAM-02",
+      "input": "新16外围柱顶整圆与冻结G14四梁域",
+      "operation": "检查完整外接正方形四条线性不等式",
+      "expected": "全部整圆被某实际梁矩形域覆盖，含角柱；不用rim采样",
+      "passed": true,
+      "actual": {
+        "all16_perimeter_column_tops": [
+          {
+            "axis": [
+              -12.499181739295569,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -12.714896034610906,
+              -7.919796270863051,
+              -12.283467443980232,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south",
+              "west"
+            ]
+          },
+          {
+            "axis": [
+              -12.499181739295569,
+              -3.7093728030414916
+            ],
+            "entire_circle_circumscribing_square": [
+              -12.714896034610906,
+              -3.9250870983568276,
+              -12.283467443980232,
+              -3.4936585077261557
+            ],
+            "whole_square_covering_beams": [
+              "west"
+            ]
+          },
+          {
+            "axis": [
+              -12.499181739295569,
+              3.301749418091878
+            ],
+            "entire_circle_circumscribing_square": [
+              -12.714896034610906,
+              3.086035122776542,
+              -12.283467443980232,
+              3.517463713407214
+            ],
+            "whole_square_covering_beams": [
+              "west"
+            ]
+          },
+          {
+            "axis": [
+              -12.499181739295569,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -12.714896034610906,
+              7.488367680232379,
+              -12.283467443980232,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north",
+              "west"
+            ]
+          },
+          {
+            "axis": [
+              -7.929588415252027,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -8.145302710567364,
+              -7.919796270863051,
+              -7.713874119936691,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south"
+            ]
+          },
+          {
+            "axis": [
+              -7.929588415252027,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -8.145302710567364,
+              7.488367680232379,
+              -7.713874119936691,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north"
+            ]
+          },
+          {
+            "axis": [
+              -3.3599950912084857,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -3.5757093865238216,
+              -7.919796270863051,
+              -3.14428079589315,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south"
+            ]
+          },
+          {
+            "axis": [
+              -3.3599950912084857,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -3.5757093865238216,
+              7.488367680232379,
+              -3.14428079589315,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north"
+            ]
+          },
+          {
+            "axis": [
+              3.1807953530107014,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              2.9650810576953655,
+              -7.919796270863051,
+              3.3965096483260373,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south"
+            ]
+          },
+          {
+            "axis": [
+              3.1807953530107014,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              2.9650810576953655,
+              7.488367680232379,
+              3.3965096483260373,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north"
+            ]
+          },
+          {
+            "axis": [
+              7.750388677054241,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              7.534674381738905,
+              -7.919796270863051,
+              7.966102972369577,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south"
+            ]
+          },
+          {
+            "axis": [
+              7.750388677054241,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              7.534674381738905,
+              7.488367680232379,
+              7.966102972369577,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north"
+            ]
+          },
+          {
+            "axis": [
+              12.499181739295569,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              12.283467443980232,
+              -7.919796270863051,
+              12.714896034610906,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south",
+              "east"
+            ]
+          },
+          {
+            "axis": [
+              12.499181739295569,
+              -3.7093728030414916
+            ],
+            "entire_circle_circumscribing_square": [
+              12.283467443980232,
+              -3.9250870983568276,
+              12.714896034610906,
+              -3.4936585077261557
+            ],
+            "whole_square_covering_beams": [
+              "east"
+            ]
+          },
+          {
+            "axis": [
+              12.499181739295569,
+              3.301749418091878
+            ],
+            "entire_circle_circumscribing_square": [
+              12.283467443980232,
+              3.086035122776542,
+              12.714896034610906,
+              3.517463713407214
+            ],
+            "whole_square_covering_beams": [
+              "east"
+            ]
+          },
+          {
+            "axis": [
+              12.499181739295569,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              12.283467443980232,
+              7.488367680232379,
+              12.714896034610906,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north",
+              "east"
+            ]
+          }
+        ],
+        "beam_domains_local": {
+          "south": [
+            -12.715872597110906,
+            -7.920772833363051,
+            12.715872597110906,
+            -7.487391117732379
+          ],
+          "north": [
+            -12.715872597110906,
+            7.487391117732379,
+            12.715872597110906,
+            7.920772833363051
+          ],
+          "west": [
+            -12.715872597110906,
+            -7.920772833363051,
+            -12.282490881480232,
+            7.920772833363051
+          ],
+          "east": [
+            12.282490881480232,
+            -7.920772833363051,
+            12.715872597110906,
+            7.920772833363051
+          ]
+        },
+        "analytic_circle_normal_clearance_m": 0.0009765625,
+        "sampled_points_used": false
+      }
+    },
+    {
+      "id": "BEAM-03",
+      "input": "旧beam_width=.3852041/column_radius=.2157143",
+      "operation": "相同完整解析域判定",
+      "expected": "旧设计整柱顶超梁域被拒绝，与实际CPU04红一致",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "BEAM-04",
+      "input": "新完整四梁投影与旧source/base-envelope",
+      "operation": "全部矩形域union covers检查",
+      "expected": "不扩大原保守包络，不改source/floor/remainder几何",
+      "passed": true,
+      "actual": "新梁完整矩形union在原base包络/原保守包络/完整非凸source内；原最大margin未变"
+    },
+    {
+      "id": "BEAM-05",
+      "input": "新旧完整remainder JSON",
+      "operation": "除inputs/revision外逐字段精确比较",
+      "expected": "source/body/roof未动，差集全部几何完全相同",
+      "passed": true,
+      "actual": "source/body/roof未动，差集全部几何完全相同"
+    },
+    {
+      "id": "EXTRA-B01",
+      "input": "r刚好等于beam_halfwidth",
+      "operation": "仅私有解析域fixture bw=2r",
+      "expected": "整柱顶边界相等允许；实际数值余量另用16ULP",
+      "passed": true,
+      "actual": {
+        "all16_perimeter_column_tops": [
+          {
+            "axis": [
+              -12.499181739295569,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -12.714896034610906,
+              -7.919796270863051,
+              -12.283467443980232,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south",
+              "west"
+            ]
+          },
+          {
+            "axis": [
+              -12.499181739295569,
+              -3.7093728030414916
+            ],
+            "entire_circle_circumscribing_square": [
+              -12.714896034610906,
+              -3.9250870983568276,
+              -12.283467443980232,
+              -3.4936585077261557
+            ],
+            "whole_square_covering_beams": [
+              "west"
+            ]
+          },
+          {
+            "axis": [
+              -12.499181739295569,
+              3.301749418091878
+            ],
+            "entire_circle_circumscribing_square": [
+              -12.714896034610906,
+              3.086035122776542,
+              -12.283467443980232,
+              3.517463713407214
+            ],
+            "whole_square_covering_beams": [
+              "west"
+            ]
+          },
+          {
+            "axis": [
+              -12.499181739295569,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -12.714896034610906,
+              7.488367680232379,
+              -12.283467443980232,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north",
+              "west"
+            ]
+          },
+          {
+            "axis": [
+              -7.929588415252027,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -8.145302710567364,
+              -7.919796270863051,
+              -7.713874119936691,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south"
+            ]
+          },
+          {
+            "axis": [
+              -7.929588415252027,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -8.145302710567364,
+              7.488367680232379,
+              -7.713874119936691,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north"
+            ]
+          },
+          {
+            "axis": [
+              -3.3599950912084857,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -3.5757093865238216,
+              -7.919796270863051,
+              -3.14428079589315,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south"
+            ]
+          },
+          {
+            "axis": [
+              -3.3599950912084857,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              -3.5757093865238216,
+              7.488367680232379,
+              -3.14428079589315,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north"
+            ]
+          },
+          {
+            "axis": [
+              3.1807953530107014,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              2.9650810576953655,
+              -7.919796270863051,
+              3.3965096483260373,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south"
+            ]
+          },
+          {
+            "axis": [
+              3.1807953530107014,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              2.9650810576953655,
+              7.488367680232379,
+              3.3965096483260373,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north"
+            ]
+          },
+          {
+            "axis": [
+              7.750388677054241,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              7.534674381738905,
+              -7.919796270863051,
+              7.966102972369577,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south"
+            ]
+          },
+          {
+            "axis": [
+              7.750388677054241,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              7.534674381738905,
+              7.488367680232379,
+              7.966102972369577,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north"
+            ]
+          },
+          {
+            "axis": [
+              12.499181739295569,
+              -7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              12.283467443980232,
+              -7.919796270863051,
+              12.714896034610906,
+              -7.488367680232379
+            ],
+            "whole_square_covering_beams": [
+              "south",
+              "east"
+            ]
+          },
+          {
+            "axis": [
+              12.499181739295569,
+              -3.7093728030414916
+            ],
+            "entire_circle_circumscribing_square": [
+              12.283467443980232,
+              -3.9250870983568276,
+              12.714896034610906,
+              -3.4936585077261557
+            ],
+            "whole_square_covering_beams": [
+              "east"
+            ]
+          },
+          {
+            "axis": [
+              12.499181739295569,
+              3.301749418091878
+            ],
+            "entire_circle_circumscribing_square": [
+              12.283467443980232,
+              3.086035122776542,
+              12.714896034610906,
+              3.517463713407214
+            ],
+            "whole_square_covering_beams": [
+              "east"
+            ]
+          },
+          {
+            "axis": [
+              12.499181739295569,
+              7.704081975547715
+            ],
+            "entire_circle_circumscribing_square": [
+              12.283467443980232,
+              7.488367680232379,
+              12.714896034610906,
+              7.919796270863051
+            ],
+            "whole_square_covering_beams": [
+              "north",
+              "east"
+            ]
+          }
+        ],
+        "beam_domains_local": {
+          "south": [
+            -12.714896034610906,
+            -7.919796270863051,
+            12.714896034610906,
+            -7.488367680232379
+          ],
+          "north": [
+            -12.714896034610906,
+            7.488367680232379,
+            12.714896034610906,
+            7.919796270863051
+          ],
+          "west": [
+            -12.714896034610906,
+            -7.919796270863051,
+            -12.283467443980232,
+            7.919796270863051
+          ],
+          "east": [
+            12.283467443980232,
+            -7.919796270863051,
+            12.714896034610906,
+            7.919796270863051
+          ]
+        },
+        "analytic_circle_normal_clearance_m": 0.0,
+        "sampled_points_used": false
+      }
+    },
+    {
+      "id": "EXTRA-B02",
+      "input": "r比beam_halfwidth大1e-6m",
+      "operation": "仅私有解析域fixture bw=2r-2e-6",
+      "expected": "必须拒绝，不借用100um几何容差掩盖设计不足",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B03",
+      "input": "bw=0",
+      "operation": "解析域入口",
+      "expected": "拒绝非正/非有限/bool研究宽度",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B04",
+      "input": "bw=-0.1",
+      "operation": "解析域入口",
+      "expected": "拒绝非正/非有限/bool研究宽度",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B05",
+      "input": "bw=inf",
+      "operation": "解析域入口",
+      "expected": "拒绝非正/非有限/bool研究宽度",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B06",
+      "input": "bw=True",
+      "operation": "解析域入口",
+      "expected": "拒绝非正/非有限/bool研究宽度",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B07",
+      "input": "(1, 0, 0.001)",
+      "operation": "corrected_width边界",
+      "expected": "拒绝非正radius/clearance和bool",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B08",
+      "input": "(1, -0.1, 0.001)",
+      "operation": "corrected_width边界",
+      "expected": "拒绝非正radius/clearance和bool",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B09",
+      "input": "(1, 0.1, 0)",
+      "operation": "corrected_width边界",
+      "expected": "拒绝非正radius/clearance和bool",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B10",
+      "input": "(1, 0.1, -0.001)",
+      "operation": "corrected_width边界",
+      "expected": "拒绝非正radius/clearance和bool",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B11",
+      "input": "(1, 0.1, True)",
+      "operation": "corrected_width边界",
+      "expected": "拒绝非正radius/clearance和bool",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B12",
+      "input": "旧bw已经足够大",
+      "operation": "max规则输入(1,.2,.001)",
+      "expected": "保持原宽1，不无故扩大",
+      "passed": true,
+      "actual": "保持原宽1，不无故扩大"
+    },
+    {
+      "id": "EXTRA-B13",
+      "input": "('body_width_m',)=23.0",
+      "operation": "改private副本后minimal-diff验证",
+      "expected": "拒绝额外尺寸/设计修改",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B14",
+      "input": "('body_depth_m',)=12.0",
+      "operation": "改private副本后minimal-diff验证",
+      "expected": "拒绝额外尺寸/设计修改",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B15",
+      "input": "('column_radius_m',)=0.3",
+      "operation": "改private副本后minimal-diff验证",
+      "expected": "拒绝额外尺寸/设计修改",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B16",
+      "input": "('wall_top_z_m',)=6.0",
+      "operation": "改private副本后minimal-diff验证",
+      "expected": "拒绝额外尺寸/设计修改",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B17",
+      "input": "('beam_width_m',)=0.5",
+      "operation": "改private副本后minimal-diff验证",
+      "expected": "拒绝额外尺寸/设计修改",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B18",
+      "input": "third_party_cost=False",
+      "operation": "minimal-diff与scope检查",
+      "expected": "拒绝bool费用/负调用/假批准/额外hide",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B19",
+      "input": "paid_service_calls=-1",
+      "operation": "minimal-diff与scope检查",
+      "expected": "拒绝bool费用/负调用/假批准/额外hide",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B20",
+      "input": "human_approval=approved",
+      "operation": "minimal-diff与scope检查",
+      "expected": "拒绝bool费用/负调用/假批准/额外hide",
+      "passed": true,
+      "actual": "明确拒绝"
+    },
+    {
+      "id": "EXTRA-B21",
+      "input": "allowed_hidden_source_actor_names=['fake']",
+      "operation": "minimal-diff与scope检查",
+      "expected": "拒绝bool费用/负调用/假批准/额外hide",
+      "passed": true,
+      "actual": "明确拒绝"
+    }
+  ],
+  "summary": {
+    "passed": 26,
+    "failed": 0
+  },
+  "inputs_sha256": {
+    "work/city-completion-v20/plan-registration/shouan79-source-bounded-qualification-proposal-02.json": "af9cd952bd51fa5eb7f512a7b2544ebb3ab25c88d2943cc047e152b400d78872",
+    "work/city-completion-v20/shouan-registration/run-01/actual-source-actors.json": "7f22e6c002a86d856ebdcc10af1784b94444d9d433b4ac2d55f7eade7f31c54b",
+    "work/city-completion-v20/shouan-registration/run-01/actual-source-domain-CPU-01.json": "69f6002e258e48ed86e20902db84497643f7bfd137ec36e81c4ba3043999665e",
+    "work/city-completion-v20/shouan-registration/source-local-frame-draft-01.json": "33c09627e9da6af437a9b212dc6c9a71bb2a421eadcb8c8a20220b2ef32255c5",
+    "work/city-completion-v20/shouan-research/typed-facts-and-candidates.json": "6daeb1468755ebebb670fb77540c9814160a4bfed94c86deaa7a510f3a9ef6ab",
+    "work/city-completion-v20/plan-registration/plan-source-diagnostic-01.json": "60c4263c7c486df0c7ce09272fd6be2c9a960c1a8710f538027bd79f331fc25f",
+    "work/city-completion-v20/plan-registration/official-plan10-embedded.png": "a7a3c47e48c1864fe3dd5a53244e25a9da108f08ef22f467f3b55ec3f62f2a83",
+    "work/city-completion-v20/shouan-research/shouan-official-236505.html": "1dde848ad38f1cf092378c9cd365ce47b9f45e066d26f27df6f4a5e733551f30",
+    "work/city-completion-v20/shouan-research/official-2025-stone-paving.pdf": "398799d8941b230c6ef2aaf1cb9c13e882b9cb2c0cc411c4d6ede75828f263b1",
+    "work/forbidden-city-research/geospatial/model-data.json": "06dfa30cbd6401d2b555b842c03dd47fa055a4de6024b4904b39cc2652a2248e",
+    "work/courtyard_hall_buildings.py": "5123db7be8948e9bdb4dc6d8edb712d01ad98075e5e6a40251be5aa8f666a86d",
+    "work/restoration_buildings.py": "aac18ca8c219b8de544dd78d8a7b99000a4d0fe83d40553614065e0c998aaf60",
+    "work/forbidden_city_geometry.py": "23f815fc93057a0f69b66adc25536485fc05a33935f67fb1613073963e276efc",
+    "work/four_hall_buildings.py": "1d3267d25946ecf468da3a9d60103ef522c202452f60d0e500643d14ce9dcc1a",
+    "work/city-completion-v20/shouan-production-profile/prepare_profile.py": "58dc9816e0fe40131fcbe8e08a3b318a7659022414132765994fa805654f0110",
+    "work/city-completion-v20/shouan-production-profile/source_bounded_profile.py": "49e96d6c6d827383383cc8258627c5503a18097d49c34e7ae4c364a68d5702a1",
+    "work/city-completion-v20/shouan-production-profile/production-profiles.json": "44fd1d4f5b0383494c44db3b8883b560e0230565635fbefe891ea9c20a0d4504",
+    "work/city-completion-v20/shouan-production-profile/retained-source-remainder-plan.json": "cd4bed6c0b72342005cc2908f63621df17eab5ac9fe5e986131c0e28e7961008",
+    "work/city-completion-v20/formal-factory/actual-run-01/actual-complete-CPU-02.json": "ceb125cce669752f523b021c66b66944616bd7ba52f9122f537244762a33983e",
+    "work/city-completion-v20/formal-factory/actual-run-01/factory-state.json": "133bf79f76accb13b09017fc65248eb9bd4e9b9811958b0c8132cc0edc013189",
+    "work/city-completion-v20/shouan-production-profile/prepare_profile_v2.py": "583c3153a868b023879a0da652ae7b7bb204748792a7e407ca0222a06743ab3a",
+    "work/city-completion-v20/shouan-production-profile/test_profile_v2_cpu.py": "585a44e716de33fe4237bf4a114731f3ee61ec7614f1fe040a393eaf1710332c"
+  },
+  "profile_v2_factory_run": false,
+  "actual_new13_checks": "pending",
+  "old_actual12_1_preserved": true,
+  "analytic_whole_circle_not_sampled_points": true,
+  "Blender_started": false,
+  "native_opened_or_saved": false,
+  "third_party_cost": 0,
+  "paid_service_calls": 0,
+  "human_approval": "pending",
+  "whole_city_complete": false
+}

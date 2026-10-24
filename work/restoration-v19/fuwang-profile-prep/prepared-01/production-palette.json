@@ -1,0 +1,150 @@
+{
+  "schema": "v19-fuwang-caller-palette/1",
+  "materials": {
+    "base": {
+      "name": "V19_FUWANG_base",
+      "rgba": [
+        0.5,
+        0.49,
+        0.44,
+        1
+      ],
+      "roughness": 0.8,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "unmeasured_support_or_substrate"
+    },
+    "column": {
+      "name": "V19_FUWANG_column",
+      "rgba": [
+        0.32,
+        0.025,
+        0.018,
+        1
+      ],
+      "roughness": 0.7,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "unmeasured_support_or_substrate"
+    },
+    "beam": {
+      "name": "V19_FUWANG_beam",
+      "rgba": [
+        0.08,
+        0.12,
+        0.13,
+        1
+      ],
+      "roughness": 0.65,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "unmeasured_support_or_substrate"
+    },
+    "wall": {
+      "name": "V19_FUWANG_wall",
+      "rgba": [
+        0.28,
+        0.035,
+        0.025,
+        1
+      ],
+      "roughness": 0.8,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "unmeasured_support_or_substrate"
+    },
+    "frame": {
+      "name": "V19_FUWANG_frame",
+      "rgba": [
+        0.32,
+        0.025,
+        0.018,
+        1
+      ],
+      "roughness": 0.7,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "unmeasured_support_or_substrate"
+    },
+    "infill": {
+      "name": "V19_FUWANG_infill",
+      "rgba": [
+        0.025,
+        0.035,
+        0.035,
+        1
+      ],
+      "roughness": 0.6,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "unmeasured_support_or_substrate"
+    },
+    "railing": {
+      "name": "V19_FUWANG_railing",
+      "rgba": [
+        0.32,
+        0.025,
+        0.018,
+        1
+      ],
+      "roughness": 0.7,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "unmeasured_support_or_substrate"
+    },
+    "walkway": {
+      "name": "V19_FUWANG_walkway",
+      "rgba": [
+        0.2,
+        0.12,
+        0.065,
+        1
+      ],
+      "roughness": 0.8,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "unmeasured_support_or_substrate"
+    },
+    "roof_main": {
+      "name": "V19_FUWANG_roof_main",
+      "rgba": [
+        0.57,
+        0.3,
+        0.035,
+        1
+      ],
+      "roughness": 0.32,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "yellow"
+    },
+    "roof_edge": {
+      "name": "V19_FUWANG_roof_edge",
+      "rgba": [
+        0.018,
+        0.09,
+        0.23,
+        1
+      ],
+      "roughness": 0.32,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "blue"
+    },
+    "roof_under": {
+      "name": "V19_FUWANG_roof_under",
+      "rgba": [
+        0.06,
+        0.035,
+        0.02,
+        1
+      ],
+      "roughness": 0.75,
+      "metallic": 0.02,
+      "RGB_status": "unmeasured_render_study",
+      "category": "unmeasured_support_or_substrate"
+    }
+  },
+  "official_colour_RGB_measured": false,
+  "third_party_cost": 0
+}

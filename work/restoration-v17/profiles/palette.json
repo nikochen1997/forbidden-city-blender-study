@@ -1,0 +1,17 @@
+{
+  "schema": "v17-explicit-caller-palette/1",
+  "base": "R.restoration_materials(F.create_materials(\"R17_\"))",
+  "custom": {
+    "green_paint": {
+      "color": [
+        0.035,
+        0.23,
+        0.14
+      ],
+      "metallic": 0,
+      "roughness": 0.48
+    }
+  },
+  "colors_are_unmeasured": true,
+  "rear_grey_is_unknown_material_reference": true
+}

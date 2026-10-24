@@ -1,0 +1,45 @@
+{
+  "schema": "v19-two-hall-caller-palette/1",
+  "materials": {
+    "grey": {
+      "rgba": [
+        0.085,
+        0.1,
+        0.11,
+        1
+      ],
+      "metallic": 0.02,
+      "roughness": 0.72,
+      "numeric_status": "unmeasured_study"
+    },
+    "green": {
+      "rgba": [
+        0.028,
+        0.2,
+        0.1,
+        1
+      ],
+      "metallic": 0.08,
+      "roughness": 0.38,
+      "numeric_status": "unmeasured_study"
+    },
+    "yellow": {
+      "rgba": [
+        0.6,
+        0.285,
+        0.025,
+        1
+      ],
+      "metallic": 0.12,
+      "roughness": 0.32,
+      "numeric_status": "unmeasured_study"
+    }
+  },
+  "source_files_sha256": {
+    "work/forbidden_city_geometry.py": "23f815fc93057a0f69b66adc25536485fc05a33935f67fb1613073963e276efc"
+  },
+  "scope": "Official roof color categories; numeric RGB/finish unmeasured_study; all unqualified surfaces neutral grey",
+  "third_party_cost": 0,
+  "paid_service_calls": 0,
+  "human_approval": "pending"
+}

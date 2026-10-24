@@ -1,0 +1,1544 @@
+{
+  "source_part_id": "way-43525093-p0",
+  "source_polygon_local": [
+    [
+      -2.3108755755720147,
+      1.103086518718562
+    ],
+    [
+      -2.310875575572004,
+      -1.118225159652605
+    ],
+    [
+      -0.5716392355330361,
+      -2.494859372118597
+    ],
+    [
+      1.5990836817308023,
+      -1.9982047726285346
+    ],
+    [
+      2.561924679875767,
+      0.0075002885896319205
+    ],
+    [
+      1.6027555118396954,
+      2.0058592015842374
+    ],
+    [
+      -0.5705726220564497,
+      2.4918350660750916
+    ]
+  ],
+  "source_holes_local": [],
+  "source_polygon_world": [
+    [
+      -289.163645,
+      420.121276
+    ],
+    [
+      -289.787827,
+      417.989464
+    ],
+    [
+      -288.505497,
+      416.179576
+    ],
+    [
+      -286.282677,
+      416.046253
+    ],
+    [
+      -284.795033,
+      417.70059
+    ],
+    [
+      -285.154023,
+      419.887956
+    ],
+    [
+      -287.103227,
+      420.96505
+    ]
+  ],
+  "source_holes_world": [],
+  "anchor": [
+    -287.25584179779827,
+    418.4132851524769,
+    0.0
+  ],
+  "rotation_z_rad": -0.2848328470124009,
+  "original_source_record": {
+    "id": "way-43525093-p0",
+    "osm_type": "way",
+    "osm_id": "43525093",
+    "name": "碧螺亭",
+    "parent_name": null,
+    "parent_relation_ids": [],
+    "polygon": [
+      [
+        -289.163645,
+        420.121276
+      ],
+      [
+        -289.787827,
+        417.989464
+      ],
+      [
+        -288.505497,
+        416.179576
+      ],
+      [
+        -286.282677,
+        416.046253
+      ],
+      [
+        -284.795033,
+        417.70059
+      ],
+      [
+        -285.154023,
+        419.887956
+      ],
+      [
+        -287.103227,
+        420.96505
+      ]
+    ],
+    "holes": [],
+    "min_height": 0.0,
+    "height": 6.0,
+    "roof_height": 0.0,
+    "roof_shape": "flat",
+    "roof_direction": null,
+    "roof_orientation": null,
+    "tile_color": "grey",
+    "wall_color": "grey",
+    "source_refs": [
+      "https://www.openstreetmap.org/way/43525093"
+    ],
+    "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+    "assumptions": [
+      "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+      "roof:shape missing/unsupported; draft flat top, unverified",
+      "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+      "No wall colour/material tag; neutral grey palette"
+    ],
+    "original_tags": {
+      "building": "yes",
+      "name": "碧螺亭",
+      "name:en": "Pavilion of the Green-jade Conch Shell",
+      "name:zh": "碧螺亭"
+    },
+    "area_m2": 17.95815182208682,
+    "source_geometry_retained": true,
+    "intersects_site": true,
+    "included_by_building_group": false
+  },
+  "source_record_sha256": "baf3c7b79e4f0ebf6492e919591f4b5fb27059b450ac480cf010e9ad34b02f22",
+  "source_actual_actor_names": [
+    "way-43525093-p0_原轮廓主体"
+  ],
+  "building_id": "biluoting",
+  "primitive_id": "biluo_sourcefit_pavilion",
+  "column_count": 5,
+  "occupied_storeys": null,
+  "reference_floor_count": 1,
+  "dimension_status": "unmeasured_study",
+  "third_party_cost": 0,
+  "paid_service_calls": 0,
+  "human_approval": "pending",
+  "historical_identity_confirmed": false,
+  "allowed_hidden_source_actor_names": [],
+  "source6m_proxy_height_is_real_building_height": false,
+  "mountain_is_reconstructed": false,
+  "source_support_bottom_z_m": 0,
+  "known_facts": {
+    "width_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "depth_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "ridge_height_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "total_height_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "floor_z_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "platform_height_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "platform_plan_dimensions_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "eave_height_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "each_storey_floor_z_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "exact_bay_widths_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "front_veranda_depth_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "bay_count_includes_veranda": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "bays_x": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "bays_y": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "eaves_tiers": {
+      "value": 2,
+      "status": "known",
+      "value_type": "integer",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "interior_storey_count": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "occupied_storeys": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "facing": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "front_door_leaf_count": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "rear_door_leaf_count": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "side_door_leaf_count": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "full_front_facade_schedule": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "full_rear_facade_schedule": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "full_side_facade_schedule": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "window_leaf_count": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "finial_dimensions_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "finial_material": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "world_anchor": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "current_2026_field_condition": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "current_public_access_open": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "post_1923_reconstruction_status": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "colour_rgb_hex": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "未知不从source标签、同类、词表或照片补值"
+    },
+    "documentary_existing_description": {
+      "value": true,
+      "status": "known",
+      "value_type": "boolean",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": "官网具名现存式介绍，不是2026现场检查"
+    },
+    "construction_year": {
+      "value": 1772,
+      "status": "known",
+      "value_type": "integer",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "historical_event_in_named_body_not_current_fabric_dating",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "plan_shape": {
+      "value": "five_lobed_plum",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "plinth_plan_shape": {
+      "value": "five_lobed_xumizuo",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "column_count": {
+      "value": 5,
+      "status": "known",
+      "value_type": "integer",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "roof_type": {
+      "value": "double_eaved_five_sector_pyramidal",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "ridge_count_each_tier": {
+      "value": 5,
+      "status": "known",
+      "value_type": "integer",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "roof_upper_colour": {
+      "value": "jade_green",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "roof_lower_colour": {
+      "value": "peacock_blue",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "roof_both_edges_colour": {
+      "value": "amethyst_purple",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "finial_form": {
+      "value": "waisted_blue_base_white_ice_plum",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "relative_position": {
+      "value": "mountain_peak_south_of_fuwang",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "mountain_support_required": {
+      "value": true,
+      "status": "known",
+      "value_type": "boolean",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "mountain_support_apex_z_m": {
+      "value": null,
+      "status": "unknown",
+      "value_type": "null",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "south_stone_bridge_destination": {
+      "value": "cuishanglou_second_storey",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "east_and_west_steps_to_lower_mountain": {
+      "value": true,
+      "status": "known",
+      "value_type": "boolean",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "balustrade": {
+      "value": "curved_white_stone_plum_motif",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "hanging_spandrels": {
+      "value": "pierced_branch_plum",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "ceiling": {
+      "value": "applied_carved_plum",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    },
+    "painted_beam_motif": {
+      "value": "gilded_coloured_branch_plum_Suzhou_style",
+      "status": "known",
+      "value_type": "string",
+      "source_id": "DPM-BILUO",
+      "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+      "locator": "具名正文178–180行；非后接攒尖顶词表",
+      "measurement_scope": "named_documentary_typology_not_metric_survey",
+      "current_field_measurement": false,
+      "accessed_date": "2026-10-24",
+      "meaning": null
+    }
+  },
+  "roof_profile": {
+    "building_id": "biluoting",
+    "primitive_id": "biluo_sourcefit_real_roofs",
+    "symmetry_order": 5,
+    "eaves_tiers": 2,
+    "occupied_storeys": null,
+    "reference_floor_count": 0,
+    "dimension_status": "unmeasured_study",
+    "phase_rad": 0.173,
+    "segments_per_sector": 24,
+    "radial_steps": 16,
+    "roof_tiers": [
+      {
+        "tier_index": 0,
+        "outer_radius_m": 1.9,
+        "lobe_amplitude_m": 0.28,
+        "inner_radius_m": 1.0,
+        "inner_lobe_amplitude_m": 0.05,
+        "eave_z_m": 5.4,
+        "top_z_m": 6.4,
+        "skin_thickness_m": 0.1,
+        "curve_power": 1.65,
+        "corner_lift_m": 0.1,
+        "edge_band_fraction": 0.08,
+        "ridge_radius_m": 0.04,
+        "ridge_offset_m": 0.02,
+        "tile_pitch_m": 0.36,
+        "tile_radius_m": 0.015,
+        "tile_offset_m": 0.005,
+        "tile_stop_fraction": 0.88,
+        "material_scheme": {
+          "main": "peacock_blue",
+          "edge": "amethyst_purple",
+          "under": "neutral"
+        }
+      },
+      {
+        "tier_index": 1,
+        "outer_radius_m": 1.35,
+        "lobe_amplitude_m": 0.2,
+        "inner_radius_m": 0,
+        "inner_lobe_amplitude_m": 0,
+        "eave_z_m": 6.9,
+        "top_z_m": 7.6,
+        "skin_thickness_m": 0.1,
+        "curve_power": 1.65,
+        "corner_lift_m": 0.08,
+        "edge_band_fraction": 0.08,
+        "ridge_radius_m": 0.04,
+        "ridge_offset_m": 0.02,
+        "tile_pitch_m": 0.36,
+        "tile_radius_m": 0.015,
+        "tile_offset_m": 0.005,
+        "tile_stop_fraction": 0.88,
+        "material_scheme": {
+          "main": "jade_green",
+          "edge": "amethyst_purple",
+          "under": "neutral"
+        }
+      }
+    ],
+    "known_facts": {
+      "width_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "depth_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "ridge_height_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "total_height_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "floor_z_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "platform_height_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "platform_plan_dimensions_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "eave_height_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "each_storey_floor_z_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "exact_bay_widths_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "front_veranda_depth_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "bay_count_includes_veranda": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "bays_x": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "bays_y": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "eaves_tiers": {
+        "value": 2,
+        "status": "known",
+        "value_type": "integer",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "interior_storey_count": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "occupied_storeys": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "facing": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "front_door_leaf_count": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "rear_door_leaf_count": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "side_door_leaf_count": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "full_front_facade_schedule": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "full_rear_facade_schedule": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "full_side_facade_schedule": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "window_leaf_count": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "finial_dimensions_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "finial_material": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "world_anchor": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "current_2026_field_condition": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "current_public_access_open": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "post_1923_reconstruction_status": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "colour_rgb_hex": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "未知不从source标签、同类、词表或照片补值"
+      },
+      "documentary_existing_description": {
+        "value": true,
+        "status": "known",
+        "value_type": "boolean",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": "官网具名现存式介绍，不是2026现场检查"
+      },
+      "construction_year": {
+        "value": 1772,
+        "status": "known",
+        "value_type": "integer",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "historical_event_in_named_body_not_current_fabric_dating",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "plan_shape": {
+        "value": "five_lobed_plum",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "plinth_plan_shape": {
+        "value": "five_lobed_xumizuo",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "column_count": {
+        "value": 5,
+        "status": "known",
+        "value_type": "integer",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "roof_type": {
+        "value": "double_eaved_five_sector_pyramidal",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "ridge_count_each_tier": {
+        "value": 5,
+        "status": "known",
+        "value_type": "integer",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "roof_upper_colour": {
+        "value": "jade_green",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "roof_lower_colour": {
+        "value": "peacock_blue",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "roof_both_edges_colour": {
+        "value": "amethyst_purple",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "finial_form": {
+        "value": "waisted_blue_base_white_ice_plum",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "relative_position": {
+        "value": "mountain_peak_south_of_fuwang",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "mountain_support_required": {
+        "value": true,
+        "status": "known",
+        "value_type": "boolean",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "mountain_support_apex_z_m": {
+        "value": null,
+        "status": "unknown",
+        "value_type": "null",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "south_stone_bridge_destination": {
+        "value": "cuishanglou_second_storey",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "east_and_west_steps_to_lower_mountain": {
+        "value": true,
+        "status": "known",
+        "value_type": "boolean",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "balustrade": {
+        "value": "curved_white_stone_plum_motif",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "hanging_spandrels": {
+        "value": "pierced_branch_plum",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "ceiling": {
+        "value": "applied_carved_plum",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      },
+      "painted_beam_motif": {
+        "value": "gilded_coloured_branch_plum_Suzhou_style",
+        "status": "known",
+        "value_type": "string",
+        "source_id": "DPM-BILUO",
+        "source_url": "https://www.dpm.org.cn/explore/building/236435.html",
+        "locator": "具名正文178–180行；非后接攒尖顶词表",
+        "measurement_scope": "named_documentary_typology_not_metric_survey",
+        "current_field_measurement": false,
+        "accessed_date": "2026-10-24",
+        "meaning": null
+      }
+    },
+    "third_party_cost": 0,
+    "paid_service_calls": 0,
+    "human_approval": "pending",
+    "absolute_accuracy_claim": false,
+    "scope": "Sourcefit exterior study roof controls; all metres/RGB/phase unmeasured"
+  },
+  "study": {
+    "source_support_top_z_m": 2.4,
+    "reference_floor_top_z_m": 2.6,
+    "column_axis_radius_m": 0.8,
+    "column_radius_m": 0.12,
+    "lower_bearing_axis_radius_m": 1.45,
+    "lower_bearing_radius_m": 0.1,
+    "beam_width_m": 0.26,
+    "beam_height_m": 0.22,
+    "lower_beam_top_z_m": 5.1,
+    "upper_beam_top_z_m": 6.65
+  },
+  "material_scheme": {
+    "column": "neutral",
+    "beam": "neutral",
+    "source_support": "neutral",
+    "reference_floor": "other_neutral"
+  },
+  "parameter_evidence": {
+    "all_numeric_controls": "unmeasured_study; metres, source-frame azimuth, phase, five column angles, all support/platform heights and RGB are not historical measurements",
+    "roof_revisions_from_private_fixture": {
+      "lower_outer_radius_m": [
+        2.0,
+        1.9
+      ],
+      "lower_lobe_amplitude_m": [
+        0.3,
+        0.28
+      ],
+      "lower_inner_radius_m": [
+        0.8,
+        1.0
+      ],
+      "lower_inner_lobe_amplitude_m": [
+        0.08,
+        0.05
+      ],
+      "initial_roof_Z_shift_m": 2.4,
+      "reason": "complete source fit and five continuous columns wholly inside true lower hole"
+    },
+    "upper_visual_proportions": {
+      "status": "unmeasured_study",
+      "visual_sources": [
+        "official gallery01",
+        "official2025 PDF page16/published39",
+        "private upper-oblique inspected"
+      ],
+      "upper_rise_m": 0.7,
+      "upper_outer_radius_m": 1.35,
+      "rise_over_outer_radius": 0.5185185185185185,
+      "lower_inner_top_to_upper_eave_gap_m": 0.5,
+      "upper_beam_top_z_m": 6.65,
+      "reason": "private rise1.4/outer1.35 visually over-pointed versus official images; reduced rise is explicit visual study, not pixel measurement"
+    },
+    "source_support_reference": "full seven-point neutral volume from 0 to study 2.4m; not fabricated mountain/rock silhouette or surveyed peak",
+    "reference_floor": "one full seven-point study slab from2.4 to2.6m; not an interior/upper occupied-storey plate",
+    "continuous_columns": "five axes at study phase+2pi*i/5, radius.8m; entire shaft lies in actual lower skin hole; upper tops clipped to real upper underside",
+    "lower_support": "five .26m wide/.22m high radial beams overlap continuous columns and wholly cover .1m bearing feet; five caps clip real lower underside",
+    "rotation": "roof phase baked into private mesh copies before T._contact_surface; source root transform applies once",
+    "no_occupied_floor_inference": true,
+    "no_third_court_7m_height_inference": true,
+    "actual_fixture_pending": true
+  },
+  "unbuilt": [
+    "Real mountain/rock geometry, measured peak/floor/bridge/column angles and complete source-to-current survey",
+    "South stone bridge to Cuishanglou second storey, east/west lower-mountain steps and support contacts",
+    "Ice-plum finial, curved white-stone plum balustrade, branch-plum hanging spandrels and carved ceiling",
+    "Suzhou painted-beam motif, exact roof/column proportions, concealed historical carpentry and physical tile cavity"
+  ]
+}

@@ -1,0 +1,1408 @@
+{
+  "allowed_hidden_source_actor_names": [],
+  "anchor": [
+    -819.955617776867,
+    319.1614652272481,
+    0.0
+  ],
+  "bays_x": 5,
+  "bays_y": 3,
+  "beam_width_revision": {
+    "actual_new_geometry_and13_checks": "pending",
+    "frozen_G14_derived_bearing_radius": {
+      "new_m": 0.19502177203380244,
+      "old_m": 0.1733418444498236,
+      "rule": "min(unchanged column_radius,.45*beam_width)",
+      "status": "necessary frozen-helper coupling of this one parameter; not a changed column or roof input"
+    },
+    "new_beam_halfwidth_inside_old_base_margin": true,
+    "new_beam_width_m": 0.43338171563067207,
+    "old_actual_CPU_red_sha256": "ceb125cce669752f523b021c66b66944616bd7ba52f9122f537244762a33983e",
+    "old_beam_width_m": 0.38520409877738576,
+    "old_factory_state_sha256": "133bf79f76accb13b09017fc65248eb9bd4e9b9811958b0c8132cc0edc013189",
+    "old_max_base_margin_m": 0.3081632790219086,
+    "old_profile_package_sha256": "44fd1d4f5b0383494c44db3b8883b560e0230565635fbefe891ea9c20a0d4504",
+    "revision": 2,
+    "rule": "max(old_width,2*original_column_radius+2*original16ULP_numerical_clearance)",
+    "scope": "one unmeasured beam-width correction after real first-formal12/1; no historical metric claim",
+    "unchanged_original_clearance_m": 0.0009765625,
+    "unchanged_source_body_roof_height_column_openings_facts_spans": true
+  },
+  "builder": "hall",
+  "building_id": "shouangong",
+  "central_front_recess": {
+    "bay_index": 2,
+    "depth_m": 3.9947091725062234,
+    "depth_rule": "first actual nonuniform localY column interval; unmeasured relative plan control",
+    "implemented_by_G14": false,
+    "required_caller_adapter": true
+  },
+  "column_bay_widths_x_m": [
+    4.569593324043542,
+    4.569593324043542,
+    6.540790444219187,
+    4.56959332404354,
+    4.748793062241328
+  ],
+  "column_bay_widths_y_m": [
+    3.9947091725062234,
+    7.01112222113337,
+    4.4023325574558365
+  ],
+  "dimension_status": "unmeasured_study",
+  "dimensions": {
+    "beam_height_m": 0.5546939022394355,
+    "beam_width_m": 0.43338171563067207,
+    "body_depth_m": 15.40816395109543,
+    "body_width_m": 24.998363478591138,
+    "column_base_height_m": 0.4930612464350538,
+    "column_base_radius_m": 0.3081632790219086,
+    "column_radius_m": 0.21571429531533604,
+    "column_top_z_m": 5.824285973514073,
+    "door_height_m": 3.3897960692409947,
+    "door_width_fraction_of_bay": 0.66,
+    "enclosure_x_max_m": 12.499181739295569,
+    "enclosure_x_min_m": -12.499181739295569,
+    "enclosure_y_max_m": 7.704081975547715,
+    "enclosure_y_min_m": -7.704081975547715,
+    "floor_z_m": 0.27734695111971774,
+    "leaf_panel_depth_m": 0.06163265580438172,
+    "opening_frame_depth_m": 0.5084694103861492,
+    "opening_frame_width_m": 0.12326531160876344,
+    "slab_thickness_m": 0.27734695111971774,
+    "source_reference_slab_bottom_z_m": 0.0,
+    "source_reference_slab_top_z_m": 0.27734695111971774,
+    "veranda_east_depth_m": 0.0,
+    "veranda_front_depth_m": 0.0,
+    "veranda_rear_depth_m": 0.0,
+    "veranda_west_depth_m": 0.0,
+    "wall_thickness_m": 0.38520409877738576,
+    "wall_top_z_m": 6.378979875753508,
+    "window_height_m": 2.3112245926643142,
+    "window_sill_height_above_floor_m": 1.001530656821203,
+    "window_width_fraction_of_bay": 0.62
+  },
+  "eaves_tiers": null,
+  "enclosure_column_indices_x": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "enclosure_column_indices_y": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "facades": {
+    "east": {
+      "kind": "unresolved_wall",
+      "leaf_count": null
+    },
+    "north": {
+      "schedule": [
+        {
+          "bay_index": 0,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "window",
+          "leaf_count": null,
+          "pattern_category": null
+        },
+        {
+          "bay_index": 1,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "window",
+          "leaf_count": null,
+          "pattern_category": null
+        },
+        {
+          "bay_index": 2,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "door",
+          "leaf_count": null,
+          "pattern_category": null
+        },
+        {
+          "bay_index": 3,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "window",
+          "leaf_count": null,
+          "pattern_category": null
+        },
+        {
+          "bay_index": 4,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "window",
+          "leaf_count": null,
+          "pattern_category": null
+        }
+      ]
+    },
+    "south": {
+      "schedule": [
+        {
+          "bay_index": 0,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "window",
+          "leaf_count": null,
+          "pattern_category": null
+        },
+        {
+          "bay_index": 1,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "window",
+          "leaf_count": null,
+          "pattern_category": null
+        },
+        {
+          "bay_index": 2,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "door",
+          "leaf_count": 4,
+          "pattern_category": "步步锦"
+        },
+        {
+          "bay_index": 3,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "window",
+          "leaf_count": null,
+          "pattern_category": null
+        },
+        {
+          "bay_index": 4,
+          "category_scope": "DPM236505 named bay category; opening metric sizes unmeasured",
+          "kind": "window",
+          "leaf_count": null,
+          "pattern_category": null
+        }
+      ]
+    },
+    "west": {
+      "kind": "unresolved_wall",
+      "leaf_count": null
+    }
+  },
+  "facing": null,
+  "factual_floor_z_m": null,
+  "factual_height_m": null,
+  "factual_unknowns": {
+    "Chunxi80_rear_juandian_partition": null,
+    "actual_height_m": null,
+    "current_storey_count": null,
+    "historical_metric_bay_widths": null,
+    "historical_metric_depth_intervals": null,
+    "historically_measured_roof_footprint": null,
+    "historically_measured_world_main_body_footprint": null,
+    "roof_eave_tier_count": null,
+    "source_building_levels_2_is_adopted": false,
+    "source_draft_6m_is_actual_height": false,
+    "surveyed_world_azimuth": null,
+    "turning_yanlou95_97_name_roof_levels_approved": false
+  },
+  "full_reference_floor_is_unmeasured_source_support": true,
+  "generated_geometry_verified": false,
+  "historical_identity_confirmed": false,
+  "human_approval": "pending",
+  "known_facts": {
+    "back_central_bay_opening_type": "door",
+    "back_side_bay_opening_type": "槛窗",
+    "bay_widths_m": null,
+    "court_index": 2,
+    "current_storey_count": null,
+    "depth_bays": 3,
+    "depth_intervals_m": null,
+    "facing_direction_official_text": null,
+    "facing_direction_plan_inference": "south",
+    "front_bays": 5,
+    "front_central_bay_door_leaf_count": 4,
+    "front_central_bay_lattice": "步步锦",
+    "front_central_bay_recess_bays": 1,
+    "front_side_bay_opening_type": "槛窗",
+    "height_m": null,
+    "measured_world_footprint": null,
+    "roof_covering": "yellow_glazed_tile",
+    "roof_eave_tier_count": null,
+    "roof_type": "xieshan",
+    "side_connections": "两侧山墙出转角延楼，向南与春禧殿后卷殿两山相连"
+  },
+  "material_scheme": {
+    "base": "base",
+    "beam": "beam",
+    "column": "column",
+    "frame": "frame",
+    "infill": "infill",
+    "roof_edge": "roof_edge",
+    "roof_main": "roof_main",
+    "roof_under": "roof_under",
+    "wall": "wall"
+  },
+  "name_zh": "寿安宫正殿",
+  "occupied_storeys": null,
+  "official_facts_raw": {
+    "candidate_is_registered_or_approved": false,
+    "candidate_source_part_id_from_parent": "way-40624979-p0",
+    "facts": [
+      {
+        "key": "court_index",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": 2
+      },
+      {
+        "key": "front_bays",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": 5
+      },
+      {
+        "key": "depth_bays",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": 3
+      },
+      {
+        "key": "roof_type",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": "xieshan"
+      },
+      {
+        "key": "roof_covering",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": "yellow_glazed_tile"
+      },
+      {
+        "key": "roof_eave_tier_count",
+        "qualification": "正文仅称歇山顶，未明确单檐/重檐；该条不能套春禧殿的单檐。",
+        "source_id": null,
+        "status": "unknown",
+        "value": null
+      },
+      {
+        "key": "facing_direction_official_text",
+        "qualification": "官方正文、已审官方图未提供足以确定该字段的依据；不从邻殿或宫区总条目移用。",
+        "source_id": null,
+        "status": "unknown",
+        "value": null
+      },
+      {
+        "key": "facing_direction_plan_inference",
+        "qualification": "由已明确南向的春禧殿及图10前后次序推断；不冒充正文方向/测绘。",
+        "source_id": "DPM-PAVING-2025-P055",
+        "status": "official_plan_inference",
+        "value": "south"
+      },
+      {
+        "key": "front_central_bay_recess_bays",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": 1
+      },
+      {
+        "key": "front_central_bay_door_leaf_count",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": 4
+      },
+      {
+        "key": "front_central_bay_lattice",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": "步步锦"
+      },
+      {
+        "key": "front_side_bay_opening_type",
+        "qualification": "次间、梢间；无逐窗扇数、尺寸。",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": "槛窗"
+      },
+      {
+        "key": "back_central_bay_opening_type",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": "door"
+      },
+      {
+        "key": "back_side_bay_opening_type",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": "槛窗"
+      },
+      {
+        "key": "side_connections",
+        "source_id": "DPM-236505",
+        "status": "official_text_current",
+        "value": "两侧山墙出转角延楼，向南与春禧殿后卷殿两山相连"
+      },
+      {
+        "key": "height_m",
+        "qualification": "官方正文、已审官方图未提供足以确定该字段的依据；不从邻殿或宫区总条目移用。",
+        "source_id": null,
+        "status": "unknown",
+        "value": null
+      },
+      {
+        "key": "bay_widths_m",
+        "qualification": "官方正文、已审官方图未提供足以确定该字段的依据；不从邻殿或宫区总条目移用。",
+        "source_id": null,
+        "status": "unknown",
+        "value": null
+      },
+      {
+        "key": "depth_intervals_m",
+        "qualification": "官方正文、已审官方图未提供足以确定该字段的依据；不从邻殿或宫区总条目移用。",
+        "source_id": null,
+        "status": "unknown",
+        "value": null
+      },
+      {
+        "key": "current_storey_count",
+        "qualification": "官方正文、已审官方图未提供足以确定该字段的依据；不从邻殿或宫区总条目移用。",
+        "source_id": null,
+        "status": "unknown",
+        "value": null
+      },
+      {
+        "key": "measured_world_footprint",
+        "qualification": "官方正文、已审官方图未提供足以确定该字段的依据；不从邻殿或宫区总条目移用。",
+        "source_id": null,
+        "status": "unknown",
+        "value": null
+      }
+    ],
+    "name_zh": "寿安宫正殿",
+    "scope_warning": "五开间三进深仅属于中院正殿本身，不能用于一整个包含转角延楼的复合source轮廓。"
+  },
+  "original_source_record": {
+    "area_m2": 464.09606658628525,
+    "assumptions": [
+      "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+      "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+      "No wall colour/material tag; neutral grey palette"
+    ],
+    "height": 6.0,
+    "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+    "holes": [],
+    "id": "way-40624979-p0",
+    "included_by_building_group": false,
+    "intersects_site": true,
+    "min_height": 0.0,
+    "name": "寿安宫",
+    "original_tags": {
+      "building": "yes",
+      "building:levels": "2",
+      "name": "寿安宫",
+      "name:vi": "Thọ An Cung",
+      "name:zh": "寿安宫",
+      "roof:height": "2",
+      "roof:shape": "hipped"
+    },
+    "osm_id": "40624979",
+    "osm_type": "way",
+    "parent_name": null,
+    "parent_relation_ids": [],
+    "polygon": [
+      [
+        -833.577356,
+        327.448679
+      ],
+      [
+        -833.415574,
+        321.430668
+      ],
+      [
+        -833.305156,
+        314.790878
+      ],
+      [
+        -833.134477,
+        311.948413
+      ],
+      [
+        -833.066284,
+        310.094153
+      ],
+      [
+        -820.079635,
+        310.514672
+      ],
+      [
+        -806.272237,
+        310.968437
+      ],
+      [
+        -806.348827,
+        314.332747
+      ],
+      [
+        -806.40841,
+        316.819895
+      ],
+      [
+        -806.621518,
+        322.760187
+      ],
+      [
+        -806.766288,
+        328.15641
+      ]
+    ],
+    "roof_direction": null,
+    "roof_height": 0.0,
+    "roof_orientation": null,
+    "roof_shape": "flat",
+    "source_geometry_retained": true,
+    "source_refs": [
+      "https://www.openstreetmap.org/way/40624979"
+    ],
+    "tile_color": "grey",
+    "wall_color": "grey"
+  },
+  "paid_service_calls": 0,
+  "parameter_evidence": {
+    "all_metric_values": {
+      "scope": "Deterministic source-inscribed safe envelope plus explicitly proportional visual controls; not historic dimensions",
+      "status": "unmeasured_study"
+    },
+    "enclosure_grid": "explicit original column indices so openings share nonuniform x axes",
+    "height": "all floor/base/column/eave/roof Z are proportional illustration; 6m source draft never adopted",
+    "nonuniform_column_spans": {
+      "local_y_ascending_relative": [
+        0.0,
+        0.2592592592592593,
+        0.7142857142857143,
+        1.0
+      ],
+      "metric_scale": "source-safe control scale, no pixel-to-metre fit",
+      "relative_x": [
+        0.0,
+        0.1827956989247312,
+        0.3655913978494624,
+        0.6272401433691757,
+        0.8100358422939068,
+        1.0
+      ],
+      "relative_y_north_to_south": [
+        0.0,
+        0.2857142857142857,
+        0.7407407407407407,
+        1.0
+      ],
+      "source_pixel_axis_to_local": {
+        "G14_y_axis_order": "south to north: reverse pixel intervals [49,86,54]/189",
+        "column_x_pixels": [
+          296,
+          347,
+          398,
+          471,
+          522,
+          575
+        ],
+        "column_y_pixels_north_to_south": [
+          240,
+          294,
+          380,
+          429
+        ],
+        "manual_pick_uncertainty_pixels": 3,
+        "pixel_error_is_not_metric_accuracy": true,
+        "pixel_x_increasing": "local +X west to east",
+        "pixel_y_increasing": "local -Y north to south"
+      },
+      "status": "official_plan_relative_inference"
+    }
+  },
+  "preparation_scope": "qualified_source_bounded_unmeasured_study",
+  "preserved_neighbour_source_records": [
+    {
+      "area_m2": 465.711709250861,
+      "assumptions": [
+        "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+        "roof:shape missing/unsupported; draft flat top, unverified",
+        "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+        "No wall colour/material tag; neutral grey palette"
+      ],
+      "height": 6.0,
+      "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+      "holes": [],
+      "id": "way-40624995-p0",
+      "included_by_building_group": false,
+      "intersects_site": true,
+      "min_height": 0.0,
+      "name": null,
+      "original_tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "osm_id": "40624995",
+      "osm_type": "way",
+      "parent_name": null,
+      "parent_relation_ids": [],
+      "polygon": [
+        [
+          -833.415574,
+          321.430668
+        ],
+        [
+          -844.846179,
+          321.276479
+        ],
+        [
+          -846.325233,
+          321.254436
+        ],
+        [
+          -845.754301,
+          304.288518
+        ],
+        [
+          -844.748787,
+          274.276166
+        ],
+        [
+          -843.568955,
+          274.309345
+        ],
+        [
+          -829.222877,
+          274.718596
+        ],
+        [
+          -829.418748,
+          281.780321
+        ],
+        [
+          -836.839702,
+          281.692304
+        ],
+        [
+          -838.015913,
+          314.635947
+        ],
+        [
+          -833.305156,
+          314.790878
+        ]
+      ],
+      "roof_direction": null,
+      "roof_height": 0.0,
+      "roof_orientation": null,
+      "roof_shape": "flat",
+      "source_geometry_retained": true,
+      "source_refs": [
+        "https://www.openstreetmap.org/way/40624995"
+      ],
+      "tile_color": "grey",
+      "wall_color": "grey"
+    },
+    {
+      "area_m2": 438.22290352829293,
+      "assumptions": [
+        "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+        "roof:shape missing/unsupported; draft flat top, unverified",
+        "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+        "No wall colour/material tag; neutral grey palette"
+      ],
+      "height": 6.0,
+      "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+      "holes": [],
+      "id": "way-40624997-p0",
+      "included_by_building_group": false,
+      "intersects_site": true,
+      "min_height": 0.0,
+      "name": null,
+      "original_tags": {
+        "building": "yes",
+        "level": "1"
+      },
+      "osm_id": "40624997",
+      "osm_type": "way",
+      "parent_name": null,
+      "parent_relation_ids": [],
+      "polygon": [
+        [
+          -806.621518,
+          322.760187
+        ],
+        [
+          -806.40841,
+          316.819895
+        ],
+        [
+          -799.850985,
+          316.896928
+        ],
+        [
+          -798.768744,
+          283.087242
+        ],
+        [
+          -805.804982,
+          282.888122
+        ],
+        [
+          -805.592013,
+          275.615433
+        ],
+        [
+          -793.725295,
+          275.969496
+        ],
+        [
+          -790.989452,
+          276.058039
+        ],
+        [
+          -792.11485,
+          306.259152
+        ],
+        [
+          -792.686069,
+          321.603983
+        ],
+        [
+          -792.728693,
+          322.792042
+        ],
+        [
+          -797.259891,
+          322.78141
+        ]
+      ],
+      "roof_direction": null,
+      "roof_height": 0.0,
+      "roof_orientation": null,
+      "roof_shape": "flat",
+      "source_geometry_retained": true,
+      "source_refs": [
+        "https://www.openstreetmap.org/way/40624997"
+      ],
+      "tile_color": "grey",
+      "wall_color": "grey"
+    }
+  ],
+  "production_use_allowed": true,
+  "reference_floor_count": 1,
+  "roof_tiers": [
+    {
+      "additional_overhang_m": 0.0,
+      "annular": false,
+      "corner_lift_m": 0.27734695111971774,
+      "eave_z_m": 7.226428893063757,
+      "inner_depth_m": null,
+      "inner_width_m": null,
+      "outer_depth_m": 16.932048297907066,
+      "outer_width_m": 26.522247825402772,
+      "roof_type": "xieshan",
+      "tier_index": 0,
+      "top_z_m": 11.540714799370477
+    }
+  ],
+  "rotation_z_rad": 0.0263908430035263,
+  "source6m_is_actual_height": false,
+  "source_actor_geometry_verified": true,
+  "source_actual_actor_names": [
+    "way-40624979-p0_原轮廓主体"
+  ],
+  "source_envelope_derivation": {
+    "all_source_WORLD_clearance_factor_float32_ULPs": 16,
+    "beasts_status": "unbuilt, no fabricated bounds",
+    "binary_inward_nudges": 0,
+    "body_and_all_base_frame_projections_bounded": true,
+    "body_margin_budget_m": {
+      "beam": 0.21669085781533604,
+      "column_base": 0.3081632790219086,
+      "leaf_normal": 0.03081632790219086,
+      "opening_frame_normal": 0.2542347051930746,
+      "wall_and_closure": 0.19260204938869288
+    },
+    "body_reference_domain_local": {
+      "coordinates": [
+        [
+          [
+            12.499181739295569,
+            -7.704081975547715
+          ],
+          [
+            12.499181739295569,
+            7.704081975547715
+          ],
+          [
+            -12.499181739295569,
+            7.704081975547715
+          ],
+          [
+            -12.499181739295569,
+            -7.704081975547715
+          ],
+          [
+            12.499181739295569,
+            -7.704081975547715
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "candidate_count": 24,
+    "complete_polygon_used_not_MRR_or_hull": true,
+    "conservative_architecture_envelope_local": {
+      "coordinates": [
+        [
+          [
+            13.346123912701387,
+            -8.551024148953534
+          ],
+          [
+            13.346123912701387,
+            8.551024148953534
+          ],
+          [
+            -13.346123912701387,
+            8.551024148953534
+          ],
+          [
+            -13.346123912701387,
+            -8.551024148953534
+          ],
+          [
+            13.346123912701387,
+            -8.551024148953534
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "conservative_area_m2": 456.49211148974314,
+    "fixed_axis": "source-derived study frame, not surveyed azimuth",
+    "fixed_center": [
+      0.0,
+      0.0
+    ],
+    "inner_source_polygon": {
+      "coordinates": [
+        [
+          [
+            -13.397336679471131,
+            8.64279887957137
+          ],
+          [
+            13.421117492619436,
+            8.642798879571389
+          ],
+          [
+            13.42344231891029,
+            3.2456065118680213
+          ],
+          [
+            13.479724981074014,
+            -2.698239016718748
+          ],
+          [
+            13.473656935349224,
+            -5.186086814264372
+          ],
+          [
+            13.461447105072295,
+            -8.550279008096938
+          ],
+          [
+            -0.3521497868345305,
+            -8.639533174662226
+          ],
+          [
+            -13.344400660763073,
+            -8.717211095409494
+          ],
+          [
+            -13.363630146497307,
+            -6.8627582176640285
+          ],
+          [
+            -13.459243042673501,
+            -4.016789002691942
+          ],
+          [
+            -13.394413435315899,
+            2.6235864247530833
+          ],
+          [
+            -13.397336679471131,
+            8.64279887957137
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "mathematical_optimum_area_m2": 456.49211148974314,
+    "mathematical_optimum_halfdepth_m": 8.551024148953534,
+    "mathematical_optimum_halfwidth_m": 13.346123912701387,
+    "method": "All piecewise affine width boundaries, all crossings and quadratic stationary points",
+    "numerical_clearance_m": 0.0009765625,
+    "piecewise_intervals": [
+      {
+        "area_candidates": [
+          [
+            95.18979149426386,
+            13.402692550235672,
+            1.7755721683810102
+          ],
+          [
+            140.56560502570042,
+            13.394413435315899,
+            2.6235864247530833
+          ]
+        ],
+        "h_interval": [
+          0.0,
+          2.6235864247530833
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            -0.009762943084461429,
+            13.42002736025793
+          ],
+          [
+            -0.009469065421204884,
+            13.454175179302657
+          ],
+          [
+            0.009762943084461429,
+            13.42002736025793
+          ],
+          [
+            0.009469065421204884,
+            13.454175179302657
+          ],
+          [
+            0.0,
+            13.42002736025793
+          ]
+        ]
+      },
+      {
+        "area_candidates": [
+          [
+            140.56560502570042,
+            13.394413435315899,
+            2.6235864247530833
+          ],
+          [
+            144.56531574892466,
+            13.394413435315899,
+            2.698239016718748
+          ]
+        ],
+        "h_interval": [
+          2.6235864247530833,
+          2.698239016718748
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            0.00048565226384259446,
+            13.393139284629331
+          ],
+          [
+            -0.009469065421204884,
+            13.454175179302657
+          ],
+          [
+            0.009762943084461429,
+            13.42002736025793
+          ],
+          [
+            0.009469065421204884,
+            13.454175179302657
+          ],
+          [
+            0.0,
+            13.394413435315899
+          ]
+        ]
+      },
+      {
+        "area_candidates": [
+          [
+            144.56531574892466,
+            13.394413435315899,
+            2.698239016718748
+          ],
+          [
+            173.8919818732552,
+            13.394413435315899,
+            3.2456065118680213
+          ]
+        ],
+        "h_interval": [
+          2.698239016718748,
+          3.2456065118680213
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            0.00048565226384259446,
+            13.393139284629331
+          ],
+          [
+            -0.009469065421204884,
+            13.454175179302657
+          ],
+          [
+            0.009762943084461429,
+            13.42002736025793
+          ],
+          [
+            -0.0024390743399883806,
+            13.486306186622848
+          ],
+          [
+            0.0,
+            13.394413435315899
+          ]
+        ]
+      },
+      {
+        "area_candidates": [
+          [
+            173.8919818732552,
+            13.394413435315899,
+            3.2456065118680213
+          ],
+          [
+            215.2101303379444,
+            13.394413435315899,
+            4.016789002691942
+          ]
+        ],
+        "h_interval": [
+          3.2456065118680213,
+          4.016789002691942
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            0.00048565226384259446,
+            13.393139284629331
+          ],
+          [
+            -0.0004307473464844175,
+            13.42484035530301
+          ],
+          [
+            0.009762943084461429,
+            13.42002736025793
+          ],
+          [
+            -0.0024390743399883806,
+            13.486306186622848
+          ],
+          [
+            0.0,
+            13.394413435315899
+          ]
+        ]
+      },
+      {
+        "area_candidates": [
+          [
+            215.2101303379444,
+            13.394413435315899,
+            4.016789002691942
+          ],
+          [
+            273.5821361739557,
+            13.394413435315899,
+            5.106273176782516
+          ],
+          [
+            277.85836360678934,
+            13.394413435315899,
+            5.186086814264372
+          ]
+        ],
+        "h_interval": [
+          4.016789002691942,
+          5.186086814264372
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            0.00048565226384259446,
+            13.393139284629331
+          ],
+          [
+            -0.0004307473464844175,
+            13.42484035530301
+          ],
+          [
+            -0.03359589965808239,
+            13.59419068295563
+          ],
+          [
+            -0.0024390743399883806,
+            13.486306186622848
+          ],
+          [
+            0.0,
+            13.394413435315899
+          ]
+        ]
+      },
+      {
+        "area_candidates": [
+          [
+            277.85836360678934,
+            13.394413435315899,
+            5.186086814264372
+          ],
+          [
+            316.06137620727316,
+            13.394413435315899,
+            5.899126858626397
+          ],
+          [
+            318.59829051635757,
+            13.394413435315899,
+            5.946477090148957
+          ],
+          [
+            366.8454504227886,
+            13.363630146497307,
+            6.8627582176640285
+          ]
+        ],
+        "h_interval": [
+          5.186086814264372,
+          6.8627582176640285
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            0.00048565226384259446,
+            13.393139284629331
+          ],
+          [
+            -0.0004307473464844175,
+            13.42484035530301
+          ],
+          [
+            -0.03359589965808239,
+            13.59419068295563
+          ],
+          [
+            -0.00362934980329371,
+            13.492479058508438
+          ],
+          [
+            0.0,
+            13.394413435315899
+          ]
+        ]
+      },
+      {
+        "area_candidates": [
+          [
+            366.8454504227886,
+            13.363630146497307,
+            6.8627582176640285
+          ],
+          [
+            366.8454504227897,
+            13.363630146497307,
+            6.86275821766405
+          ],
+          [
+            456.4525967803723,
+            13.346131639333672,
+            8.550279008096938
+          ]
+        ],
+        "h_interval": [
+          6.8627582176640285,
+          8.550279008096938
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            0.00048565226384259446,
+            13.393139284629331
+          ],
+          [
+            -0.0004307473464844175,
+            13.42484035530301
+          ],
+          [
+            -0.010369357973448429,
+            13.43479254314149
+          ],
+          [
+            -0.00362934980329371,
+            13.492479058508438
+          ],
+          [
+            0.0,
+            13.363630146497307
+          ]
+        ]
+      },
+      {
+        "area_candidates": [
+          [
+            456.4525967803723,
+            13.346131639333672,
+            8.550279008096938
+          ],
+          [
+            456.4525967803726,
+            13.346131639333672,
+            8.550279008096943
+          ],
+          [
+            456.4664018368368,
+            13.346128939919803,
+            8.550539334134061
+          ],
+          [
+            456.47457911521605,
+            13.346127340950188,
+            8.550693535543566
+          ],
+          [
+            456.49210884226665,
+            13.346123913219072,
+            8.551024099029236
+          ],
+          [
+            456.49211148974314,
+            13.346123912701387,
+            8.551024148953534
+          ]
+        ],
+        "h_interval": [
+          8.550279008096938,
+          8.639533174662226
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            0.00048565226384259446,
+            13.393139284629331
+          ],
+          [
+            -0.0004307473464844175,
+            13.42484035530301
+          ],
+          [
+            -0.010369357973448429,
+            13.43479254314149
+          ],
+          [
+            -154.76696969437694,
+            1336.7622192296783
+          ],
+          [
+            0.0,
+            13.346131639333672
+          ]
+        ]
+      },
+      {
+        "area_candidates": [],
+        "h_interval": [
+          8.639533174662226,
+          8.64279887957137
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            0.00048565226384259446,
+            13.393139284629331
+          ],
+          [
+            -0.0004307473464844175,
+            13.42484035530301
+          ],
+          [
+            -0.010369357973448429,
+            13.43479254314149
+          ],
+          [
+            -167.25796402558132,
+            1444.6785791386365
+          ],
+          [
+            0.0,
+            -0.35214978683461595
+          ]
+        ]
+      },
+      {
+        "area_candidates": [],
+        "h_interval": [
+          8.64279887957137,
+          8.642798879571389
+        ],
+        "limiting_halfwidth_affine_lines": [
+          [
+            -1372495229728179.8,
+            1.1862200233711776e+16
+          ],
+          [
+            -0.0004307473464844175,
+            13.42484035530301
+          ],
+          [
+            -0.010369357973448429,
+            13.43479254314149
+          ],
+          [
+            -167.25796402558132,
+            1444.6785791386365
+          ],
+          [
+            0.0,
+            -0.8983649410461112
+          ]
+        ]
+      }
+    ],
+    "roof_beasts_included": false,
+    "roof_fixed_tube_XY_radius_upper_bound_m": 0.085,
+    "roof_overhang_each_side_m": 0.7619421734058179,
+    "roof_overhang_formula": "0.045*min(source-safe outer roof W,D)",
+    "support_frame_envelope_local": {
+      "coordinates": [
+        [
+          [
+            12.807345018317477,
+            -8.012245254569624
+          ],
+          [
+            12.807345018317477,
+            8.012245254569624
+          ],
+          [
+            -12.807345018317477,
+            8.012245254569624
+          ],
+          [
+            -12.807345018317477,
+            -8.012245254569624
+          ],
+          [
+            12.807345018317477,
+            -8.012245254569624
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    }
+  },
+  "source_holes_local": [],
+  "source_holes_world": [],
+  "source_part_id": "way-40624979-p0",
+  "source_polygon_local": [
+    [
+      -13.398313716356085,
+      8.64377544207137
+    ],
+    [
+      -13.39539000013098,
+      2.6235909545719656
+    ],
+    [
+      -13.460219765291384,
+      -4.016800636318839
+    ],
+    [
+      -13.364606538963134,
+      -6.862779678444263
+    ],
+    [
+      -13.345367089341382,
+      -8.718193453435514
+    ],
+    [
+      -0.35214371267861005,
+      -8.640509718300036
+    ],
+    [
+      13.462420152461469,
+      -8.551249303804488
+    ],
+    [
+      13.474633493526865,
+      -5.186089777348134
+    ],
+    [
+      13.480701554851034,
+      -2.698235584187949
+    ],
+    [
+      13.424418879418747,
+      3.2456113456525384
+    ],
+    [
+      13.422093634558326,
+      8.643775442071389
+    ]
+  ],
+  "source_polygon_world": [
+    [
+      -833.577356,
+      327.448679
+    ],
+    [
+      -833.415574,
+      321.430668
+    ],
+    [
+      -833.305156,
+      314.790878
+    ],
+    [
+      -833.134477,
+      311.948413
+    ],
+    [
+      -833.066284,
+      310.094153
+    ],
+    [
+      -820.079635,
+      310.514672
+    ],
+    [
+      -806.272237,
+      310.968437
+    ],
+    [
+      -806.348827,
+      314.332747
+    ],
+    [
+      -806.40841,
+      316.819895
+    ],
+    [
+      -806.621518,
+      322.760187
+    ],
+    [
+      -806.766288,
+      328.15641
+    ]
+  ],
+  "source_record_sha256": "0d502f520aea1b815cccc8abc75e7ed2747e0dd1bc1be06aa2ab2a0d11bd69d6",
+  "source_remainder_policy": "Original79 stays visible now. Preserve both full exact source-minus-body and source-minus-envelope plans. Future display replacement needs actual full generated projection difference and separate approval.",
+  "study_eaves_tiers": 1,
+  "study_front_facing": "south",
+  "study_front_qualification": "official_plan_inference_only",
+  "third_party_cost": 0,
+  "unbuilt": [
+    "Measured actual height, datum, floor/storey count, eave-tier count and surveyed body/roof footprints",
+    "Interior8 post-grid intersections and their beams: frozen G14 builds only16 perimeter posts, not24 full intersections",
+    "Precise column/bay dimensions, dougong, concealed carpentry, physical roof tile cavities and ridge beasts",
+    "Exact joinery/lattice motifs, opening dimensions, unknown noncentral/rear leaf counts and leaf poses",
+    "95/97 turning-gallery names, roofs, levels and all source bodies outside79; all remain intact",
+    "Chunxi80 main/rear juandian partition and all other compound buildings remain pending"
+  ],
+  "whole_city_complete": false
+}

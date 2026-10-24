@@ -1,0 +1,25 @@
+{
+  "schema": "explicit-unmeasured-visualization-colors/v16",
+  "scope": "Visualization controls for published color categories; no measured pigment or finial material certification",
+  "base": "R.restoration_materials(F.create_materials(R16_)); existing REST green is explicit caller input",
+  "custom": {
+    "purple_glazed": {
+      "color": [
+        0.16,
+        0.075,
+        0.19
+      ],
+      "metallic": 0.06,
+      "roughness": 0.31
+    },
+    "peacock_blue": {
+      "color": [
+        0.015,
+        0.3,
+        0.31
+      ],
+      "metallic": 0.06,
+      "roughness": 0.31
+    }
+  }
+}

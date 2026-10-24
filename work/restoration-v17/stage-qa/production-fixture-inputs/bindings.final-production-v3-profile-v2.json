@@ -1,0 +1,74 @@
+{
+  "schema": "v17-stage-independent-qa-bindings/1",
+  "status": "final_inputs_pinned",
+  "module_path": "./work/theatre_stage_buildings.py",
+  "module_sha256": "362cae133fa1b7685292bc9e9fa46ad87e3e92ec1390d4b0cf616cb3d2f0ab25",
+  "profile_path": "./work/restoration-v17/profiles/building-profiles-v2.json",
+  "profile_sha256": "850a89fabee35f6f60e979eb00bae04ff248aff3511da19131d7529f8a3b5813",
+  "profile_selector": [
+    "buildings",
+    2
+  ],
+  "source_support_path": "./work/restoration-v17/stage-qa/production-fixture-inputs/source-support.json",
+  "source_support_sha256": "2c7fbaafca5c60f5ced08acf672f8dbfce8c2055fca71467e5263f42e25a3cd4",
+  "palette_path": "./work/restoration-v17/profiles/qa-palette.json",
+  "palette_sha256": "8b834bfb063095211841f569427209d0c787f252d018295c7237074918ee914b",
+  "component_keys": {
+    "columns": [
+      "column",
+      "upper_support_column"
+    ],
+    "bases": "column_base",
+    "beams": "beam",
+    "band_walls": "upper_band_wall",
+    "band_rim": "beam",
+    "band_crossbeams": "beam",
+    "rail_panels": "front_rail",
+    "rail_posts": "front_rail_post",
+    "roof_risers": "roof_support_riser",
+    "roof_details": "roof_tile_ribs"
+  },
+  "roof_object_key": "object",
+  "axis_span_mode": "body_width_depth_are_actual_four_axis_total_spans",
+  "source_support_required_schema": {
+    "source_status": "actual_source_capture_not_official_measurement",
+    "source_part_id": "way-40632241-p0",
+    "source_component": "source_north_projection",
+    "outer_local_xy": "complete registry component ring",
+    "holes_local_xy": "complete registry holes",
+    "outer_world_xy": "complete registry component ring",
+    "holes_world_xy": "complete registry holes",
+    "provenance_path": "./work/restoration-v17/stage-qa/production-fixture-inputs/source-provenance.json",
+    "provenance_sha256": "fb53529e657efc2b33b61b07f6ef034c691ebb47ec4580bd39fa21e13068e47c"
+  },
+  "palette_required_schema": {
+    "materials": "caller material key -> rgba, metallic, roughness; actual material face assignment is tested"
+  },
+  "prohibitions": [
+    "No Blender launch during preparation",
+    "No city native open/save/render",
+    "No geometry pass before final module/profile/source/palette SHA are pinned",
+    "No module-internal roof evaluator imported for expected geometry",
+    "No profile or custom-property tags substituted for evaluated geometry proof"
+  ],
+  "transitive_source_sha256": {
+    "./work/restoration_buildings.py": "aac18ca8c219b8de544dd78d8a7b99000a4d0fe83d40553614065e0c998aaf60",
+    "./work/forbidden_city_geometry.py": "23f815fc93057a0f69b66adc25536485fc05a33935f67fb1613073963e276efc",
+    "./work/courtyard_hall_buildings.py": "5123db7be8948e9bdb4dc6d8edb712d01ad98075e5e6a40251be5aa8f666a86d",
+    "./work/four_hall_buildings.py": "1d3267d25946ecf468da3a9d60103ef522c202452f60d0e500643d14ce9dcc1a"
+  },
+  "execution_scope": "production_registered_source_factory_fixture_not_city_native",
+  "world_export_contract": {
+    "schema": "v17-stage-direct-evaluated-world-baseline/1",
+    "coordinate_space": "world",
+    "capture_method": "direct_evaluated_matrix_world_times_mesh_vertex_not_local_reprojection",
+    "strict_checker_tolerance_m": 0.0001,
+    "production_source_verified_only_after_strict_CPU": true
+  },
+  "fixture_path": "./work/restoration-v17/stage-qa/stage_fixture_v3.py",
+  "fixture_sha256": "1186b1e9b7f26b7ae12e27ef70c2baff4645da866afd75f39aed60ba3cabe781",
+  "kernel_path": "./work/restoration-v17/stage-qa/stage_geometry_kernel.py",
+  "kernel_sha256": "a264d20f6b029819ad142aa19c45ae172a6a36c13b407fdd3d20dde0adf20bd1",
+  "strict_checker_path": "./work/restoration-v17/stage-qa/check_stage_world_source.py",
+  "strict_checker_sha256": "d89db1dae5f3d910ca6ab862ce92ac761455a8bf7b96f313246b4e702d92c741"
+}

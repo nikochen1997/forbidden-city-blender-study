@@ -1,0 +1,1512 @@
+{
+  "schema": "old-stages-only-source-scope/1",
+  "stages": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "files": [
+    {
+      "path": "work/assemble_forbidden_city.py",
+      "bytes": 17056,
+      "sha256": "8de1482737065771779fa458a5aa83c1d95a4791777bdfc39740db6bcd967984",
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/build_forbidden_city_restoration_v11.py",
+      "bytes": 23337,
+      "sha256": "1ccce3fcca040d311f6c48fc52cd38cf053d484e627e20f03ad2f4a1c9eeb130",
+      "archived_stage_dependencies": [
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/build_forbidden_city_restoration_v15.py",
+      "bytes": 15861,
+      "sha256": "9fe1cf52edcf77508c2271ec150d58a7e79266ee09ebd2c664e8f553296935b1",
+      "archived_stage_dependencies": [
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/cining_tower_buildings.py",
+      "bytes": 25609,
+      "sha256": "e0148ef4c179627f2596aaefd1b14f0bc5c844df36ae9c05b0caa618c9163c28",
+      "archived_stage_dependencies": [
+        "V16"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/centered_source_projection.py",
+      "bytes": 3785,
+      "sha256": "c95194f00001e5b82236ba0e97ed93eee07852a7499201c1002689309a40d6b3",
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-production-profile/source_bounded_profile.py",
+      "bytes": 13571,
+      "sha256": "49e96d6c6d827383383cc8258627c5503a18097d49c34e7ae4c364a68d5702a1",
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-recess-adapter/check_actual_fixture.py",
+      "bytes": 16976,
+      "sha256": "8c0be7c4e0ac0850fa23d0ffb3466aa4bdeebb41c69f302f21cc10e5d0f2c4cd",
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-recess-adapter/recess_contract.py",
+      "bytes": 4965,
+      "sha256": "f3860b78254c5f7c8293f9b06c0754841ca3b6da38f250319d8a97d2a2bbebf6",
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/source-display-qualification/check_source79_display.py",
+      "bytes": 20120,
+      "sha256": "3f2e4464d1983777b50a96a952c00d36eff9ddb9ecf99b5f506d9293e730c535",
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/source-display-qualification/projected_domain_v3.py",
+      "bytes": 3698,
+      "sha256": "75cbd87c9202775e293c4ef74feafd4e4851c5a684be2020b94421e3685b5e49",
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/courtyard_hall_buildings.py",
+      "bytes": 46269,
+      "sha256": "5123db7be8948e9bdb4dc6d8edb712d01ad98075e5e6a40251be5aa8f666a86d",
+      "archived_stage_dependencies": [
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/forbidden-city-research/geospatial/model-data.json",
+      "bytes": 5216295,
+      "sha256": "06dfa30cbd6401d2b555b842c03dd47fa055a4de6024b4904b39cc2652a2248e",
+      "archived_stage_dependencies": [
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "OSM-derived-layout-database-for-ODbL-source-availability"
+    },
+    {
+      "path": "work/forbidden_city_geometry.py",
+      "bytes": 40789,
+      "sha256": "23f815fc93057a0f69b66adc25536485fc05a33935f67fb1613073963e276efc",
+      "archived_stage_dependencies": [
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/four_hall_buildings.py",
+      "bytes": 25651,
+      "sha256": "1d3267d25946ecf468da3a9d60103ef522c202452f60d0e500643d14ce9dcc1a",
+      "archived_stage_dependencies": [
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/imperial_monuments.py",
+      "bytes": 33555,
+      "sha256": "5af7e855072559b74e5b05964cad0a50420b04e152de8fc04428049ee993f47e",
+      "archived_stage_dependencies": [
+        "V17",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v14/saved-audit/saved-projection/check_saved_projection.py",
+      "bytes": 21414,
+      "sha256": "f4b46285d64ffd899888c2ea9b6bd31a047bc25fba6e860ada399adc273c323c",
+      "archived_stage_dependencies": [
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v16/saved-audit/saved_audit_core.py",
+      "bytes": 13415,
+      "sha256": "72d1fc4253231380ae8db9784a3b6a81a3f66307170e4003e85837d5a68e6ae0",
+      "archived_stage_dependencies": [
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/hall-qa/check_actual_supports_v3.py",
+      "bytes": 15743,
+      "sha256": "65e4663f3caa3724103357fde71e0fd5d2db9c561e71798a4a45775ac5f769cf",
+      "archived_stage_dependencies": [
+        "V17",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/module-qa/check_actual_exterior_supports.py",
+      "bytes": 11112,
+      "sha256": "566fc03c4044a87db6a45016219ea023adbf7ea240fd4b6b36c4097b06a194f7",
+      "archived_stage_dependencies": [
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/module-qa/fixture_profile_contract_v2.py",
+      "bytes": 4848,
+      "sha256": "c4e8c8a71e403edcd5575fd73fb4c957e44c56cc7bac7056b34070cfd92cc218",
+      "archived_stage_dependencies": [
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/formal-support-review/review_formal_supports.py",
+      "bytes": 10995,
+      "sha256": "4b732ad9896f93053b32c8dfcbc2f23918165db9bf3354be851b47da7600f790",
+      "archived_stage_dependencies": [
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/northern_court_towers.py",
+      "bytes": 32037,
+      "sha256": "e71af7ab930eb8b5e209071a8ecbed06a7fc518d7c8e732776b55c736b74a613",
+      "archived_stage_dependencies": [
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/saved-audit/evaluated_geometry_fingerprint.py",
+      "bytes": 3770,
+      "sha256": "d9eda9b306d5d27f25ab9c21e30c9173ac01ad6084b974ecdcf94aad9808a97e",
+      "archived_stage_dependencies": [
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/tower-qa/check_actual_contact_domains.py",
+      "bytes": 5422,
+      "sha256": "35107c3650e86702d2b21a30e1931390aa66a80a2b2d337bd08751bd143c4327",
+      "archived_stage_dependencies": [
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration_buildings.py",
+      "bytes": 30337,
+      "sha256": "aac18ca8c219b8de544dd78d8a7b99000a4d0fe83d40553614065e0c998aaf60",
+      "archived_stage_dependencies": [
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/square_garden_pavilions.py",
+      "bytes": 17065,
+      "sha256": "3370d6ae8fe7081f64686e4cf9ea33a192cba03d23af3433502f26662cf56d58",
+      "archived_stage_dependencies": [
+        "V16",
+        "V19",
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/theatre_stage_buildings.py",
+      "bytes": 15575,
+      "sha256": "362cae133fa1b7685292bc9e9fa46ad87e3e92ec1390d4b0cf616cb3d2f0ab25",
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/build_forbidden_city_restoration_v16.py",
+      "bytes": 11651,
+      "sha256": "0932d6dd6dcfe96f08050beceefa6af01439e5a37b20b37e59cd50daee54bdd8",
+      "original_sha256": "0932d6dd6dcfe96f08050beceefa6af01439e5a37b20b37e59cd50daee54bdd8",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V16"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/build_forbidden_city_restoration_v17_v2.py",
+      "bytes": 12626,
+      "sha256": "050213c5dc7fa7e68ca69d50cbe4be3a194b9a48059e065c5b2a5e061d14abf6",
+      "original_sha256": "050213c5dc7fa7e68ca69d50cbe4be3a194b9a48059e065c5b2a5e061d14abf6",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/build_forbidden_city_restoration_v18.py",
+      "bytes": 14163,
+      "sha256": "91fbadf405d1acc33eae9f9c25dcc136f7996747878c33a0f2abd763008329b9",
+      "original_sha256": "91fbadf405d1acc33eae9f9c25dcc136f7996747878c33a0f2abd763008329b9",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18",
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/check_actual_production.py",
+      "bytes": 13433,
+      "sha256": "0fad09058e2f802c7bfa94374da6908942952f14b46d685093f1f670b69ebd27",
+      "original_sha256": "0fad09058e2f802c7bfa94374da6908942952f14b46d685093f1f670b69ebd27",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/check_actual_production_v2.py",
+      "bytes": 13430,
+      "sha256": "a298d9785e2ede567d2398e869c457a124131092f7808bd6fc8e3921e56d1858",
+      "original_sha256": "a298d9785e2ede567d2398e869c457a124131092f7808bd6fc8e3921e56d1858",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/check_actual_production_v3.py",
+      "bytes": 13433,
+      "sha256": "9ad9bc88101557833cefbb1466e3d12ced29e7357f0d39e88811fd3c7adcb1ad",
+      "original_sha256": "9ad9bc88101557833cefbb1466e3d12ced29e7357f0d39e88811fd3c7adcb1ad",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/check_actual_production_v4.py",
+      "bytes": 15715,
+      "sha256": "e9495036de1015b7f521ff44876ee14470ae5c5272a70efc1a9f2b1f4a91ed5d",
+      "original_sha256": "e9495036de1015b7f521ff44876ee14470ae5c5272a70efc1a9f2b1f4a91ed5d",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/formal_contract.py",
+      "bytes": 8026,
+      "sha256": "06bd29c6a69b409173fe61e69905b39648aad7d409a0a37b2c9eda7b9352e2c1",
+      "original_sha256": "06bd29c6a69b409173fe61e69905b39648aad7d409a0a37b2c9eda7b9352e2c1",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/formal_contract_v2.py",
+      "bytes": 8404,
+      "sha256": "f94da3cf7d67e98de231e1ba95fe139a7b5f653d290b43e8116794b509bafd2f",
+      "original_sha256": "f94da3cf7d67e98de231e1ba95fe139a7b5f653d290b43e8116794b509bafd2f",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/make_factory_acceptance.py",
+      "bytes": 3671,
+      "sha256": "00357bbd1a9204411766d71642b81ed94770d6b8420afc6cd3ca2acc0c4af0be",
+      "original_sha256": "00357bbd1a9204411766d71642b81ed94770d6b8420afc6cd3ca2acc0c4af0be",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/make_factory_acceptance_v2.py",
+      "bytes": 3677,
+      "sha256": "035d24d037b6f19bcd012140f728d3aed032147831519e348a351d81fa17d375",
+      "original_sha256": "035d24d037b6f19bcd012140f728d3aed032147831519e348a351d81fa17d375",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/prepare_bindings.py",
+      "bytes": 3894,
+      "sha256": "446a5135c460fcdf0d92564cea16d70bfb597aa30eb207240499f43926f6d0cf",
+      "original_sha256": "446a5135c460fcdf0d92564cea16d70bfb597aa30eb207240499f43926f6d0cf",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/prepare_bindings_v2.py",
+      "bytes": 4008,
+      "sha256": "ede1fa82aa8fce14212a312b31612aa9a3342e49ed9dba8d581fe96487def913",
+      "original_sha256": "ede1fa82aa8fce14212a312b31612aa9a3342e49ed9dba8d581fe96487def913",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/run_actual_factory.py",
+      "bytes": 12347,
+      "sha256": "aa87ef17662b98e073dffd98d2aad3720ad7fe769783b8c0c17dd3377b9b22e1",
+      "original_sha256": "aa87ef17662b98e073dffd98d2aad3720ad7fe769783b8c0c17dd3377b9b22e1",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/run_actual_factory_v2.py",
+      "bytes": 12350,
+      "sha256": "990b1c9ed37e472857bf91f859957379b3ffb07ab82b960c65e07c07c3cadd1b",
+      "original_sha256": "990b1c9ed37e472857bf91f859957379b3ffb07ab82b960c65e07c07c3cadd1b",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/single-profile-v2.json",
+      "bytes": 36698,
+      "sha256": "663bb802ab4fedb222c6e953792d2d16b0a21473d0e56fe78a4b0176c59e0708",
+      "original_sha256": "1169a25c6d9296b68ed9f2c9c35496aed7c292ccf8b15a41a3efc35a1da30de4",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/stage20_scene.py",
+      "bytes": 6409,
+      "sha256": "33665fb3da23da1d2c5993c8d1f698bb0857fc6ca03901e9035718db33604362",
+      "original_sha256": "33665fb3da23da1d2c5993c8d1f698bb0857fc6ca03901e9035718db33604362",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/stage20_scene_v2.py",
+      "bytes": 6412,
+      "sha256": "50136c60a506134726a0bb91940ff8e54d89ebbf857f3e5b3891436868ca3e93",
+      "original_sha256": "50136c60a506134726a0bb91940ff8e54d89ebbf857f3e5b3891436868ca3e93",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/test_acceptance_cpu.py",
+      "bytes": 2955,
+      "sha256": "ff7b8b6c859e83deec9b8cb75c7a1cdd686dee7fba2fa5891e6e564bb0fde716",
+      "original_sha256": "ff7b8b6c859e83deec9b8cb75c7a1cdd686dee7fba2fa5891e6e564bb0fde716",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/test_acceptance_cpu_v2.py",
+      "bytes": 2964,
+      "sha256": "19f9740e36f7921ff8674586cdccea306ea3c49972e0483a5677a8740db3853f",
+      "original_sha256": "19f9740e36f7921ff8674586cdccea306ea3c49972e0483a5677a8740db3853f",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/test_entry_cpu.py",
+      "bytes": 8229,
+      "sha256": "2378c503b118828f687f50d5fcb349d0d155a1e8c019a2393db4a2ffafa5f3f8",
+      "original_sha256": "2378c503b118828f687f50d5fcb349d0d155a1e8c019a2393db4a2ffafa5f3f8",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/test_entry_cpu_v2.py",
+      "bytes": 9108,
+      "sha256": "5330e81c7a9a03060270b8a641cb0a4a358174061fdd90ea5efe61686fe0b021",
+      "original_sha256": "5330e81c7a9a03060270b8a641cb0a4a358174061fdd90ea5efe61686fe0b021",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/formal-factory/test_global_visibility_cpu.py",
+      "bytes": 3530,
+      "sha256": "be4d7beccfc79a64b167ce685807f855200671268984f8d01e09717bf3fa6bca",
+      "original_sha256": "be4d7beccfc79a64b167ce685807f855200671268984f8d01e09717bf3fa6bca",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/native-prep/produce_city_progress_v20.py",
+      "bytes": 7956,
+      "sha256": "619761f6374861b60ed451397cb894de65341e13f4b20b11144a1fcbaeb8033c",
+      "original_sha256": "619761f6374861b60ed451397cb894de65341e13f4b20b11144a1fcbaeb8033c",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/native-prep/read_saved_city_v20.py",
+      "bytes": 8312,
+      "sha256": "e4c31186a41d162ddfbcbcc46a3060dbe068365679491bb64f18e8d268bedfa0",
+      "original_sha256": "e4c31186a41d162ddfbcbcc46a3060dbe068365679491bb64f18e8d268bedfa0",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/native-prep/stage20_contract.py",
+      "bytes": 22741,
+      "sha256": "45dffe9566e5807def4b202479bc5f128c3ab5fdcf752b629c0a9f164765019c",
+      "original_sha256": "45dffe9566e5807def4b202479bc5f128c3ab5fdcf752b629c0a9f164765019c",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/native-v2/produce_city_progress_v20.py",
+      "bytes": 7956,
+      "sha256": "619761f6374861b60ed451397cb894de65341e13f4b20b11144a1fcbaeb8033c",
+      "original_sha256": "619761f6374861b60ed451397cb894de65341e13f4b20b11144a1fcbaeb8033c",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/native-v2/read_saved_city_v20.py",
+      "bytes": 8312,
+      "sha256": "e4c31186a41d162ddfbcbcc46a3060dbe068365679491bb64f18e8d268bedfa0",
+      "original_sha256": "e4c31186a41d162ddfbcbcc46a3060dbe068365679491bb64f18e8d268bedfa0",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/native-v2/stage20_contract.py",
+      "bytes": 23095,
+      "sha256": "af118e605cab9df1def2ec19424bd94b77daac9f26eb57b2b81f0c159a544e17",
+      "original_sha256": "af118e605cab9df1def2ec19424bd94b77daac9f26eb57b2b81f0c159a544e17",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/readiness-prep/generate_readiness_v2.py",
+      "bytes": 16901,
+      "sha256": "6b6ba27122042b295d88dee63fc5f7e016c816af67a03b7d83e0e9690f52f206",
+      "original_sha256": "6b6ba27122042b295d88dee63fc5f7e016c816af67a03b7d83e0e9690f52f206",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-production-profile/prepare_profile.py",
+      "bytes": 8206,
+      "sha256": "58dc9816e0fe40131fcbe8e08a3b318a7659022414132765994fa805654f0110",
+      "original_sha256": "58dc9816e0fe40131fcbe8e08a3b318a7659022414132765994fa805654f0110",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-production-profile/prepare_profile_v2.py",
+      "bytes": 8129,
+      "sha256": "583c3153a868b023879a0da652ae7b7bb204748792a7e407ca0222a06743ab3a",
+      "original_sha256": "583c3153a868b023879a0da652ae7b7bb204748792a7e407ca0222a06743ab3a",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-production-profile/production-palette.json",
+      "bytes": 3968,
+      "sha256": "b07f48e00b17d80d127ac914dc85804fdcc6d1fde2c3b1ffb0fb6dc7ad288b85",
+      "original_sha256": "b07f48e00b17d80d127ac914dc85804fdcc6d1fde2c3b1ffb0fb6dc7ad288b85",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-production-profile/production-profile-v2-CPU-01.json",
+      "bytes": 25247,
+      "sha256": "98bf496309abc5751a383da6ed090b575d88a05496fb88bd2cdb49269f5a8871",
+      "original_sha256": "98bf496309abc5751a383da6ed090b575d88a05496fb88bd2cdb49269f5a8871",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-production-profile/production-profiles-v2.json",
+      "bytes": 47419,
+      "sha256": "0d246f3c0b938d471ca0ad1500aa33696da7e9067c93f63f8ecdf9aa9a1a61e9",
+      "original_sha256": "0d246f3c0b938d471ca0ad1500aa33696da7e9067c93f63f8ecdf9aa9a1a61e9",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-production-profile/production-profiles.json",
+      "bytes": 44140,
+      "sha256": "44fd1d4f5b0383494c44db3b8883b560e0230565635fbefe891ea9c20a0d4504",
+      "original_sha256": "44fd1d4f5b0383494c44db3b8883b560e0230565635fbefe891ea9c20a0d4504",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/city-completion-v20/shouan-recess-adapter/shouan_recess_adapter_v2.py",
+      "bytes": 12110,
+      "sha256": "029f7c93f7f62d51cbd2dde859e0a3496fe64c9b0ee94422f3dd9bfc526a437a",
+      "original_sha256": "029f7c93f7f62d51cbd2dde859e0a3496fe64c9b0ee94422f3dd9bfc526a437a",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/source-display-qualification/capture_chain_v2.py",
+      "bytes": 1378,
+      "sha256": "f7459f47a06b225fc50297e30ff7daff491bb4d012478e5cd3d4b9915923059f",
+      "original_sha256": "f7459f47a06b225fc50297e30ff7daff491bb4d012478e5cd3d4b9915923059f",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/city-completion-v20/source-display-qualification/check_source79_display_v3.py",
+      "bytes": 11913,
+      "sha256": "6194d3d3aed8e3b88cf9c8de2d6308f9ea457702eb67c68e490ba8bfabbacbe9",
+      "original_sha256": "6194d3d3aed8e3b88cf9c8de2d6308f9ea457702eb67c68e490ba8bfabbacbe9",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V20"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v12/registration/probe_saved_v11.py",
+      "bytes": 15516,
+      "sha256": "001745cdd60cac927eb248304a84ee550ab291810bde7e359115afb2e9cc404c",
+      "original_sha256": "001745cdd60cac927eb248304a84ee550ab291810bde7e359115afb2e9cc404c",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17",
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v15/registration/analyze_source_candidates.py",
+      "bytes": 10257,
+      "sha256": "ee6a4ece226db75377e60e70143aceb5e26da1002cc4280e4f4d5d48fe48917a",
+      "original_sha256": "ee6a4ece226db75377e60e70143aceb5e26da1002cc4280e4f4d5d48fe48917a",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v16/prepare_profiles.py",
+      "bytes": 7332,
+      "sha256": "9cd2ae13f76bb050acf0e82e0bb415ab8016a2034fa4e40a182b542190037640",
+      "original_sha256": "9cd2ae13f76bb050acf0e82e0bb415ab8016a2034fa4e40a182b542190037640",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V16"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v16/profiles/palette.json",
+      "bytes": 602,
+      "sha256": "a499fe6050adba70fb71892a2a72d41155282b17b01ba23c21b70dace8364b1a",
+      "original_sha256": "a499fe6050adba70fb71892a2a72d41155282b17b01ba23c21b70dace8364b1a",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V16"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v16/profiles/pavilion-hall-profiles.json",
+      "bytes": 136787,
+      "sha256": "c350aa7b281281dff45efbb42e9c38d49f8cee2845dc6674a1986d098feeb103",
+      "original_sha256": "c350aa7b281281dff45efbb42e9c38d49f8cee2845dc6674a1986d098feeb103",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V16"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v16/profiles/prepare_tower_profiles.py",
+      "bytes": 8604,
+      "sha256": "5918d8a44a4282e2402a605f427de47d0268b87174077128fe3524f4226392e8",
+      "original_sha256": "5918d8a44a4282e2402a605f427de47d0268b87174077128fe3524f4226392e8",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V16"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v16/profiles/tower-profiles.json",
+      "bytes": 67918,
+      "sha256": "83d72c507a94052f5ca2d94e66d9800ed842defdcbca98372162e5db9b7cbdc6",
+      "original_sha256": "83d72c507a94052f5ca2d94e66d9800ed842defdcbca98372162e5db9b7cbdc6",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V16"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v16/registration/context-wall-profile.json",
+      "bytes": 15935,
+      "sha256": "f4704cd7b3158f0c49545bf091e5e496f3c7d64d083dd43ea7d8e0f833b9af99",
+      "original_sha256": "f4704cd7b3158f0c49545bf091e5e496f3c7d64d083dd43ea7d8e0f833b9af99",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V16"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v16/registration/patch_ciyin_context_wall_v2.py",
+      "bytes": 12772,
+      "sha256": "707620531785afd7c21c2ae273d12eab04d86a9c03ebc741185f3e9e64c6500d",
+      "original_sha256": "707620531785afd7c21c2ae273d12eab04d86a9c03ebc741185f3e9e64c6500d",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V16"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v16/registration/prepare_registered_buildings.py",
+      "bytes": 8298,
+      "sha256": "8eb9b0bd608e035fbfde56a5931b611849a8810960425cf3d9d29278c3d8d90e",
+      "original_sha256": "8eb9b0bd608e035fbfde56a5931b611849a8810960425cf3d9d29278c3d8d90e",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/context-qa/check_context_components.py",
+      "bytes": 8447,
+      "sha256": "2e051b4cc0039cbca2a5f9d76ea7609085fca98f65caae8e152a4c596da82956",
+      "original_sha256": "2e051b4cc0039cbca2a5f9d76ea7609085fca98f65caae8e152a4c596da82956",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/context-qa/test_actual_contexts.py",
+      "bytes": 21895,
+      "sha256": "056688317b87edc4301128fc5998bb141304281620df29c85418d04c16e98fc6",
+      "original_sha256": "056688317b87edc4301128fc5998bb141304281620df29c85418d04c16e98fc6",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/context_geometry_v2.py",
+      "bytes": 7444,
+      "sha256": "c4e74d847dbcef9723728c7d7404fbaad5039341281302c340da5704d082611f",
+      "original_sha256": "c4e74d847dbcef9723728c7d7404fbaad5039341281302c340da5704d082611f",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/hall-qa/test_actual_halls_v3.py",
+      "bytes": 33032,
+      "sha256": "8c39f0ecef04a2c90b7d2758e034d8b4cf6397cae83996a519cb191e635eae1a",
+      "original_sha256": "8c39f0ecef04a2c90b7d2758e034d8b4cf6397cae83996a519cb191e635eae1a",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/prepare_factory_readiness_v2.py",
+      "bytes": 2215,
+      "sha256": "0317739fa4a4de507dc0257adfeb5ba891a6f92f1339877ec75a640324213111",
+      "original_sha256": "0317739fa4a4de507dc0257adfeb5ba891a6f92f1339877ec75a640324213111",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/prepare_profiles.py",
+      "bytes": 9033,
+      "sha256": "b837047acdab51398b3090a17410aa427e72746ecbaf62177cbd276f8c149195",
+      "original_sha256": "b837047acdab51398b3090a17410aa427e72746ecbaf62177cbd276f8c149195",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/profiles/building-profiles-v3.json",
+      "bytes": 121286,
+      "sha256": "6bfd22e012990bf49d074ad7df0846ee2d7e4393b469b12cf4b00aed2efcc0c4",
+      "original_sha256": "6bfd22e012990bf49d074ad7df0846ee2d7e4393b469b12cf4b00aed2efcc0c4",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v17/profiles/palette.json",
+      "bytes": 358,
+      "sha256": "2ce6394e69e98e4b63c9a375b12ce6fea37ba66bceb4d7d3147af4c53db81b56",
+      "original_sha256": "2ce6394e69e98e4b63c9a375b12ce6fea37ba66bceb4d7d3147af4c53db81b56",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v17/profiles/qa-palette.json",
+      "bytes": 1777,
+      "sha256": "8b834bfb063095211841f569427209d0c787f252d018295c7237074918ee914b",
+      "original_sha256": "8b834bfb063095211841f569427209d0c787f252d018295c7237074918ee914b",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v17/registration/front-entry-context/concrete-profile-binding-v3.json",
+      "bytes": 5079,
+      "sha256": "5eba96383820c7a582ef2e75996de1f2c0391b4f393af8ddf76627681d076e46",
+      "original_sha256": "5eba96383820c7a582ef2e75996de1f2c0391b4f393af8ddf76627681d076e46",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v17/registration/front-entry-context/portal_actual_cpu_v4.py",
+      "bytes": 17715,
+      "sha256": "af9a8be7945fa0fc6464f80fc5cada8fb344b458e999a7b191f57c1ae6d48cf6",
+      "original_sha256": "af9a8be7945fa0fc6464f80fc5cada8fb344b458e999a7b191f57c1ae6d48cf6",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/registration/prepare_requests.py",
+      "bytes": 12557,
+      "sha256": "e78481c09aa7d1812c68fb66b8e9fb4f6e946eefa4c413dcf74f667b8299a708",
+      "original_sha256": "e78481c09aa7d1812c68fb66b8e9fb4f6e946eefa4c413dcf74f667b8299a708",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/registration/probe_current_native_v2.py",
+      "bytes": 11569,
+      "sha256": "dba4e7b7a508929edb92bd6ce6ddfb2bc84ebfa04e5c564a7d186d22a6052e8f",
+      "original_sha256": "dba4e7b7a508929edb92bd6ce6ddfb2bc84ebfa04e5c564a7d186d22a6052e8f",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/source_support_alignment.py",
+      "bytes": 2452,
+      "sha256": "00dbf32b52ec67f2e8b82fa4902af1ab2e5561fe55eaefc65c19bb0fb01cc251",
+      "original_sha256": "00dbf32b52ec67f2e8b82fa4902af1ab2e5561fe55eaefc65c19bb0fb01cc251",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/stage-qa/check_saved_source_assemblies.py",
+      "bytes": 6845,
+      "sha256": "70abaf225b2f83d3c398911f4c245d03ce5ccedfc1ffb01686a2d5a73bd61c80",
+      "original_sha256": "70abaf225b2f83d3c398911f4c245d03ce5ccedfc1ffb01686a2d5a73bd61c80",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/stage-qa/check_stage_world_source.py",
+      "bytes": 16028,
+      "sha256": "d89db1dae5f3d910ca6ab862ce92ac761455a8bf7b96f313246b4e702d92c741",
+      "original_sha256": "d89db1dae5f3d910ca6ab862ce92ac761455a8bf7b96f313246b4e702d92c741",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/stage-qa/production-fixture-inputs/bindings.final-production-v3-profile-v2.json",
+      "bytes": 3793,
+      "sha256": "e7826a74881786516fd461029110882c84cbc29b266ef3b3beb599775e115dee",
+      "original_sha256": "97bfc8a3300a427e4ae6a3b7b3d2f326d6fcd8f145b5f3c21496ae3f08c01aae",
+      "project_prefix_replacements": 12,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v17/stage-qa/production-fixture-inputs/caller-profile-v3-stage-equivalence.json",
+      "bytes": 2523,
+      "sha256": "13e3daeb3a27ab6998f156be33a4442a694197600263b795ffe1ab9531484deb",
+      "original_sha256": "f5ab802ae29c253c7b08315b259ba9aed78f5279c9a85d52cd40d8cc368a1436",
+      "project_prefix_replacements": 4,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v17/stage-qa/stage_fixture_v3.py",
+      "bytes": 40364,
+      "sha256": "1186b1e9b7f26b7ae12e27ef70c2baff4645da866afd75f39aed60ba3cabe781",
+      "original_sha256": "1186b1e9b7f26b7ae12e27ef70c2baff4645da866afd75f39aed60ba3cabe781",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v17/stage-qa/test_actual_slab_alignment.py",
+      "bytes": 12716,
+      "sha256": "3b07c9394e5e075fc49042ef65943eb51bc3f2ec68a2c17cb93824f7896b10c8",
+      "original_sha256": "3b07c9394e5e075fc49042ef65943eb51bc3f2ec68a2c17cb93824f7896b10c8",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/caller_material_overrides.py",
+      "bytes": 2392,
+      "sha256": "a35f3df5db221c4167030dbaf145ade53902ff7dfb70c0ba8c0baef38a7d9b0c",
+      "original_sha256": "a35f3df5db221c4167030dbaf145ade53902ff7dfb70c0ba8c0baef38a7d9b0c",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/connection-qa/test_actual_gate_connections.py",
+      "bytes": 19994,
+      "sha256": "7c2d4347687399ef7914ec0b6169329238132e517ce5dd510275b20f5c3307d8",
+      "original_sha256": "7c2d4347687399ef7914ec0b6169329238132e517ce5dd510275b20f5c3307d8",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/connection-qa/test_actual_gate_connections_v2.py",
+      "bytes": 24902,
+      "sha256": "e78b2a98c3510e8a344579eba041ed7a8fc26492197c2a0e89468bac73bdab57",
+      "original_sha256": "e78b2a98c3510e8a344579eba041ed7a8fc26492197c2a0e89468bac73bdab57",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/gate_wall_connections.py",
+      "bytes": 5359,
+      "sha256": "4c93f42bd7a390dd32e75b2f5101e067eaf90d6c58a2e62cefbbcffa827f733f",
+      "original_sha256": "4c93f42bd7a390dd32e75b2f5101e067eaf90d6c58a2e62cefbbcffa827f733f",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/module-qa/test_actual_exteriors.py",
+      "bytes": 41095,
+      "sha256": "437fd7df4db020d25b03ca335854e2313a06df4a32e15d7ebb8d4d09d41062d3",
+      "original_sha256": "437fd7df4db020d25b03ca335854e2313a06df4a32e15d7ebb8d4d09d41062d3",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/prepare_profiles_v1.py",
+      "bytes": 12419,
+      "sha256": "c3994b2054fbe186f5be6263be121c67bb0fbbccc811062f31cb25fa4accc770",
+      "original_sha256": "c3994b2054fbe186f5be6263be121c67bb0fbbccc811062f31cb25fa4accc770",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18",
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/profiles/building-profiles-v1.json",
+      "bytes": 237042,
+      "sha256": "043ab05ca41bcb2dafc39b7eaf85a18506822eefe85cc461a09fd817b72275d0",
+      "original_sha256": "043ab05ca41bcb2dafc39b7eaf85a18506822eefe85cc461a09fd817b72275d0",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v18/profiles/palette-v1.json",
+      "bytes": 1734,
+      "sha256": "7b1033aeb5bf197b811ebb5676e551cae34b890445319f4b47a86350e19404ca",
+      "original_sha256": "7b1033aeb5bf197b811ebb5676e551cae34b890445319f4b47a86350e19404ca",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v18/registration/gate-wall-connection/actual-qa/check_actual_connections.py",
+      "bytes": 19324,
+      "sha256": "480ce61562d06c73771dc3e53d0faa1b97b02f2d252f8b0fc7324f9a7b7a2bbc",
+      "original_sha256": "480ce61562d06c73771dc3e53d0faa1b97b02f2d252f8b0fc7324f9a7b7a2bbc",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/registration/prepare_registered_buildings.py",
+      "bytes": 14982,
+      "sha256": "c1195b5890dff0b990d4c96c3965d25beabeabef047b105fa1441cb77e224312",
+      "original_sha256": "c1195b5890dff0b990d4c96c3965d25beabeabef047b105fa1441cb77e224312",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v18/registration/probe_current_native.py",
+      "bytes": 13521,
+      "sha256": "e203447795ec592dd439de0044ebebf44fd7999f5ad52f363aa6cc981fc7659f",
+      "original_sha256": "e203447795ec592dd439de0044ebebf44fd7999f5ad52f363aa6cc981fc7659f",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V18"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/biluo-pavilion-prep/biluo_pavilion.py",
+      "bytes": 11005,
+      "sha256": "4d754e8a989f9ad863dc2dc73691b0a02c9be8e74623fb86f54658ceb133cd54",
+      "original_sha256": "4d754e8a989f9ad863dc2dc73691b0a02c9be8e74623fb86f54658ceb133cd54",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/biluo-pavilion-prep/check_actual_domains.py",
+      "bytes": 11450,
+      "sha256": "ccc075248d759f0f9552e7cb51a85f80defa9a5ab7429e54108865f423041a78",
+      "original_sha256": "ccc075248d759f0f9552e7cb51a85f80defa9a5ab7429e54108865f423041a78",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/biluo-pavilion-prep/palette-v1.json",
+      "bytes": 561,
+      "sha256": "59bcd658f6090b4b68c81a8c066b15db54eef319167ddc6b62e736318ceb7add",
+      "original_sha256": "59bcd658f6090b4b68c81a8c066b15db54eef319167ddc6b62e736318ceb7add",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v19/biluo-pavilion-prep/prepare_biluo_profile.py",
+      "bytes": 11146,
+      "sha256": "d899f7c38cbed7b7ff840012def02bdf3ffb0996afbf790767614e74b772877b",
+      "original_sha256": "d899f7c38cbed7b7ff840012def02bdf3ffb0996afbf790767614e74b772877b",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/biluo-pavilion-prep/profile-v2.json",
+      "bytes": 62397,
+      "sha256": "2f081c02d5d6414c11b6ca6221001b34279ad42b94ef78675ac9fccc9b089e9c",
+      "original_sha256": "2f081c02d5d6414c11b6ca6221001b34279ad42b94ef78675ac9fccc9b089e9c",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v19/biluo-pavilion-prep/run_actual_fixture.py",
+      "bytes": 12331,
+      "sha256": "f8220f5c30d5a7f0dbf4e4aeba305222fd788a5c8c46b83e1a10081172e8f34e",
+      "original_sha256": "f8220f5c30d5a7f0dbf4e4aeba305222fd788a5c8c46b83e1a10081172e8f34e",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/biluo-pavilion-prep/test_preparation_cpu.py",
+      "bytes": 9994,
+      "sha256": "5acc471e8651abe7e86e8fa7dac4d3156fb56be543714304d0a24d77c54ca3e7",
+      "original_sha256": "5acc471e8651abe7e86e8fa7dac4d3156fb56be543714304d0a24d77c54ca3e7",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/capture_formal_bodies_v3.py",
+      "bytes": 13811,
+      "sha256": "7cb05c0b94c36f48173dd5ad8aab1406d242966f29885a400ca303efc950966c",
+      "original_sha256": "7cb05c0b94c36f48173dd5ad8aab1406d242966f29885a400ca303efc950966c",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/check_formal_contacts.py",
+      "bytes": 3286,
+      "sha256": "964674a36c652313c0376c09871db510f63fe49822251818257737c69226fe53",
+      "original_sha256": "964674a36c652313c0376c09871db510f63fe49822251818257737c69226fe53",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/check_formal_source_domains.py",
+      "bytes": 5158,
+      "sha256": "fe897db3ca3d9e835e4608ef55df4c3d1ce2d38e4b5665239ed55739c58dfbaf",
+      "original_sha256": "fe897db3ca3d9e835e4608ef55df4c3d1ce2d38e4b5665239ed55739c58dfbaf",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/five-petal-qa/private-palette-v1.json",
+      "bytes": 481,
+      "sha256": "e80542785767a64fbd8138f011c45d15e09b026f6cf60963ee0f33f3529a73dc",
+      "original_sha256": "e80542785767a64fbd8138f011c45d15e09b026f6cf60963ee0f33f3529a73dc",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v19/five-petal-qa/private-profile-v1.json",
+      "bytes": 28190,
+      "sha256": "cc99122d76142ac53d7ed05701927c1ad1e558add6c6683e8334c8ae6a62ad86",
+      "original_sha256": "cc99122d76142ac53d7ed05701927c1ad1e558add6c6683e8334c8ae6a62ad86",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v19/five_petal_roofs.py",
+      "bytes": 13964,
+      "sha256": "dc28a947be149a4f8faef91b249024b719769947f8c9a6da5e338e581d867271",
+      "original_sha256": "dc28a947be149a4f8faef91b249024b719769947f8c9a6da5e338e581d867271",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/formal-support-review/fuwang_support_review.py",
+      "bytes": 19128,
+      "sha256": "3551a5d147a74e4217f276d716711c5be41a2faeea3a4eb8dcacb29e33386d1b",
+      "original_sha256": "3551a5d147a74e4217f276d716711c5be41a2faeea3a4eb8dcacb29e33386d1b",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/fuwang-profile-prep/prepared-01/production-palette.json",
+      "bytes": 3209,
+      "sha256": "50d1d537e90b6dc7ae6c72f874bd48bae4cd554f1e68b8f9ca2b86211d693540",
+      "original_sha256": "50d1d537e90b6dc7ae6c72f874bd48bae4cd554f1e68b8f9ca2b86211d693540",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v19/fuwang-profile-prep/prepared-01/production-profiles.json",
+      "bytes": 30549,
+      "sha256": "a9d8f25cc1c346167d7d18f4e9d1b1b430ac45885e317d46cbe0ab58e3f82db5",
+      "original_sha256": "a9d8f25cc1c346167d7d18f4e9d1b1b430ac45885e317d46cbe0ab58e3f82db5",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v19/hall-profile-prep/building-profiles-v1.json",
+      "bytes": 154483,
+      "sha256": "1c5a96b76fd47b042801795728399171bbf7c7bff24dafecb3e309d62ddc5672",
+      "original_sha256": "1c5a96b76fd47b042801795728399171bbf7c7bff24dafecb3e309d62ddc5672",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v19/hall-profile-prep/palette-v1.json",
+      "bytes": 984,
+      "sha256": "4bd454267656a98bef1bed3b9fd176a5e60cae6b1e25196efa80e52ff51568f2",
+      "original_sha256": "4bd454267656a98bef1bed3b9fd176a5e60cae6b1e25196efa80e52ff51568f2",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "profiles_palettes"
+    },
+    {
+      "path": "work/restoration-v19/hall-profile-prep/prepare_hall_profiles.py",
+      "bytes": 23511,
+      "sha256": "1dea011f5d02efdce5027675da6f910b45ae0914715754da88788cbeec769ed8",
+      "original_sha256": "1dea011f5d02efdce5027675da6f910b45ae0914715754da88788cbeec769ed8",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/integration-preflight/prepare_readiness.py",
+      "bytes": 18810,
+      "sha256": "105c97cb930b6ed063d83d8db825b917d46adab105d897e460df4cb32c8d2cd7",
+      "original_sha256": "105c97cb930b6ed063d83d8db825b917d46adab105d897e460df4cb32c8d2cd7",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/juanqin_closure_adapter.py",
+      "bytes": 4946,
+      "sha256": "8d23a76deab54030dd4978f6ed367625055e3e4bd3cda25f2cba3ed5a421012c",
+      "original_sha256": "8d23a76deab54030dd4978f6ed367625055e3e4bd3cda25f2cba3ed5a421012c",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/juanqin_closure_adapter_v2.py",
+      "bytes": 5711,
+      "sha256": "76df84e167b9962e9e269af1748bf60037aaae3fe4d34618ea7abb19de2164d2",
+      "original_sha256": "76df84e167b9962e9e269af1748bf60037aaae3fe4d34618ea7abb19de2164d2",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/produce_city_progress_v19.py",
+      "bytes": 18275,
+      "sha256": "1795f7248170bfdf9568a0eca2a85551a22e0ac915b4feb9799aeb4e1be697d6",
+      "original_sha256": "1795f7248170bfdf9568a0eca2a85551a22e0ac915b4feb9799aeb4e1be697d6",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/progress-source-qualification/qualify_progress_sources.py",
+      "bytes": 15186,
+      "sha256": "95ba089f1c3fdec2ff7f48199420917e622c2a1806eb3df9f16fb11e173e484f",
+      "original_sha256": "95ba089f1c3fdec2ff7f48199420917e622c2a1806eb3df9f16fb11e173e484f",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/registration/prepare_requests.py",
+      "bytes": 5660,
+      "sha256": "19c54054073cfe945b923bc741a1ad061f823610c28892ed050c00088b889d6f",
+      "original_sha256": "19c54054073cfe945b923bc741a1ad061f823610c28892ed050c00088b889d6f",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/registration/probe_contract.py",
+      "bytes": 3630,
+      "sha256": "c43e91b0d62e88b0be83eea7709235ed2f5fda78350c812d597d1ce8800e17bc",
+      "original_sha256": "c43e91b0d62e88b0be83eea7709235ed2f5fda78350c812d597d1ce8800e17bc",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/registration/probe_current_native.py",
+      "bytes": 16634,
+      "sha256": "5843f840b2fe6062c18cdb49301124de80baf8ed6e3a0845bb585c5dbf2762ad",
+      "original_sha256": "5843f840b2fe6062c18cdb49301124de80baf8ed6e3a0845bb585c5dbf2762ad",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v19/scene_assemblies.py",
+      "bytes": 4873,
+      "sha256": "bb3ddf117c2e1eaee9ac6e2ca3fa5a49e34480e95c94133938c2838600c575e8",
+      "original_sha256": "bb3ddf117c2e1eaee9ac6e2ca3fa5a49e34480e95c94133938c2838600c575e8",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    },
+    {
+      "path": "work/restoration-v8/module-research/copy-boolean/test_copy_boolean.py",
+      "bytes": 30464,
+      "sha256": "57e52b7bddf5de246a3b31e3c2c2916ed07bbfeda579104d0bf11d741907e2ed",
+      "original_sha256": "57e52b7bddf5de246a3b31e3c2c2916ed07bbfeda579104d0bf11d741907e2ed",
+      "project_prefix_replacements": 0,
+      "archived_stage_dependencies": [
+        "V17",
+        "V19"
+      ],
+      "scope_basis": "source_python"
+    }
+  ],
+  "source_count": 136,
+  "direct_dependency_file_count": 135,
+  "ODbL_layout_database_count": 1,
+  "current_stage_artifacts_included": false,
+  "excluded_current_scope_paths": [
+    "work/whole-city-coverage/coverage-gap-ledger-v21-progress.json"
+  ]
+}

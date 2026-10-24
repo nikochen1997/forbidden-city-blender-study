@@ -1,0 +1,76 @@
+{
+  "schema": "five-old-stage-archive-index/1",
+  "stages": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "assets": [
+    {
+      "stage": 16,
+      "asset_name": "forbidden-city-v16-process.zip",
+      "bytes": 197811729,
+      "sha256": "336b7e1efb50ec6f3000c74c61c897df29aaa2098f4502bde3b726aaf7b69b12",
+      "member_count": 155,
+      "public_model_sha256": "64bffda009fa006af9909e83e89d74b453694918974d28e90fa6651f5eba4a72",
+      "original_model_sha256": "2d020dc62347fbaa84ec7466f40f2ddc9d2fa755c007ac7fc043ef6fd3d0aeb9",
+      "original_model_bytes": 628959043,
+      "all_local_zip_members_decompressed_and_hash_verified": true,
+      "selected_stage_image_count": 10
+    },
+    {
+      "stage": 17,
+      "asset_name": "forbidden-city-v17-process.zip",
+      "bytes": 195546491,
+      "sha256": "b6826084a1d1e46e534cbf875793c737f28975ba1a4a20744cbc5bdbf6efd12e",
+      "member_count": 152,
+      "public_model_sha256": "7162b5dfed07053f0c2f1b404a6a35f059f7c97830a5a969b538cbef911b8487",
+      "original_model_sha256": "7d20ca54b3e10efb9ad2ea98d750f78530c2e47325d2a0fda4d7002024a25782",
+      "original_model_bytes": 642435617,
+      "all_local_zip_members_decompressed_and_hash_verified": true,
+      "selected_stage_image_count": 7
+    },
+    {
+      "stage": 18,
+      "asset_name": "forbidden-city-v18-process.zip",
+      "bytes": 200695627,
+      "sha256": "4b1f988dd0bf092d8e49bd8a28e10ce543a664b458748b1c5e6dd6ba6e2755fe",
+      "member_count": 152,
+      "public_model_sha256": "2477aba4842b920a748e646f83c289533c4b1cbd066d16fe5ea206ceac3a40a7",
+      "original_model_sha256": "1b3d14372e4756432c1f6513e59217a0410afe85b53ca69849cec338be502122",
+      "original_model_bytes": 661831955,
+      "all_local_zip_members_decompressed_and_hash_verified": true,
+      "selected_stage_image_count": 7
+    },
+    {
+      "stage": 19,
+      "asset_name": "forbidden-city-v19-process.zip",
+      "bytes": 216986889,
+      "sha256": "c20a9c62056fc1e0527cb653967ad42622dfc62d666b905e32b5798da6323b60",
+      "member_count": 152,
+      "public_model_sha256": "85103a5a8c06c0f00d15d0e1f7392ddf47515fcb4542f0a5454638cf354a8fb0",
+      "original_model_sha256": "c2e981596258654e9f15ff9ab60f065d5b068a7f72b4a1cd39cf343203f1f125",
+      "original_model_bytes": 673371822,
+      "all_local_zip_members_decompressed_and_hash_verified": true,
+      "selected_stage_image_count": 7
+    },
+    {
+      "stage": 20,
+      "asset_name": "forbidden-city-v20-process.zip",
+      "bytes": 219161156,
+      "sha256": "5fe1708b0ae30fe283571b6abb3e60de865878135106a59049808135cfcf93c0",
+      "member_count": 152,
+      "public_model_sha256": "625e4020c6aee45241dbf23aa028ed8de5b91fefa08b7015a04357b867e24cef",
+      "original_model_sha256": "c66042495e3392c5b12fe4e5c082aa7ada58d0ac2ee498b9e85a9af50b0adffb",
+      "original_model_bytes": 679033336,
+      "all_local_zip_members_decompressed_and_hash_verified": true,
+      "selected_stage_image_count": 7
+    }
+  ],
+  "large_remote_downloads_performed": 0,
+  "current_models_included": false,
+  "private_recovery_data_included": false,
+  "all_archives_locally_verified": true
+}

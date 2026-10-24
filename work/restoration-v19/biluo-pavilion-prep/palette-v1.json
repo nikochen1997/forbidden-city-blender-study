@@ -1,0 +1,36 @@
+{
+  "scope": "Official documentary roof-color categories only; all RGBA/finish numerical controls unmeasured_study; unqualified support/columns neutral",
+  "materials": {
+    "jade_green": [
+      0.025,
+      0.22,
+      0.12,
+      1
+    ],
+    "peacock_blue": [
+      0.018,
+      0.2,
+      0.25,
+      1
+    ],
+    "amethyst_purple": [
+      0.2,
+      0.065,
+      0.17,
+      1
+    ],
+    "neutral": [
+      0.1,
+      0.1,
+      0.1,
+      1
+    ],
+    "other_neutral": [
+      0.15,
+      0.15,
+      0.15,
+      1
+    ]
+  },
+  "third_party_cost": 0
+}

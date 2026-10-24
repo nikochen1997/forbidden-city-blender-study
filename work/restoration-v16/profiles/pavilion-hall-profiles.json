@@ -1,0 +1,3768 @@
+{
+  "schema": "garden-source-qualified-profile-controls/v16",
+  "buildings": [
+    {
+      "building_id": "huifengting",
+      "name_zh": "惠风亭",
+      "source_part_id": "way-40627622-p0",
+      "original_source_record": {
+        "id": "way-40627622-p0",
+        "osm_type": "way",
+        "osm_id": "40627622",
+        "name": "惠风亭",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -734.003945,
+            398.399703
+          ],
+          [
+            -733.713982,
+            390.960458
+          ],
+          [
+            -724.480647,
+            391.325985
+          ],
+          [
+            -724.77062,
+            398.754127
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40627622"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "惠风亭",
+          "name:vi": "Huệ Phong Đình",
+          "name:zh": "惠风亭"
+        },
+        "area_m2": 68.74212868703795,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "8e7e6204d6c2f3aba7a4f8a9784361030af44d7c79bd2ef4e087b63813d7ed4b",
+      "source_polygon_world": [
+        [
+          -734.003945,
+          398.399703
+        ],
+        [
+          -733.713982,
+          390.960458
+        ],
+        [
+          -724.480647,
+          391.325985
+        ],
+        [
+          -724.77062,
+          398.754127
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          -4.6190238856216,
+          3.7224348849344615
+        ],
+        [
+          -4.619023885621629,
+          -3.7224589834422805
+        ],
+        [
+          4.621541762975811,
+          -3.7168283604609185
+        ],
+        [
+          4.621099332002741,
+          3.7169713218783604
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -729.243444802264,
+        394.85999383173845,
+        0.0
+      ],
+      "rotation_z_rad": 0.038957756092241336,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "south",
+      "source_components": [
+        {
+          "component_id": "main",
+          "source_polygon_world": [
+            [
+              -734.003945,
+              398.399703
+            ],
+            [
+              -733.713982,
+              390.960458
+            ],
+            [
+              -724.480647,
+              391.325985
+            ],
+            [
+              -724.77062,
+              398.754127
+            ]
+          ],
+          "source_holes_world": [],
+          "source_polygon_local": [
+            [
+              -4.6190238856216,
+              3.7224348849344615
+            ],
+            [
+              -4.619023885621629,
+              -3.7224589834422805
+            ],
+            [
+              4.621541762975811,
+              -3.7168283604609185
+            ],
+            [
+              4.621099332002741,
+              3.7169713218783604
+            ]
+          ],
+          "source_holes_local": [],
+          "anchor": [
+            -729.243444802264,
+            394.85999383173845,
+            0.0
+          ],
+          "rotation_z_rad": 0.038957756092241336,
+          "semantic_front": "negative-y",
+          "study_front_cardinal": "south",
+          "frame_method": "Fullcomponentcentroid and sourceMRR edge nearest declaredqualifiedfront; no measuredazimuth.",
+          "study_body_width_m": 6.193848822615963,
+          "study_body_depth_m": 6.193848822615963,
+          "study_body_square": true,
+          "study_roof_reference_envelope_width_m": 8.926565693787602,
+          "study_roof_reference_envelope_depth_m": 7.193848822615963,
+          "parameter_scope": "ALL metricvalues unmeasured studies derived from sourcecontext; not publishedmeasurements or sourceflat6mheight.",
+          "source_containment_proof": {
+            "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+            "coordinate_clearance_inset_m": 0.12,
+            "reserved_support_margin_m": 0.5,
+            "safe_rectangle_local": [
+              [
+                4.463282846893801,
+                -3.5969244113079815
+              ],
+              [
+                4.463282846893801,
+                3.5969244113079815
+              ],
+              [
+                -4.463282846893801,
+                3.5969244113079815
+              ],
+              [
+                -4.463282846893801,
+                -3.5969244113079815
+              ]
+            ],
+            "body_rectangle_local": [
+              [
+                3.0969244113079815,
+                -3.0969244113079815
+              ],
+              [
+                3.0969244113079815,
+                3.0969244113079815
+              ],
+              [
+                -3.0969244113079815,
+                3.0969244113079815
+              ],
+              [
+                -3.0969244113079815,
+                -3.0969244113079815
+              ]
+            ],
+            "complete_body_plus_support_envelope_local": [
+              [
+                3.5969244113079815,
+                -3.5969244113079815
+              ],
+              [
+                -3.5969244113079815,
+                -3.5969244113079815
+              ],
+              [
+                -3.5969244113079815,
+                3.5969244113079815
+              ],
+              [
+                3.5969244113079815,
+                3.5969244113079815
+              ]
+            ],
+            "body_plus_support_outside_source_area_m2": 0.0,
+            "full_source_covers_body_plus_support": true
+          }
+        }
+      ],
+      "body_study_component_id": "main",
+      "study_body_width_m": 6.193848822615963,
+      "study_body_depth_m": 6.193848822615963,
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            4.463282846893801,
+            -3.5969244113079815
+          ],
+          [
+            4.463282846893801,
+            3.5969244113079815
+          ],
+          [
+            -4.463282846893801,
+            3.5969244113079815
+          ],
+          [
+            -4.463282846893801,
+            -3.5969244113079815
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            3.0969244113079815,
+            -3.0969244113079815
+          ],
+          [
+            3.0969244113079815,
+            3.0969244113079815
+          ],
+          [
+            -3.0969244113079815,
+            3.0969244113079815
+          ],
+          [
+            -3.0969244113079815,
+            -3.0969244113079815
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            3.5969244113079815,
+            -3.5969244113079815
+          ],
+          [
+            -3.5969244113079815,
+            -3.5969244113079815
+          ],
+          [
+            -3.5969244113079815,
+            3.5969244113079815
+          ],
+          [
+            3.5969244113079815,
+            3.5969244113079815
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "source_actual_actor_names": [
+        "way-40627622-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40627622-p0_原轮廓主体"
+      ],
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "typed_factual_source_fields": {
+        "current_presence": {
+          "value": true,
+          "source_ids": [
+            "jia_2021"
+          ],
+          "locator": "PDF P5,P12",
+          "evidence_class": "primary_text",
+          "temporal_scope": "extant_original_fabric_reported_2021",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "fabric_status": {
+          "value": "survived_1923_original_building_not_garden_reconstruction",
+          "source_ids": [
+            "jia_2021"
+          ],
+          "locator": "PDF P5,P12",
+          "evidence_class": "primary_text",
+          "temporal_scope": "extant_original_fabric_reported_2021",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "relative_position": {
+          "value": "courtyard_center_north_of_jianfugong_main_south_of_northern_red_wall",
+          "source_ids": [
+            "jianfu_article"
+          ],
+          "locator": "正文第4段及惠风亭词条",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "plan_shape": {
+          "value": "square",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "published_bays_each_face": {
+          "value": 3,
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_type": {
+          "value": "four_sided_pyramidal",
+          "source_ids": [
+            "huifeng_lemma",
+            "pyramidal_term"
+          ],
+          "locator": "242224 named text: square plan plus pyramidal roof;241403 generic roof terminology",
+          "evidence_class": "qualified_textual_geometry",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Four-sided classification is a qualified geometric reading of the named square/pyramidal description, not an individual measured roof plan."
+        },
+        "eaves_tiers": {
+          "value": 2,
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "重檐实名描述",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_tile_color": {
+          "value": "purple",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_trim_color": {
+          "value": "peacock_blue",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "platform_type_material": {
+          "value": "white_stone_xumizuo",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "platform_balustrade": {
+          "value": "white_stone_panels_and_cloud_pattern_posts",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "occupied_storeys": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Two eaves tiers do not establish two occupied floors."
+        },
+        "wall_or_glazing_enclosure": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Complete allfourface enclosure schedule remains unknown; visible frontal bays in official2010 figure13 are open. Do not make a continuous grey front wall or copy Linxi glazing."
+        },
+        "doors_windows_leaf_counts": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No aperture schedule; do not mirror another pavilion."
+        },
+        "top_finial_material_or_color": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Not described in the read building-specific text."
+        },
+        "current_measured_width_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_depth_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_body_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_roof_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_platform_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_column_bay_widths_x_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_column_bay_widths_y_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_front_azimuth_deg": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "published_roof_type_wording": {
+          "value": "重檐攒尖式顶",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "published_bays_x": {
+          "value": 3,
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma: each face three bays",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Two plan axes follow the square/every-face wording; individual column spacing and actual column count remain unmeasured."
+        },
+        "published_bays_y": {
+          "value": 3,
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma: each face three bays",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Two plan axes follow the square/every-face wording; individual column spacing and actual column count remain unmeasured."
+        },
+        "platform_material": {
+          "value": "white_stone",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "The source says white stone. It does not independently specify a mineral identification of white marble."
+        },
+        "platform_type": {
+          "value": "xumizuo",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "balustrade_panels_material": {
+          "value": "white_stone",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "balustrade_posts_motif": {
+          "value": "cloud_pattern",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Cloud motif modifies posts; do not relabel the unrecorded complete panel carving as measured cloud-pattern panels."
+        },
+        "platform_and_perimeter_rail_relation": {
+          "value": "balustrade_panels_and_posts_surround_white_stone_xumizuo_platform",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "The surrounding relation is explicit. Exact stair openings, counts and structural connections are not stated."
+        },
+        "main_hall_relative_axis_sequence": {
+          "value": [
+            "fuchendian",
+            "jianfugong_main",
+            "huifengting",
+            "jingyixuan"
+          ],
+          "source_ids": [
+            "jianfu_article"
+          ],
+          "locator": "main text lines194-196",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Named courtyard sequence only, not a surveyed world transform or automatic source-geometry identity."
+        },
+        "enclosure_fully_open": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "One published2010 frontal photograph confirms visible frontal spaces open between posts; allfourfaces fullyopen remains unverified. No complete enclosure or aperture schedule may be inferred."
+        },
+        "upper_occupied_floor_present": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Two roof eaves tiers are not evidence for a second usable floor, stair, balcony or complete occupied slab."
+        },
+        "upper_floor_slab_present": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No Huifeng-specific current section or text establishes a usable intermediate slab. A numerical construction band is not an occupied floor."
+        },
+        "upper_tier_enclosure": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Upper belt/clerestory/open gaps and any shutter/window schedule not established by a Huifeng-specific current section/photo."
+        },
+        "upper_tier_column_bays_x": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Every-face3-bay wording is for the pavilion as a whole; do not duplicate it as an independently documented upper-column grid."
+        },
+        "upper_tier_column_bays_y": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Every-face3-bay wording is for the pavilion as a whole; do not duplicate it as an independently documented upper-column grid."
+        },
+        "lower_eave_annular_physical_construction": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "A ring-shaped lower roof is a model implementation choice for two eaves, not an individually measured construction assertion from the read sources."
+        },
+        "upper_roof_support_path": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No measured Huifeng section establishes inner-column positions, tie beams, dougong arrangement, upper bearing joints or concealment details."
+        },
+        "dougong_presence_and_type": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Do not copy the Jianfu main hall dougong wording or Jiaotai five-step type to this separate pavilion."
+        },
+        "visible_structural_column_count": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Three bays per face do not establish the complete structural/interior post count without a current plan."
+        },
+        "perimeter_step_directions": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No read building-specific source establishes stairs on all four faces or any exact stair count."
+        },
+        "balustrade_panel_count": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "White-stone surrounding rail is documented; count and exact openings remain unknown."
+        },
+        "balustrade_post_count": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Do not infer exact post count from three structural bays."
+        },
+        "balustrade_panel_carving_motif": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Only posts are explicitly cloud-pattern in the named source; complete panel relief is unestablished."
+        },
+        "roof_finial_shape": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "A generic pyramidal-roof definition mentions a bottle finial, but Huifeng-specific current finial shape was not inspected."
+        },
+        "roof_finial_material": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Generic metal/glazed finial possibilities are not a Huifeng-specific material fact."
+        },
+        "roof_finial_color": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No inspected Huifeng-specific current colour evidence for the finial."
+        },
+        "ceiling_type_and_zaojing": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No Huifeng-specific current ceiling or painted/sculpted caisson evidence. Do not transfer Linxi painted ceiling."
+        },
+        "beam_paintwork_pattern": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No Huifeng-specific complete paintwork scheme established."
+        },
+        "roof_ridge_ornament_count": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No Huifeng-specific complete ridge-beast or decorative count established."
+        },
+        "source_proxy_height_as_real_pavilion_height": {
+          "value": false,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "scope_guardrail",
+          "temporal_scope": "modelling_guardrail",
+          "measurement_status": "not_a_measurement",
+          "note": "No OSM/source display height may become a published individual pavilion height."
+        },
+        "current_measured_upper_eave_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current individual-building metric established."
+        },
+        "current_measured_lower_eave_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current individual-building metric established."
+        },
+        "current_measured_roof_slope": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No measured slope or eave curvature established."
+        },
+        "current_measured_finial_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No measured finial dimension established."
+        },
+        "published_individual_building_dimensions_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "The main courtyard approximately21m by morethan110m, other garden flowerbeds and movable stones are not pavilion dimensions."
+        },
+        "visible_front_bays_open_between_posts": {
+          "value": true,
+          "source_ids": [
+            "wang_zilin_2010_figure13"
+          ],
+          "locator": "PDF page11 of14, printed202-203 spread; rightpage203 figure13 caption惠风亭",
+          "evidence_class": "qualified_visual",
+          "temporal_scope": "published2010_photo_date_unknown",
+          "measurement_status": "unmeasured_visual",
+          "note": "Visible frontal ground-level spaces between columns show the rear courtyard and red gate. This excludes a continuous solid infill wall in these visible bays, but does not establish all four faces or a complete door/rail schedule."
+        },
+        "visible_frontal_stair_approach": {
+          "value": true,
+          "source_ids": [
+            "wang_zilin_2010_figure13"
+          ],
+          "locator": "PDF page11 of14, printed202-203 spread; rightpage203 figure13 caption惠风亭",
+          "evidence_class": "qualified_visual",
+          "temporal_scope": "published2010_photo_date_unknown",
+          "measurement_status": "unmeasured_visual",
+          "note": "Central frontal stone stair approach is visible, with stone balustrades on both flanks. Exact stair count, other approach directions, dimensions and carved detail remain unknown."
+        },
+        "visible_two_roof_eaves": {
+          "value": true,
+          "source_ids": [
+            "wang_zilin_2010_figure13"
+          ],
+          "locator": "PDF page11 of14, printed202-203 spread; rightpage203 figure13 caption惠风亭",
+          "evidence_class": "qualified_visual",
+          "temporal_scope": "published2010_photo_date_unknown",
+          "measurement_status": "unmeasured_visual",
+          "note": "Two horizontal eaves lines and central pyramidal upper roof are visible. This image does not prove an occupied upper floor or reveal concealed support geometry."
+        },
+        "visible_central_roof_finial": {
+          "value": true,
+          "source_ids": [
+            "wang_zilin_2010_figure13"
+          ],
+          "locator": "PDF page11 of14, printed202-203 spread; rightpage203 figure13 caption惠风亭",
+          "evidence_class": "qualified_visual",
+          "temporal_scope": "published2010_photo_date_unknown",
+          "measurement_status": "unmeasured_visual",
+          "note": "Small central finial silhouette is visible; detailed form, material, colour and metric size remain unestablished."
+        }
+      },
+      "source_mapping_scope": "Qualifiedofficialname/relativepositionjoin; source3Dandallmetriccontrol notmuseumcurrentfieldmeasurements.",
+      "metric_scope": "unmeasured_study",
+      "source6m_proxy_height_is_real_building_height": false,
+      "occupied_storeys_must_follow_facts_not_source_height": true,
+      "measured_world_azimuth": null,
+      "third_party_cost": 0,
+      "human_approval": "pending",
+      "builder": "pavilion",
+      "bays_x": 3,
+      "bays_y": 3,
+      "occupied_storeys": null,
+      "reference_floor_count": 1,
+      "known_facts": {
+        "current_presence": {
+          "value": true,
+          "source_ids": [
+            "jia_2021"
+          ],
+          "locator": "PDF P5,P12",
+          "evidence_class": "primary_text",
+          "temporal_scope": "extant_original_fabric_reported_2021",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "fabric_status": {
+          "value": "survived_1923_original_building_not_garden_reconstruction",
+          "source_ids": [
+            "jia_2021"
+          ],
+          "locator": "PDF P5,P12",
+          "evidence_class": "primary_text",
+          "temporal_scope": "extant_original_fabric_reported_2021",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "relative_position": {
+          "value": "courtyard_center_north_of_jianfugong_main_south_of_northern_red_wall",
+          "source_ids": [
+            "jianfu_article"
+          ],
+          "locator": "正文第4段及惠风亭词条",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "plan_shape": {
+          "value": "square",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "published_bays_each_face": {
+          "value": 3,
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_type": {
+          "value": "four_sided_pyramidal",
+          "source_ids": [
+            "huifeng_lemma",
+            "pyramidal_term"
+          ],
+          "locator": "242224 named text: square plan plus pyramidal roof;241403 generic roof terminology",
+          "evidence_class": "qualified_textual_geometry",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Four-sided classification is a qualified geometric reading of the named square/pyramidal description, not an individual measured roof plan."
+        },
+        "eaves_tiers": {
+          "value": 2,
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "重檐实名描述",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_tile_color": {
+          "value": "purple",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_trim_color": {
+          "value": "peacock_blue",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "platform_type_material": {
+          "value": "white_stone_xumizuo",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "platform_balustrade": {
+          "value": "white_stone_panels_and_cloud_pattern_posts",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "实名词条正文",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "occupied_storeys": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Two eaves tiers do not establish two occupied floors."
+        },
+        "wall_or_glazing_enclosure": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Complete allfourface enclosure schedule remains unknown; visible frontal bays in official2010 figure13 are open. Do not make a continuous grey front wall or copy Linxi glazing."
+        },
+        "doors_windows_leaf_counts": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No aperture schedule; do not mirror another pavilion."
+        },
+        "top_finial_material_or_color": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Not described in the read building-specific text."
+        },
+        "current_measured_width_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_depth_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_body_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_roof_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_platform_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_column_bay_widths_x_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_column_bay_widths_y_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "current_measured_front_azimuth_deg": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-building value established in the read primary sources."
+        },
+        "published_roof_type_wording": {
+          "value": "重檐攒尖式顶",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "published_bays_x": {
+          "value": 3,
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma: each face three bays",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Two plan axes follow the square/every-face wording; individual column spacing and actual column count remain unmeasured."
+        },
+        "published_bays_y": {
+          "value": 3,
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma: each face three bays",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Two plan axes follow the square/every-face wording; individual column spacing and actual column count remain unmeasured."
+        },
+        "platform_material": {
+          "value": "white_stone",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "The source says white stone. It does not independently specify a mineral identification of white marble."
+        },
+        "platform_type": {
+          "value": "xumizuo",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "balustrade_panels_material": {
+          "value": "white_stone",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "balustrade_posts_motif": {
+          "value": "cloud_pattern",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Cloud motif modifies posts; do not relabel the unrecorded complete panel carving as measured cloud-pattern panels."
+        },
+        "platform_and_perimeter_rail_relation": {
+          "value": "balustrade_panels_and_posts_surround_white_stone_xumizuo_platform",
+          "source_ids": [
+            "huifeng_lemma"
+          ],
+          "locator": "named lemma main text, line153",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "The surrounding relation is explicit. Exact stair openings, counts and structural connections are not stated."
+        },
+        "main_hall_relative_axis_sequence": {
+          "value": [
+            "fuchendian",
+            "jianfugong_main",
+            "huifengting",
+            "jingyixuan"
+          ],
+          "source_ids": [
+            "jianfu_article"
+          ],
+          "locator": "main text lines194-196",
+          "evidence_class": "primary_text",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Named courtyard sequence only, not a surveyed world transform or automatic source-geometry identity."
+        },
+        "enclosure_fully_open": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "One published2010 frontal photograph confirms visible frontal spaces open between posts; allfourfaces fullyopen remains unverified. No complete enclosure or aperture schedule may be inferred."
+        },
+        "upper_occupied_floor_present": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Two roof eaves tiers are not evidence for a second usable floor, stair, balcony or complete occupied slab."
+        },
+        "upper_floor_slab_present": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No Huifeng-specific current section or text establishes a usable intermediate slab. A numerical construction band is not an occupied floor."
+        },
+        "upper_tier_enclosure": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Upper belt/clerestory/open gaps and any shutter/window schedule not established by a Huifeng-specific current section/photo."
+        },
+        "upper_tier_column_bays_x": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Every-face3-bay wording is for the pavilion as a whole; do not duplicate it as an independently documented upper-column grid."
+        },
+        "upper_tier_column_bays_y": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Every-face3-bay wording is for the pavilion as a whole; do not duplicate it as an independently documented upper-column grid."
+        },
+        "lower_eave_annular_physical_construction": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "A ring-shaped lower roof is a model implementation choice for two eaves, not an individually measured construction assertion from the read sources."
+        },
+        "upper_roof_support_path": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No measured Huifeng section establishes inner-column positions, tie beams, dougong arrangement, upper bearing joints or concealment details."
+        },
+        "dougong_presence_and_type": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Do not copy the Jianfu main hall dougong wording or Jiaotai five-step type to this separate pavilion."
+        },
+        "visible_structural_column_count": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Three bays per face do not establish the complete structural/interior post count without a current plan."
+        },
+        "perimeter_step_directions": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No read building-specific source establishes stairs on all four faces or any exact stair count."
+        },
+        "balustrade_panel_count": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "White-stone surrounding rail is documented; count and exact openings remain unknown."
+        },
+        "balustrade_post_count": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Do not infer exact post count from three structural bays."
+        },
+        "balustrade_panel_carving_motif": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Only posts are explicitly cloud-pattern in the named source; complete panel relief is unestablished."
+        },
+        "roof_finial_shape": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "A generic pyramidal-roof definition mentions a bottle finial, but Huifeng-specific current finial shape was not inspected."
+        },
+        "roof_finial_material": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "Generic metal/glazed finial possibilities are not a Huifeng-specific material fact."
+        },
+        "roof_finial_color": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No inspected Huifeng-specific current colour evidence for the finial."
+        },
+        "ceiling_type_and_zaojing": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No Huifeng-specific current ceiling or painted/sculpted caisson evidence. Do not transfer Linxi painted ceiling."
+        },
+        "beam_paintwork_pattern": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No Huifeng-specific complete paintwork scheme established."
+        },
+        "roof_ridge_ornament_count": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No Huifeng-specific complete ridge-beast or decorative count established."
+        },
+        "source_proxy_height_as_real_pavilion_height": {
+          "value": false,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "scope_guardrail",
+          "temporal_scope": "modelling_guardrail",
+          "measurement_status": "not_a_measurement",
+          "note": "No OSM/source display height may become a published individual pavilion height."
+        },
+        "current_measured_upper_eave_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current individual-building metric established."
+        },
+        "current_measured_lower_eave_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No current individual-building metric established."
+        },
+        "current_measured_roof_slope": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No measured slope or eave curvature established."
+        },
+        "current_measured_finial_height_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "No measured finial dimension established."
+        },
+        "published_individual_building_dimensions_m": {
+          "value": null,
+          "source_ids": [],
+          "locator": null,
+          "evidence_class": "unknown",
+          "temporal_scope": "current_unverified",
+          "measurement_status": "unknown",
+          "note": "The main courtyard approximately21m by morethan110m, other garden flowerbeds and movable stones are not pavilion dimensions."
+        },
+        "visible_front_bays_open_between_posts": {
+          "value": true,
+          "source_ids": [
+            "wang_zilin_2010_figure13"
+          ],
+          "locator": "PDF page11 of14, printed202-203 spread; rightpage203 figure13 caption惠风亭",
+          "evidence_class": "qualified_visual",
+          "temporal_scope": "published2010_photo_date_unknown",
+          "measurement_status": "unmeasured_visual",
+          "note": "Visible frontal ground-level spaces between columns show the rear courtyard and red gate. This excludes a continuous solid infill wall in these visible bays, but does not establish all four faces or a complete door/rail schedule."
+        },
+        "visible_frontal_stair_approach": {
+          "value": true,
+          "source_ids": [
+            "wang_zilin_2010_figure13"
+          ],
+          "locator": "PDF page11 of14, printed202-203 spread; rightpage203 figure13 caption惠风亭",
+          "evidence_class": "qualified_visual",
+          "temporal_scope": "published2010_photo_date_unknown",
+          "measurement_status": "unmeasured_visual",
+          "note": "Central frontal stone stair approach is visible, with stone balustrades on both flanks. Exact stair count, other approach directions, dimensions and carved detail remain unknown."
+        },
+        "visible_two_roof_eaves": {
+          "value": true,
+          "source_ids": [
+            "wang_zilin_2010_figure13"
+          ],
+          "locator": "PDF page11 of14, printed202-203 spread; rightpage203 figure13 caption惠风亭",
+          "evidence_class": "qualified_visual",
+          "temporal_scope": "published2010_photo_date_unknown",
+          "measurement_status": "unmeasured_visual",
+          "note": "Two horizontal eaves lines and central pyramidal upper roof are visible. This image does not prove an occupied upper floor or reveal concealed support geometry."
+        },
+        "visible_central_roof_finial": {
+          "value": true,
+          "source_ids": [
+            "wang_zilin_2010_figure13"
+          ],
+          "locator": "PDF page11 of14, printed202-203 spread; rightpage203 figure13 caption惠风亭",
+          "evidence_class": "qualified_visual",
+          "temporal_scope": "published2010_photo_date_unknown",
+          "measurement_status": "unmeasured_visual",
+          "note": "Small central finial silhouette is visible; detailed form, material, colour and metric size remain unestablished."
+        }
+      },
+      "material_scheme": {
+        "roof_main": "purple_glazed",
+        "roof_edge": "peacock_blue"
+      },
+      "unbuilt_features": [
+        "Current metric survey/world control",
+        "Exact lattice, paintwork, roof tiles and dougong",
+        "Full interior and hidden roof structure",
+        "Complete official floor-use evidence",
+        "Complete rear/side enclosure schedule unknown; open structural reference is not four-face certification",
+        "Exact Sumeru profile/cloud carving/finial material",
+        "Exact upper roof support arrangement"
+      ],
+      "parameter_evidence": {
+        "all_dimensions": "Unmeasured caller study, including heights, platforms, supports and openings; sourceflat6m not a measured building height."
+      },
+      "paid_service_calls": 0,
+      "dimensions": {
+        "body_side_m": 6.193848822615963,
+        "slab_bottom_z_m": 0,
+        "floor_z_m": 0.9,
+        "column_top_z_m": 4.15,
+        "column_radius_m": 0.15,
+        "column_base_radius_m": 0.25,
+        "column_base_height_m": 0.15,
+        "beam_height_m": 0.25,
+        "beam_width_m": 0.3,
+        "upper_band": {
+          "side_m": 3.5924323171172583,
+          "bottom_z_m": 6.68,
+          "wall_thickness_m": 0.12,
+          "occupied_floor": false
+        }
+      },
+      "roof_tiers": [
+        {
+          "tier_index": 0,
+          "outer_side_m": 8.343848822615962,
+          "inner_side_m": 3.5924323171172583,
+          "eave_z_m": 4.6,
+          "top_z_m": 6.8,
+          "skin_thickness_m": 0.14,
+          "corner_lift_m": 0.12,
+          "curve_power": 1.65
+        },
+        {
+          "tier_index": 1,
+          "outer_side_m": 4.992432317117258,
+          "inner_side_m": 0,
+          "eave_z_m": 7.35,
+          "top_z_m": 9.8,
+          "skin_thickness_m": 0.2,
+          "corner_lift_m": 0.1,
+          "curve_power": 1.65
+        }
+      ]
+    },
+    {
+      "building_id": "linxiting",
+      "name_zh": "临溪亭",
+      "source_part_id": "way-40543883-p0",
+      "original_source_record": {
+        "id": "way-40543883-p0",
+        "osm_type": "way",
+        "osm_id": "40543883",
+        "name": "临溪亭",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -792.267862,
+            -14.804006
+          ],
+          [
+            -794.10649,
+            -18.834313
+          ],
+          [
+            -792.191775,
+            -23.109284
+          ],
+          [
+            -786.360796,
+            -23.065473
+          ],
+          [
+            -785.146294,
+            -18.90186
+          ],
+          [
+            -786.428338,
+            -14.749093
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40543883"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "临溪亭",
+          "name:zh": "临溪亭"
+        },
+        "area_m2": 61.4785468990033,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "7bb161a520ae9429d0a179023d6b47cc682260b7cffa44646fa1b43520a4216f",
+      "source_polygon_world": [
+        [
+          -792.267862,
+          -14.804006
+        ],
+        [
+          -794.10649,
+          -18.834313
+        ],
+        [
+          -792.191775,
+          -23.109284
+        ],
+        [
+          -786.360796,
+          -23.065473
+        ],
+        [
+          -785.146294,
+          -18.90186
+        ],
+        [
+          -786.428338,
+          -14.749093
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          -2.7498785718849645,
+          4.148910291573671
+        ],
+        [
+          -4.626323314456827,
+          0.13607057826498603
+        ],
+        [
+          -2.7518916381005663,
+          -4.156715984416443
+        ],
+        [
+          3.079241531038294,
+          -4.167737142707813
+        ],
+        [
+          4.332841378446038,
+          -0.015728502982651795
+        ],
+        [
+          3.0899036144765097,
+          4.148910291573669
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -789.4790917156419,
+        -18.92687503366076,
+        0.0
+      ],
+      "rotation_z_rad": 0.009403400251331353,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "south",
+      "source_components": [
+        {
+          "component_id": "main",
+          "source_polygon_world": [
+            [
+              -792.267862,
+              -14.804006
+            ],
+            [
+              -794.10649,
+              -18.834313
+            ],
+            [
+              -792.191775,
+              -23.109284
+            ],
+            [
+              -786.360796,
+              -23.065473
+            ],
+            [
+              -785.146294,
+              -18.90186
+            ],
+            [
+              -786.428338,
+              -14.749093
+            ]
+          ],
+          "source_holes_world": [],
+          "source_polygon_local": [
+            [
+              -2.7498785718849645,
+              4.148910291573671
+            ],
+            [
+              -4.626323314456827,
+              0.13607057826498603
+            ],
+            [
+              -2.7518916381005663,
+              -4.156715984416443
+            ],
+            [
+              3.079241531038294,
+              -4.167737142707813
+            ],
+            [
+              4.332841378446038,
+              -0.015728502982651795
+            ],
+            [
+              3.0899036144765097,
+              4.148910291573669
+            ]
+          ],
+          "source_holes_local": [],
+          "anchor": [
+            -789.4790917156419,
+            -18.92687503366076,
+            0.0
+          ],
+          "rotation_z_rad": 0.009403400251331353,
+          "semantic_front": "negative-y",
+          "study_front_cardinal": "south",
+          "frame_method": "Fullcomponentcentroid and sourceMRR edge nearest declaredqualifiedfront; no measuredazimuth.",
+          "study_body_width_m": 4.990586701234203,
+          "study_body_depth_m": 4.990586701234203,
+          "study_body_square": true,
+          "study_roof_reference_envelope_width_m": 6.2561636950773805,
+          "study_roof_reference_envelope_depth_m": 5.990586701234203,
+          "parameter_scope": "ALL metricvalues unmeasured studies derived from sourcecontext; not publishedmeasurements or sourceflat6mheight.",
+          "source_containment_proof": {
+            "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+            "coordinate_clearance_inset_m": 0.12,
+            "reserved_support_margin_m": 0.5,
+            "safe_rectangle_local": [
+              [
+                3.1280818475386902,
+                -2.9952933506171013
+              ],
+              [
+                3.1280818475386902,
+                2.9952933506171013
+              ],
+              [
+                -3.1280818475386902,
+                2.9952933506171013
+              ],
+              [
+                -3.1280818475386902,
+                -2.9952933506171013
+              ]
+            ],
+            "body_rectangle_local": [
+              [
+                2.4952933506171013,
+                -2.4952933506171013
+              ],
+              [
+                2.4952933506171013,
+                2.4952933506171013
+              ],
+              [
+                -2.4952933506171013,
+                2.4952933506171013
+              ],
+              [
+                -2.4952933506171013,
+                -2.4952933506171013
+              ]
+            ],
+            "complete_body_plus_support_envelope_local": [
+              [
+                2.9952933506171013,
+                -2.9952933506171013
+              ],
+              [
+                -2.9952933506171013,
+                -2.9952933506171013
+              ],
+              [
+                -2.9952933506171013,
+                2.9952933506171013
+              ],
+              [
+                2.9952933506171013,
+                2.9952933506171013
+              ]
+            ],
+            "body_plus_support_outside_source_area_m2": 0.0,
+            "full_source_covers_body_plus_support": true
+          }
+        }
+      ],
+      "body_study_component_id": "main",
+      "study_body_width_m": 4.990586701234203,
+      "study_body_depth_m": 4.990586701234203,
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            3.1280818475386902,
+            -2.9952933506171013
+          ],
+          [
+            3.1280818475386902,
+            2.9952933506171013
+          ],
+          [
+            -3.1280818475386902,
+            2.9952933506171013
+          ],
+          [
+            -3.1280818475386902,
+            -2.9952933506171013
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            2.4952933506171013,
+            -2.4952933506171013
+          ],
+          [
+            2.4952933506171013,
+            2.4952933506171013
+          ],
+          [
+            -2.4952933506171013,
+            2.4952933506171013
+          ],
+          [
+            -2.4952933506171013,
+            -2.4952933506171013
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            2.9952933506171013,
+            -2.9952933506171013
+          ],
+          [
+            -2.9952933506171013,
+            -2.9952933506171013
+          ],
+          [
+            -2.9952933506171013,
+            2.9952933506171013
+          ],
+          [
+            2.9952933506171013,
+            2.9952933506171013
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "source_actual_actor_names": [
+        "way-40543883-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40543883-p0_原轮廓主体"
+      ],
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "typed_factual_source_fields": {
+        "width_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "height_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_x_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_y_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_registration_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_azimuth_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "elevation_common_datum": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "door_window_dimensions_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "plan_shape": {
+          "value": "square",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "bays_x": {
+          "value": 3,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "bays_y": {
+          "value": 3,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_type": {
+          "value": "four_corner_pyramidal",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_tile_color": {
+          "value": "yellow",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_trim_color_current_page": {
+          "value": "green",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "door_sides": {
+          "value": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "central_door_leaves_each_side": {
+          "value": 4,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "door_pattern": {
+          "value": "diagonal_square_lattice",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "window_set_bays_per_side": {
+          "value": 2,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "window_pattern": {
+          "value": "diagonal_square_lattice",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "sill_walls_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "sill_wall_tile_colors": {
+          "value": [
+            "yellow",
+            "green"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "wood_guardrail_sides": {
+          "value": [
+            "east",
+            "west"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "dougong_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "water_adjacent_sides": {
+          "value": [
+            "east",
+            "west"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "steps_sides": {
+          "value": [
+            "south",
+            "north"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "supported_on_single_arch_bridge": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": 1,
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 / 临溪亭形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Official236537 does not give eaves count; count1 is separately sourced to2016 field-study description."
+        },
+        "roof_trim_color_published_2016": {
+          "value": "blue",
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 / 临溪亭形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_trim_conflict_resolved": {
+          "value": false,
+          "status": "source_conflict_unresolved",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 versus236537正文",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Blue2016 versusgreen currentpage retained; no claimed synonym, measured colour or repaint chronology."
+        },
+        "roof_trim_color_resolved": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "floor_stories": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Single eave/ceiling is not occupied-storey evidence."
+        },
+        "window_leaves_each_set": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "fully_open_without_enclosure_supported": {
+          "value": false,
+          "status": "constrained_primary_inference",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Explicit doors/windows/sill walls forbid an entirely open pavilion proxy as claimed restoration."
+        },
+        "interior_ceiling_documented": {
+          "value": "flat_painted_soft_ceiling_simulating_caisson",
+          "status": "indexed_primary_description",
+          "source_id": "CG-PAPER2018-LINXI",
+          "locator": "printed45–46 / 研究背景",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "2018 source indexed primary text via peer; rawPDF timeout retained; no picture pixels seen."
+        },
+        "real_deep_3D_caisson_dimensions": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Flat painted simulated caisson cannot establish a deep structural caisson."
+        }
+      },
+      "source_mapping_scope": "Qualifiedofficialname/relativepositionjoin; source3Dandallmetriccontrol notmuseumcurrentfieldmeasurements.",
+      "metric_scope": "unmeasured_study",
+      "source6m_proxy_height_is_real_building_height": false,
+      "occupied_storeys_must_follow_facts_not_source_height": true,
+      "measured_world_azimuth": null,
+      "third_party_cost": 0,
+      "human_approval": "pending",
+      "builder": "pavilion",
+      "bays_x": 3,
+      "bays_y": 3,
+      "occupied_storeys": null,
+      "reference_floor_count": 1,
+      "known_facts": {
+        "width_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "height_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_x_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_y_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_registration_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_azimuth_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "elevation_common_datum": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "door_window_dimensions_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "plan_shape": {
+          "value": "square",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "bays_x": {
+          "value": 3,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "bays_y": {
+          "value": 3,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_type": {
+          "value": "four_corner_pyramidal",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_tile_color": {
+          "value": "yellow",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_trim_color_current_page": {
+          "value": "green",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "door_sides": {
+          "value": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "central_door_leaves_each_side": {
+          "value": 4,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "door_pattern": {
+          "value": "diagonal_square_lattice",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "window_set_bays_per_side": {
+          "value": 2,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "window_pattern": {
+          "value": "diagonal_square_lattice",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "sill_walls_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "sill_wall_tile_colors": {
+          "value": [
+            "yellow",
+            "green"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "wood_guardrail_sides": {
+          "value": [
+            "east",
+            "west"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "dougong_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "water_adjacent_sides": {
+          "value": [
+            "east",
+            "west"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "steps_sides": {
+          "value": [
+            "south",
+            "north"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "supported_on_single_arch_bridge": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": 1,
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 / 临溪亭形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Official236537 does not give eaves count; count1 is separately sourced to2016 field-study description."
+        },
+        "roof_trim_color_published_2016": {
+          "value": "blue",
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 / 临溪亭形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_trim_conflict_resolved": {
+          "value": false,
+          "status": "source_conflict_unresolved",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 versus236537正文",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Blue2016 versusgreen currentpage retained; no claimed synonym, measured colour or repaint chronology."
+        },
+        "roof_trim_color_resolved": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "floor_stories": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Single eave/ceiling is not occupied-storey evidence."
+        },
+        "window_leaves_each_set": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "fully_open_without_enclosure_supported": {
+          "value": false,
+          "status": "constrained_primary_inference",
+          "source_id": "CG-SITE236537",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Explicit doors/windows/sill walls forbid an entirely open pavilion proxy as claimed restoration."
+        },
+        "interior_ceiling_documented": {
+          "value": "flat_painted_soft_ceiling_simulating_caisson",
+          "status": "indexed_primary_description",
+          "source_id": "CG-PAPER2018-LINXI",
+          "locator": "printed45–46 / 研究背景",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "2018 source indexed primary text via peer; rawPDF timeout retained; no picture pixels seen."
+        },
+        "real_deep_3D_caisson_dimensions": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Flat painted simulated caisson cannot establish a deep structural caisson."
+        }
+      },
+      "material_scheme": {
+        "roof_main": "yellow",
+        "roof_edge": "green"
+      },
+      "unbuilt_features": [
+        "Current metric survey/world control",
+        "Exact lattice, paintwork, roof tiles and dougong",
+        "Full interior and hidden roof structure",
+        "Complete official floor-use evidence",
+        "Pool boundary absent from geospatial data; no invented water polygon",
+        "Exact bridge masonry and north/south stair survey"
+      ],
+      "parameter_evidence": {
+        "all_dimensions": "Unmeasured caller study, including heights, platforms, supports and openings; sourceflat6m not a measured building height."
+      },
+      "paid_service_calls": 0,
+      "dimensions": {
+        "body_side_m": 4.990586701234203,
+        "slab_bottom_z_m": 0,
+        "floor_z_m": 1.8,
+        "column_top_z_m": 5.25,
+        "column_radius_m": 0.13,
+        "column_base_radius_m": 0.23,
+        "column_base_height_m": 0.14,
+        "beam_height_m": 0.24,
+        "beam_width_m": 0.28,
+        "wall_thickness_m": 0.16,
+        "window_sill_m": 0.85,
+        "window_height_m": 1.6,
+        "door_height_m": 2.6,
+        "bridge": {
+          "span_m": 3.0,
+          "spring_z_m": 0.65,
+          "crown_z_m": 1.4,
+          "tunnel_depth_m": 15.0,
+          "center_y_m": 0
+        }
+      },
+      "roof_tiers": [
+        {
+          "tier_index": 0,
+          "outer_side_m": 6.890586701234202,
+          "inner_side_m": 0,
+          "eave_z_m": 5.85,
+          "top_z_m": 8.75,
+          "skin_thickness_m": 0.14,
+          "corner_lift_m": 0.12,
+          "curve_power": 1.65
+        }
+      ],
+      "roof_trim_conflict": {
+        "chosen": "green",
+        "primary_source": "CG-SITE236537 current dedicated page",
+        "other_source": "CG-PAPER2016 says blue; conflict retained, colors not treated synonymous"
+      }
+    },
+    {
+      "building_id": "xianruoguan",
+      "name_zh": "咸若馆",
+      "source_part_id": "way-40543884-p0",
+      "original_source_record": {
+        "id": "way-40543884-p0",
+        "osm_type": "way",
+        "osm_id": "40543884",
+        "name": "咸若馆",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -804.658044,
+            51.972555
+          ],
+          [
+            -804.377525,
+            36.572243
+          ],
+          [
+            -800.410434,
+            36.638446
+          ],
+          [
+            -800.325434,
+            31.897327
+          ],
+          [
+            -782.653058,
+            32.21749
+          ],
+          [
+            -782.746623,
+            36.9253
+          ],
+          [
+            -777.975854,
+            37.013639
+          ],
+          [
+            -778.256421,
+            52.458363
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40543884"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "咸若馆",
+          "name:zh": "咸若馆"
+        },
+        "area_m2": 490.9068465910818,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "c4ab800b50ae569937a375ac2eee683099511b9a6521cb2a7feb500e849a4107",
+      "source_polygon_world": [
+        [
+          -804.658044,
+          51.972555
+        ],
+        [
+          -804.377525,
+          36.572243
+        ],
+        [
+          -800.410434,
+          36.638446
+        ],
+        [
+          -800.325434,
+          31.897327
+        ],
+        [
+          -782.653058,
+          32.21749
+        ],
+        [
+          -782.746623,
+          36.9253
+        ],
+        [
+          -777.975854,
+          37.013639
+        ],
+        [
+          -778.256421,
+          52.458363
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          -13.210150142477998,
+          7.711901648046425
+        ],
+        [
+          -13.210150142477998,
+          -7.6909649879634125
+        ],
+        [
+          -9.242511405096822,
+          -7.697022142589096
+        ],
+        [
+          -9.243871375370901,
+          -12.438902837275737
+        ],
+        [
+          8.431404430070728,
+          -12.440644535942777
+        ],
+        [
+          8.423594193071805,
+          -7.7319113299177165
+        ],
+        [
+          13.195180780470057,
+          -7.730472843616404
+        ],
+        [
+          13.195941625521115,
+          7.7167993006419415
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -791.3096346708729,
+        44.50251736970486,
+        0.0
+      ],
+      "rotation_z_rad": 0.018213136301975862,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "south",
+      "source_components": [
+        {
+          "component_id": "main",
+          "source_polygon_world": [
+            [
+              -782.746623,
+              36.9253
+            ],
+            [
+              -777.975854,
+              37.013639
+            ],
+            [
+              -778.256421,
+              52.458363
+            ],
+            [
+              -804.658044,
+              51.972555
+            ],
+            [
+              -804.377525,
+              36.572243
+            ],
+            [
+              -800.410434,
+              36.638446
+            ]
+          ],
+          "source_holes_world": [],
+          "source_polygon_local": [
+            [
+              8.423594193071805,
+              -7.7319113299177165
+            ],
+            [
+              13.195180780470057,
+              -7.730472843616404
+            ],
+            [
+              13.195941625521115,
+              7.7167993006419415
+            ],
+            [
+              -13.210150142477998,
+              7.711901648046425
+            ],
+            [
+              -13.210150142477998,
+              -7.6909649879634125
+            ],
+            [
+              -9.242511405096822,
+              -7.697022142589096
+            ]
+          ],
+          "source_holes_local": [],
+          "anchor": [
+            -791.3096346708729,
+            44.50251736970486,
+            0.0
+          ],
+          "rotation_z_rad": 0.018213136301975862,
+          "semantic_front": "negative-y",
+          "study_front_cardinal": "south",
+          "frame_method": "Fullcomponentcentroid and sourceMRR edge nearest declaredqualifiedfront; no measuredazimuth.",
+          "study_body_width_m": 24.894491382482816,
+          "study_body_depth_m": 14.142730898745626,
+          "study_body_square": false,
+          "study_roof_reference_envelope_width_m": 25.894491382482816,
+          "study_roof_reference_envelope_depth_m": 15.142730898745626,
+          "parameter_scope": "ALL metricvalues unmeasured studies derived from sourcecontext; not publishedmeasurements or sourceflat6mheight.",
+          "source_containment_proof": {
+            "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+            "coordinate_clearance_inset_m": 0.12,
+            "reserved_support_margin_m": 0.5,
+            "safe_rectangle_local": [
+              [
+                12.947245691241408,
+                -7.571365449372813
+              ],
+              [
+                12.947245691241408,
+                7.571365449372813
+              ],
+              [
+                -12.947245691241408,
+                7.571365449372813
+              ],
+              [
+                -12.947245691241408,
+                -7.571365449372813
+              ]
+            ],
+            "body_rectangle_local": [
+              [
+                12.447245691241408,
+                -7.071365449372813
+              ],
+              [
+                12.447245691241408,
+                7.071365449372813
+              ],
+              [
+                -12.447245691241408,
+                7.071365449372813
+              ],
+              [
+                -12.447245691241408,
+                -7.071365449372813
+              ]
+            ],
+            "complete_body_plus_support_envelope_local": [
+              [
+                12.947245691241408,
+                -7.571365449372813
+              ],
+              [
+                -12.947245691241408,
+                -7.571365449372813
+              ],
+              [
+                -12.947245691241408,
+                7.571365449372813
+              ],
+              [
+                12.947245691241408,
+                7.571365449372813
+              ]
+            ],
+            "body_plus_support_outside_source_area_m2": 0.0,
+            "full_source_covers_body_plus_support": true
+          }
+        },
+        {
+          "component_id": "south_baoxia",
+          "source_polygon_world": [
+            [
+              -800.410434,
+              36.638446
+            ],
+            [
+              -800.325434,
+              31.897327
+            ],
+            [
+              -782.653058,
+              32.21749
+            ],
+            [
+              -782.746623,
+              36.9253
+            ]
+          ],
+          "source_holes_world": [],
+          "source_polygon_local": [
+            [
+              -8.824567221207284,
+              2.37942266341484
+            ],
+            [
+              -8.825459932726663,
+              -2.362458142259968
+            ],
+            [
+              8.849815958527326,
+              -2.3624581422599666
+            ],
+            [
+              8.841541729128588,
+              2.346274271293906
+            ]
+          ],
+          "source_holes_local": [],
+          "anchor": [
+            -791.544214653111,
+            34.41925845821152,
+            0.0
+          ],
+          "rotation_z_rad": 0.018114597604160027,
+          "semantic_front": "negative-y",
+          "study_front_cardinal": "south",
+          "frame_method": "Fullcomponentcentroid and sourceMRR edge nearest declaredqualifiedfront; no measuredazimuth.",
+          "study_body_width_m": 15.64073601451706,
+          "study_body_depth_m": 3.4545035148721803,
+          "study_body_square": false,
+          "study_roof_reference_envelope_width_m": 16.64073601451706,
+          "study_roof_reference_envelope_depth_m": 4.45450351487218,
+          "parameter_scope": "ALL metricvalues unmeasured studies derived from sourcecontext; not publishedmeasurements or sourceflat6mheight.",
+          "source_containment_proof": {
+            "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+            "coordinate_clearance_inset_m": 0.12,
+            "reserved_support_margin_m": 0.5,
+            "safe_rectangle_local": [
+              [
+                8.32036800725853,
+                -2.22725175743609
+              ],
+              [
+                8.32036800725853,
+                2.22725175743609
+              ],
+              [
+                -8.32036800725853,
+                2.22725175743609
+              ],
+              [
+                -8.32036800725853,
+                -2.22725175743609
+              ]
+            ],
+            "body_rectangle_local": [
+              [
+                7.82036800725853,
+                -1.7272517574360902
+              ],
+              [
+                7.82036800725853,
+                1.7272517574360902
+              ],
+              [
+                -7.82036800725853,
+                1.7272517574360902
+              ],
+              [
+                -7.82036800725853,
+                -1.7272517574360902
+              ]
+            ],
+            "complete_body_plus_support_envelope_local": [
+              [
+                8.32036800725853,
+                -2.22725175743609
+              ],
+              [
+                -8.32036800725853,
+                -2.22725175743609
+              ],
+              [
+                -8.32036800725853,
+                2.22725175743609
+              ],
+              [
+                8.32036800725853,
+                2.22725175743609
+              ]
+            ],
+            "body_plus_support_outside_source_area_m2": 0.0,
+            "full_source_covers_body_plus_support": true
+          }
+        }
+      ],
+      "body_study_component_id": "main",
+      "study_body_width_m": 24.894491382482816,
+      "study_body_depth_m": 14.142730898745626,
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            12.947245691241408,
+            -7.571365449372813
+          ],
+          [
+            12.947245691241408,
+            7.571365449372813
+          ],
+          [
+            -12.947245691241408,
+            7.571365449372813
+          ],
+          [
+            -12.947245691241408,
+            -7.571365449372813
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            12.447245691241408,
+            -7.071365449372813
+          ],
+          [
+            12.447245691241408,
+            7.071365449372813
+          ],
+          [
+            -12.447245691241408,
+            7.071365449372813
+          ],
+          [
+            -12.447245691241408,
+            -7.071365449372813
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            12.947245691241408,
+            -7.571365449372813
+          ],
+          [
+            -12.947245691241408,
+            -7.571365449372813
+          ],
+          [
+            -12.947245691241408,
+            7.571365449372813
+          ],
+          [
+            12.947245691241408,
+            7.571365449372813
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "source_actual_actor_names": [
+        "way-40543884-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40543884-p0_原轮廓主体"
+      ],
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "typed_factual_source_fields": {
+        "width_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "height_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_x_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_y_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_registration_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_azimuth_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "elevation_common_datum": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "door_window_dimensions_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "bays_x": {
+          "value": 5,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "orientation": {
+          "value": "south",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_type": {
+          "value": "xieshan",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_tile_color": {
+          "value": "yellow",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "surrounding_veranda_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "veranda_sides": {
+          "value": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "front_baoxia_entity": {
+          "value": "xianruoguan_baoxia",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "bays_y": {
+          "value": 3,
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 / 咸若馆形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": 1,
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 / 咸若馆形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "floor_stories": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Single eave is not proof of occupied floor count."
+        },
+        "veranda_depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "veranda_depth_historical_chi": {
+          "value": 4,
+          "status": "historical_primary_reference",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index7 / 嘉庆七年档案引文",
+          "temporal_scope": "Jiaqing_year7_archive_not_current_survey",
+          "measurement_status": "not_current_survey",
+          "note": "No metric conversion or present survey equality established; do not turn into current metre dimensions."
+        },
+        "door_window_schedule_complete": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current complete individual-bay wall/leaf schedule established."
+        }
+      },
+      "source_mapping_scope": "Qualifiedofficialname/relativepositionjoin; source3Dandallmetriccontrol notmuseumcurrentfieldmeasurements.",
+      "metric_scope": "unmeasured_study",
+      "source6m_proxy_height_is_real_building_height": false,
+      "occupied_storeys_must_follow_facts_not_source_height": true,
+      "measured_world_azimuth": null,
+      "third_party_cost": 0,
+      "human_approval": "pending",
+      "builder": "hall",
+      "bays_x": 5,
+      "bays_y": 3,
+      "study_bays_y": 3,
+      "eaves_tiers": 1,
+      "occupied_storeys": null,
+      "reference_floor_count": 1,
+      "known_facts": {
+        "width_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "height_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_x_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_y_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_registration_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_azimuth_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "elevation_common_datum": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "door_window_dimensions_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "bays_x": {
+          "value": 5,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "orientation": {
+          "value": "south",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_type": {
+          "value": "xieshan",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_tile_color": {
+          "value": "yellow",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "surrounding_veranda_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "veranda_sides": {
+          "value": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "front_baoxia_entity": {
+          "value": "xianruoguan_baoxia",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236534",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "bays_y": {
+          "value": 3,
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 / 咸若馆形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": 1,
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index3 / 咸若馆形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "floor_stories": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Single eave is not proof of occupied floor count."
+        },
+        "veranda_depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "veranda_depth_historical_chi": {
+          "value": 4,
+          "status": "historical_primary_reference",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index7 / 嘉庆七年档案引文",
+          "temporal_scope": "Jiaqing_year7_archive_not_current_survey",
+          "measurement_status": "not_current_survey",
+          "note": "No metric conversion or present survey equality established; do not turn into current metre dimensions."
+        },
+        "door_window_schedule_complete": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current complete individual-bay wall/leaf schedule established."
+        }
+      },
+      "paid_service_calls": 0,
+      "material_scheme": {
+        "base": "white_stone",
+        "column": "red_lacquer",
+        "beam": "painted_beam",
+        "wall": "red",
+        "frame": "red_lacquer",
+        "infill": "dark_wood",
+        "roof_main": "yellow",
+        "roof_edge": "yellow",
+        "roof_under": "dark_wood"
+      },
+      "parameter_evidence": {
+        "all_dimensions": "Unmeasured source-contained caller controls; published4chi historical veranda is not converted to current metric.",
+        "full_source_ring": "Complete8point source reference slab; no ring simplification or baoxia swallowing"
+      },
+      "unbuilt": [
+        "Precise six-wing joined main/baoxia roof junction; baoxia remains explicit source-volume reference",
+        "Measured elevations, courtyard world control, exact facades/lattice, fine paintwork/interior"
+      ],
+      "assumptions": [
+        "Exterior study with open surrounding verandas; unresolved wall planes are not a historical facade schedule."
+      ],
+      "dimensions": {
+        "body_width_m": 24.894491382482816,
+        "body_depth_m": 14.142730898745626,
+        "floor_z_m": 0.32,
+        "source_reference_slab_bottom_z_m": 0,
+        "source_reference_slab_top_z_m": 0.32,
+        "slab_thickness_m": 0.32,
+        "wall_thickness_m": 0.22,
+        "column_radius_m": 0.2,
+        "column_base_radius_m": 0.3,
+        "column_base_height_m": 0.18,
+        "column_top_z_m": 5.7,
+        "beam_width_m": 0.4,
+        "beam_height_m": 0.32,
+        "wall_top_z_m": 6.02,
+        "enclosure_x_min_m": -11.297245691241407,
+        "enclosure_x_max_m": 11.297245691241407,
+        "enclosure_y_min_m": -5.9213654493728125,
+        "enclosure_y_max_m": 5.9213654493728125,
+        "veranda_front_depth_m": 1.15,
+        "veranda_rear_depth_m": 1.15,
+        "veranda_west_depth_m": 1.15,
+        "veranda_east_depth_m": 1.15,
+        "door_height_m": 3.5,
+        "window_height_m": 2.2,
+        "window_sill_height_above_floor_m": 1,
+        "door_width_fraction_of_bay": 0.7,
+        "window_width_fraction_of_bay": 0.7,
+        "opening_frame_width_m": 0.08,
+        "opening_frame_depth_m": 0.12,
+        "leaf_panel_depth_m": 0.05
+      },
+      "roof_tiers": [
+        {
+          "tier_index": 0,
+          "roof_type": "xieshan",
+          "outer_width_m": 26.144491382482816,
+          "outer_depth_m": 15.392730898745626,
+          "eave_z_m": 6.65,
+          "top_z_m": 10.6,
+          "corner_lift_m": 0.12,
+          "additional_overhang_m": 0,
+          "annular": false,
+          "inner_width_m": null,
+          "inner_depth_m": null
+        }
+      ],
+      "facades": {
+        "south": {
+          "schedule": [
+            {
+              "bay_index": 0,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 1,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 2,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 3,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 4,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            }
+          ]
+        },
+        "north": {
+          "schedule": [
+            {
+              "bay_index": 0,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 1,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 2,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 3,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            },
+            {
+              "bay_index": 4,
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_not_inferred"
+            }
+          ]
+        },
+        "east": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_not_inferred"
+        },
+        "west": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_not_inferred"
+        }
+      }
+    }
+  ],
+  "source_files": {
+    "work/restoration-v16/registration/registered-buildings.json": "0440f34777a70ba8d01002d199080fa05e73e24d2eef7d9606899af904d924b9",
+    "work/restoration-v16/registration/actual-source-actors.json": "201fe49b3287996c3dd644eb3e4bd692910887595f9d4362121cc9cd60fe70b2",
+    "work/restoration-v16/research/cininggarden/facts.json": "227df0451c12285587f06b9663ca82330a9c09dcaedb18b6dda7631c27c5f7b4",
+    "work/restoration-v16/research/huifeng/facts.json": "756e4ac5d58d5f0c053c1b78a3e435f9bf6952614c3566165b37288592ae931b",
+    "work/forbidden-city-research/geospatial/model-data.json": "06dfa30cbd6401d2b555b842c03dd47fa055a4de6024b4904b39cc2652a2248e",
+    "work/restoration-v16/prepare_profiles.py": "9cd2ae13f76bb050acf0e82e0bb415ab8016a2034fa4e40a182b542190037640"
+  },
+  "policy": [
+    "0 paid calls",
+    "Human approvals pending",
+    "Whole city incomplete",
+    "No stage ZIP",
+    "All metrics explicit unmeasured study controls"
+  ]
+}

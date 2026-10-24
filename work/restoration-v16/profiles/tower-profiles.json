@@ -1,0 +1,1914 @@
+{
+  "schema": "v16-three-cining-tower-source-qualified-profiles/1",
+  "profile_status": "draft_pending_newmodule_actualfixture_and_savedcityaudit",
+  "source_files_sha256": {
+    "work/restoration-v16/registration/registered-buildings.json": "0440f34777a70ba8d01002d199080fa05e73e24d2eef7d9606899af904d924b9",
+    "work/restoration-v16/research/cininggarden/facts.json": "227df0451c12285587f06b9663ca82330a9c09dcaedb18b6dda7631c27c5f7b4",
+    "work/restoration-v16/tower-module/API.md": "cd2f5678ef165ee1ad981815d0fcb306274f8a2b1823fabefe964551efc12df4",
+    "work/restoration-v16/profiles/prepare_tower_profiles.py": "5918d8a44a4282e2402a605f427de47d0268b87174077128fe3524f4226392e8"
+  },
+  "buildings": [
+    {
+      "building_id": "baoxianglou",
+      "name_zh": "宝相楼",
+      "source_part_id": "way-40543911-p0",
+      "original_source_record": {
+        "id": "way-40543911-p0",
+        "osm_type": "way",
+        "osm_id": "40543911",
+        "name": "宝相楼",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -774.494659,
+            51.28103
+          ],
+          [
+            -773.531518,
+            21.879385
+          ],
+          [
+            -765.118526,
+            22.100604
+          ],
+          [
+            -765.457558,
+            51.613218
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40543911"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "宝相楼",
+          "name:zh": "宝相楼"
+        },
+        "area_m2": 257.19498062289546,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "6b14af373c79b463eab7a535387ed395856769c3c71fe5f3dda25ad2f11debb4",
+      "source_polygon_world": [
+        [
+          -774.494659,
+          51.28103
+        ],
+        [
+          -773.531518,
+          21.879385
+        ],
+        [
+          -765.118526,
+          22.100604
+        ],
+        [
+          -765.457558,
+          51.613218
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          -14.537073547909682,
+          -4.36884018072763
+        ],
+        [
+          14.88034254004587,
+          -4.368840180727611
+        ],
+        [
+          14.93468772855041,
+          4.046884318001654
+        ],
+        [
+          -14.573204224779527,
+          4.674291905321653
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -769.6522099152953,
+        36.89478800550683,
+        0.0
+      ],
+      "rotation_z_rad": -1.538049971648601,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "west",
+      "bays_x": 7,
+      "bays_y": null,
+      "study_bays_y": 1,
+      "occupied_storeys": 2,
+      "reference_floor_count": 1,
+      "eaves_tiers": null,
+      "study_eaves_tiers": 1,
+      "known_facts": {
+        "width_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "height_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_x_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_y_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_registration_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_azimuth_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "elevation_common_datum": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "door_window_dimensions_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "bays_x": {
+          "value": 7,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "orientation": {
+          "value": "west",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "position_relative_to_xianruo": {
+          "value": "east_of_xianruo",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "floor_stories": {
+          "value": 2,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_type": {
+          "value": "juanpeng_xieshan",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236536",
+          "locator": "正文第3段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Main garden text explicitly applies to all three named towers; individual Bao/Ciyin pages corroborate."
+        },
+        "roof_tile_color": {
+          "value": "green",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236536",
+          "locator": "正文第3段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Main garden text explicitly applies to all three named towers; individual Bao/Ciyin pages corroborate."
+        },
+        "roof_trim_color": {
+          "value": "yellow",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236536",
+          "locator": "正文第3段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Main garden text explicitly applies to all three named towers; individual Bao/Ciyin pages corroborate."
+        },
+        "bays_y": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Two occupied storeys cannot be converted to two eaves or two complete roofs."
+        },
+        "storey_heights_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "veranda_depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "complete_upper_lower_opening_schedule": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "veranda_sides": {
+          "value": [
+            "west",
+            "south",
+            "north"
+          ],
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index4 / 宝相楼段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "front_veranda_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "front_central_door_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Storey assignment and leaf count not explicit in this phrase; do not mirror onto both levels."
+        },
+        "front_central_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "ground_north_door_count": {
+          "value": 1,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "ground_south_door_count": {
+          "value": 1,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "ground_end_doors_lead_to_stairs": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "noncentral_room_vertical_lightwell_count": {
+          "value": 6,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "lightwells_connect_two_storeys": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "upper_level_lightwell_rail_material": {
+          "value": "zitan_wood",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236569",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "complete_solid_upper_floor_in_all_seven_rooms_supported": {
+          "value": false,
+          "status": "constrained_primary_inference",
+          "source_id": "CG-SITE236569",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Six documented openings prohibit an invented fully solid second floor, while exact void sizes remain unknown."
+        },
+        "lightwell_sizes_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        }
+      },
+      "dimensions": {
+        "body_width_m": 25.440911794167572,
+        "body_depth_m": 6.926610790578005,
+        "source_reference_slab_bottom_z_m": 0.0,
+        "floor_z_m": 0.32,
+        "level_break_z_m": 4.3,
+        "wall_top_z_m": 8.3,
+        "column_radius_m": 0.16,
+        "column_base_radius_m": 0.26,
+        "column_base_height_m": 0.16,
+        "beam_width_m": 0.4,
+        "beam_height_m": 0.36,
+        "wall_thickness_m": 0.22,
+        "enclosure_x_min_m": -11.570455897083786,
+        "enclosure_x_max_m": 11.570455897083786,
+        "enclosure_y_min_m": -2.3133053952890026,
+        "enclosure_y_max_m": 3.3533053952890026,
+        "veranda_front_depth_m": 1.15,
+        "veranda_rear_depth_m": 0.11,
+        "veranda_west_depth_m": 1.15,
+        "veranda_east_depth_m": 1.15,
+        "opening_frame_width_m": 0.08,
+        "opening_frame_depth_m": 0.12,
+        "leaf_panel_depth_m": 0.05
+      },
+      "roof": {
+        "roof_type": "juanpeng_xieshan",
+        "outer_width_m": 26.440911794167572,
+        "outer_depth_m": 7.926610790578005,
+        "eave_z_m": 8.55,
+        "top_z_m": 11.5,
+        "corner_lift_m": 0.0
+      },
+      "material_scheme": {
+        "base": "white_stone",
+        "column": "red_lacquer",
+        "beam": "painted_beam",
+        "wall": "red",
+        "frame": "red_lacquer",
+        "infill": "dark_wood",
+        "roof_main": "green",
+        "roof_edge": "yellow",
+        "roof_under": "dark_wood"
+      },
+      "partitions": [],
+      "openings": [
+        {
+          "id": "baoxianglou_ground_north_end_door",
+          "wall_id": "s0_west",
+          "kind": "door",
+          "center_along_m": 0.0,
+          "bottom_z_m": 0.32,
+          "width_m": 2.1,
+          "height_m": 2.9,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Official ground north enddoor tostairs; worldnorth/south maps to local-X/+X duewest-facing sourceframe; exactleafcount/lattice/stairsgeometry unknown.",
+          "fact_source_fields": [
+            "ground_north_door_count",
+            "ground_end_doors_lead_to_stairs"
+          ]
+        },
+        {
+          "id": "baoxianglou_ground_south_end_door",
+          "wall_id": "s0_east",
+          "kind": "door",
+          "center_along_m": 0.0,
+          "bottom_z_m": 0.32,
+          "width_m": 2.1,
+          "height_m": 2.9,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Official ground south enddoor tostairs; worldnorth/south maps to local-X/+X duewest-facing sourceframe; exactleafcount/lattice/stairsgeometry unknown.",
+          "fact_source_fields": [
+            "ground_south_door_count",
+            "ground_end_doors_lead_to_stairs"
+          ]
+        }
+      ],
+      "deferred_documented_features": [
+        {
+          "documented_feature": "front_central_door",
+          "storey_index": null,
+          "reason": "Officialfrontcentraldoor present, butstoreyassignment unestablished; no ground/upper duplicate generated."
+        }
+      ],
+      "source_actual_actor_names": [
+        "way-40543911-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40543911-p0_原轮廓主体"
+      ],
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            13.220455897083786,
+            -3.9633053952890025
+          ],
+          [
+            13.220455897083786,
+            3.9633053952890025
+          ],
+          [
+            -13.220455897083786,
+            3.9633053952890025
+          ],
+          [
+            -13.220455897083786,
+            -3.9633053952890025
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            12.720455897083786,
+            -3.4633053952890025
+          ],
+          [
+            12.720455897083786,
+            3.4633053952890025
+          ],
+          [
+            -12.720455897083786,
+            3.4633053952890025
+          ],
+          [
+            -12.720455897083786,
+            -3.4633053952890025
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            13.220455897083786,
+            -3.9633053952890025
+          ],
+          [
+            -13.220455897083786,
+            -3.9633053952890025
+          ],
+          [
+            -13.220455897083786,
+            3.9633053952890025
+          ],
+          [
+            13.220455897083786,
+            3.9633053952890025
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "parameter_evidence": {
+        "all_metric_values": {
+          "status": "unmeasured_study",
+          "current_field_measurement": false,
+          "source_flat6m_used_as_real_height": false,
+          "published_roof_or_body_metre_values_known": false
+        },
+        "storeys": {
+          "occupied_storeys": 2,
+          "status": "officialtext",
+          "upper_interior_floor_slab_generated": false,
+          "level_break_m": 4.3,
+          "level_break_status": "study_division_not_measured_floorheight"
+        },
+        "roof": {
+          "known_type": "juanpeng_xieshan",
+          "source_eaves_count": null,
+          "one_study_roof_not_two_eaves_inferred_from_two_storeys": true,
+          "requested_eave_reference_m": 8.5,
+          "study_eave_m": 8.55,
+          "reason_for_0_05m_adjustment": "Exceed .2m supportclearance without equalityrounding; numericalcontrol only."
+        },
+        "body_source": {
+          "registered_buildings_sha256": "0440f34777a70ba8d01002d199080fa05e73e24d2eef7d9606899af904d924b9",
+          "body_width_depth_from_registered_source_contained_study": true,
+          "all_sides_support_reserve_m": 0.5,
+          "actual_column_base_radius_m": 0.26,
+          "beam_width_m": 0.4,
+          "uppercolumn_diameter_m": 0.32
+        },
+        "verandas": {
+          "front_and_side_presence_source": "officialcininggardenfacts",
+          "world_sides": [
+            "west",
+            "south",
+            "north"
+          ],
+          "local_front_setback_m": 1.15,
+          "local_left_right_setbacks_m": 1.15,
+          "depth_status": "unmeasured_study",
+          "rear_halfwall_is_not_proof_of_rearveranda": true
+        },
+        "opening_sizes_and_leafcounts": {
+          "sizes": "unmeasured_study",
+          "leafcounts": null,
+          "lattice_geometry": null,
+          "no_unrecorded_frontdoor_storey_assignment": true
+        },
+        "palette": {
+          "roof_main_category": "green",
+          "roof_edge_category": "yellow",
+          "RGB_roughness_or_facade_materials_measured": false
+        }
+      },
+      "unbuilt": [
+        "all_current_surveyed_dimensions_and_control",
+        "exact_individual_baywidths",
+        "upper_floor_slabs_and_fullinteriors",
+        "precise_six_Bao_lightwell_sizes_and_rails",
+        "documented_stair_geometry",
+        "unknown_doorleaf_counts_and_lattice",
+        "exact_dougong_joinery_and_roof_tile_voids",
+        "complete_unrecorded_facades",
+        "whole_garden_reconstruction",
+        "runtime_collision_navigation_or_finalapproval"
+      ],
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "third_party_cost": 0,
+      "paid_service_calls": 0,
+      "human_approval": "pending"
+    },
+    {
+      "building_id": "jiyunlou_cininggarden",
+      "name_zh": "吉云楼（慈宁宫花园）",
+      "source_part_id": "way-40543910-p0",
+      "original_source_record": {
+        "id": "way-40543910-p0",
+        "osm_type": "way",
+        "osm_id": "40543910",
+        "name": "吉云楼1",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -807.556597,
+            50.140816
+          ],
+          [
+            -818.551594,
+            49.775578
+          ],
+          [
+            -817.588611,
+            20.48496
+          ],
+          [
+            -806.602122,
+            20.839097
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40543910"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "吉云楼1",
+          "name:zh": "吉云楼"
+        },
+        "area_m2": 322.33149449195577,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "66fa365460ffd719e0eda80ba3088f8b70f5777fc5d22e047a8b666a459ebc6c",
+      "source_polygon_world": [
+        [
+          -807.556597,
+          50.140816
+        ],
+        [
+          -818.551594,
+          49.775578
+        ],
+        [
+          -817.588611,
+          20.48496
+        ],
+        [
+          -806.602122,
+          20.839097
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          14.657497582544973,
+          -5.497975598091793
+        ],
+        [
+          14.650414673721631,
+          5.503083789942426
+        ],
+        [
+          -14.656027629869545,
+          5.4942188875452915
+        ],
+        [
+          -14.6597628433643,
+          -5.4979755980917915
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -812.574457431087,
+        35.312092260120835,
+        0.0
+      ],
+      "rotation_z_rad": 1.6033588405288506,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "east",
+      "bays_x": 7,
+      "bays_y": null,
+      "study_bays_y": 1,
+      "occupied_storeys": 2,
+      "reference_floor_count": 1,
+      "eaves_tiers": null,
+      "study_eaves_tiers": 1,
+      "known_facts": {
+        "width_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "height_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_x_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_y_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_registration_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_azimuth_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "elevation_common_datum": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "door_window_dimensions_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "bays_x": {
+          "value": 7,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236483",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "orientation": {
+          "value": "east",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236483",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "position_relative_to_xianruo": {
+          "value": "west_of_xianruo",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236483",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "floor_stories": {
+          "value": 2,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236483",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_type": {
+          "value": "juanpeng_xieshan",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236536",
+          "locator": "正文第3段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Main garden text explicitly applies to all three named towers; individual Bao/Ciyin pages corroborate."
+        },
+        "roof_tile_color": {
+          "value": "green",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236536",
+          "locator": "正文第3段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Main garden text explicitly applies to all three named towers; individual Bao/Ciyin pages corroborate."
+        },
+        "roof_trim_color": {
+          "value": "yellow",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236536",
+          "locator": "正文第3段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Main garden text explicitly applies to all three named towers; individual Bao/Ciyin pages corroborate."
+        },
+        "bays_y": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Two occupied storeys cannot be converted to two eaves or two complete roofs."
+        },
+        "storey_heights_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "veranda_depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "complete_upper_lower_opening_schedule": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "veranda_sides": {
+          "value": [
+            "east",
+            "south",
+            "north"
+          ],
+          "status": "published_primary_description",
+          "source_id": "CG-PAPER2016",
+          "locator": "PDF index4 / 吉云楼段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "historical_role_before_1765": {
+          "value": "west_side_hall_of_xianruo",
+          "status": "historical_primary_reference",
+          "source_id": "CG-SITE236483",
+          "locator": "正文第1段",
+          "temporal_scope": "Ming_before_Qianlong_rebuild",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "door_leaf_counts": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Do not transfer Bao stairs/lightwells/doors merely because building forms are similar."
+        },
+        "lightwell_count": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "same_name_outside_garden_not_same_entity": {
+          "value": true,
+          "status": "source_identity_boundary",
+          "source_id": "CG-SITE236483",
+          "locator": "正文第1段定位",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Source name alone is insufficient; garden-west tower must not match distant建福区域吉云楼 way40627621."
+        }
+      },
+      "dimensions": {
+        "body_width_m": 27.65565557246826,
+        "body_depth_m": 9.748635242646829,
+        "source_reference_slab_bottom_z_m": 0.0,
+        "floor_z_m": 0.32,
+        "level_break_z_m": 4.3,
+        "wall_top_z_m": 8.3,
+        "column_radius_m": 0.16,
+        "column_base_radius_m": 0.26,
+        "column_base_height_m": 0.16,
+        "beam_width_m": 0.4,
+        "beam_height_m": 0.36,
+        "wall_thickness_m": 0.22,
+        "enclosure_x_min_m": -12.677827786234129,
+        "enclosure_x_max_m": 12.677827786234129,
+        "enclosure_y_min_m": -3.7243176213234146,
+        "enclosure_y_max_m": 4.764317621323414,
+        "veranda_front_depth_m": 1.15,
+        "veranda_rear_depth_m": 0.11,
+        "veranda_west_depth_m": 1.15,
+        "veranda_east_depth_m": 1.15,
+        "opening_frame_width_m": 0.08,
+        "opening_frame_depth_m": 0.12,
+        "leaf_panel_depth_m": 0.05
+      },
+      "roof": {
+        "roof_type": "juanpeng_xieshan",
+        "outer_width_m": 28.65565557246826,
+        "outer_depth_m": 10.748635242646829,
+        "eave_z_m": 8.55,
+        "top_z_m": 11.5,
+        "corner_lift_m": 0.0
+      },
+      "material_scheme": {
+        "base": "white_stone",
+        "column": "red_lacquer",
+        "beam": "painted_beam",
+        "wall": "red",
+        "frame": "red_lacquer",
+        "infill": "dark_wood",
+        "roof_main": "green",
+        "roof_edge": "yellow",
+        "roof_under": "dark_wood"
+      },
+      "partitions": [],
+      "openings": [],
+      "deferred_documented_features": [],
+      "source_actual_actor_names": [
+        "way-40543910-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40543910-p0_原轮廓主体"
+      ],
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            14.32782778623413,
+            -5.3743176213234145
+          ],
+          [
+            14.32782778623413,
+            5.3743176213234145
+          ],
+          [
+            -14.32782778623413,
+            5.3743176213234145
+          ],
+          [
+            -14.32782778623413,
+            -5.3743176213234145
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            13.82782778623413,
+            -4.8743176213234145
+          ],
+          [
+            13.82782778623413,
+            4.8743176213234145
+          ],
+          [
+            -13.82782778623413,
+            4.8743176213234145
+          ],
+          [
+            -13.82782778623413,
+            -4.8743176213234145
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            14.32782778623413,
+            -5.3743176213234145
+          ],
+          [
+            -14.32782778623413,
+            -5.3743176213234145
+          ],
+          [
+            -14.32782778623413,
+            5.3743176213234145
+          ],
+          [
+            14.32782778623413,
+            5.3743176213234145
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "parameter_evidence": {
+        "all_metric_values": {
+          "status": "unmeasured_study",
+          "current_field_measurement": false,
+          "source_flat6m_used_as_real_height": false,
+          "published_roof_or_body_metre_values_known": false
+        },
+        "storeys": {
+          "occupied_storeys": 2,
+          "status": "officialtext",
+          "upper_interior_floor_slab_generated": false,
+          "level_break_m": 4.3,
+          "level_break_status": "study_division_not_measured_floorheight"
+        },
+        "roof": {
+          "known_type": "juanpeng_xieshan",
+          "source_eaves_count": null,
+          "one_study_roof_not_two_eaves_inferred_from_two_storeys": true,
+          "requested_eave_reference_m": 8.5,
+          "study_eave_m": 8.55,
+          "reason_for_0_05m_adjustment": "Exceed .2m supportclearance without equalityrounding; numericalcontrol only."
+        },
+        "body_source": {
+          "registered_buildings_sha256": "0440f34777a70ba8d01002d199080fa05e73e24d2eef7d9606899af904d924b9",
+          "body_width_depth_from_registered_source_contained_study": true,
+          "all_sides_support_reserve_m": 0.5,
+          "actual_column_base_radius_m": 0.26,
+          "beam_width_m": 0.4,
+          "uppercolumn_diameter_m": 0.32
+        },
+        "verandas": {
+          "front_and_side_presence_source": "officialcininggardenfacts",
+          "world_sides": [
+            "east",
+            "south",
+            "north"
+          ],
+          "local_front_setback_m": 1.15,
+          "local_left_right_setbacks_m": 1.15,
+          "depth_status": "unmeasured_study",
+          "rear_halfwall_is_not_proof_of_rearveranda": true
+        },
+        "opening_sizes_and_leafcounts": {
+          "sizes": "unmeasured_study",
+          "leafcounts": null,
+          "lattice_geometry": null,
+          "no_unrecorded_frontdoor_storey_assignment": true
+        },
+        "palette": {
+          "roof_main_category": "green",
+          "roof_edge_category": "yellow",
+          "RGB_roughness_or_facade_materials_measured": false
+        }
+      },
+      "unbuilt": [
+        "all_current_surveyed_dimensions_and_control",
+        "exact_individual_baywidths",
+        "upper_floor_slabs_and_fullinteriors",
+        "precise_six_Bao_lightwell_sizes_and_rails",
+        "documented_stair_geometry",
+        "unknown_doorleaf_counts_and_lattice",
+        "exact_dougong_joinery_and_roof_tile_voids",
+        "complete_unrecorded_facades",
+        "whole_garden_reconstruction",
+        "runtime_collision_navigation_or_finalapproval"
+      ],
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "third_party_cost": 0,
+      "paid_service_calls": 0,
+      "human_approval": "pending"
+    },
+    {
+      "building_id": "ciyinlou",
+      "name_zh": "慈荫楼",
+      "source_part_id": "way-40543909-p0",
+      "original_source_record": {
+        "id": "way-40543909-p0",
+        "osm_type": "way",
+        "osm_id": "40543909",
+        "name": "慈荫楼",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -804.066492,
+            67.350568
+          ],
+          [
+            -803.623042,
+            56.569213
+          ],
+          [
+            -779.837602,
+            57.543837
+          ],
+          [
+            -780.281086,
+            68.325191
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40543909"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "name": "慈荫楼",
+          "name:zh": "慈荫楼"
+        },
+        "area_m2": 256.87128281636024,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "d3ca408bab850d0c4bcf105220189d69b32a1630b45d74a7bc1a2b96a513293f",
+      "source_polygon_world": [
+        [
+          -804.066492,
+          67.350568
+        ],
+        [
+          -803.623042,
+          56.569213
+        ],
+        [
+          -779.837602,
+          57.543837
+        ],
+        [
+          -780.281086,
+          68.325191
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          -11.903529009176806,
+          5.395236797938111
+        ],
+        [
+          -11.901853683651362,
+          -5.395234032002969
+        ],
+        [
+          11.90354587054602,
+          -5.395234424846171
+        ],
+        [
+          11.901836532586437,
+          5.395236797938113
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -791.9520553750372,
+        62.44720096928556,
+        0.0
+      ],
+      "rotation_z_rad": 0.04095276250419804,
+      "semantic_front": "negative-y",
+      "study_front_cardinal": "south",
+      "bays_x": 5,
+      "bays_y": null,
+      "study_bays_y": 1,
+      "occupied_storeys": 2,
+      "reference_floor_count": 1,
+      "eaves_tiers": null,
+      "study_eaves_tiers": 1,
+      "known_facts": {
+        "width_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "height_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_x_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "column_bay_widths_y_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_registration_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "world_azimuth_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "elevation_common_datum": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "door_window_dimensions_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "No current measured individual-object value established; garden/flowerbed dimensions cannot be transferred."
+        },
+        "bays_x": {
+          "value": 5,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "orientation": {
+          "value": "south",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "position_relative_to_xianruo": {
+          "value": "north_of_xianruo",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "floor_stories": {
+          "value": 2,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文形制段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "roof_type": {
+          "value": "juanpeng_xieshan",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236536",
+          "locator": "正文第3段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Main garden text explicitly applies to all three named towers; individual Bao/Ciyin pages corroborate."
+        },
+        "roof_tile_color": {
+          "value": "green",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236536",
+          "locator": "正文第3段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Main garden text explicitly applies to all three named towers; individual Bao/Ciyin pages corroborate."
+        },
+        "roof_trim_color": {
+          "value": "yellow",
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236536",
+          "locator": "正文第3段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Main garden text explicitly applies to all three named towers; individual Bao/Ciyin pages corroborate."
+        },
+        "bays_y": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "eaves_tiers": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": "Two occupied storeys cannot be converted to two eaves or two complete roofs."
+        },
+        "storey_heights_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "veranda_depth_m_current_measurement": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "complete_upper_lower_opening_schedule": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        },
+        "storey_bays_x": {
+          "value": [
+            5,
+            5
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文第2段各面阔5间",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "ground_east_end_bay_is_passage": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "ground_east_end_passage_door_sides": {
+          "value": [
+            "south",
+            "north"
+          ],
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文第2段前后设门",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "ground_east_passage_west_interior_door_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文第2段西墙门通室内",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "This west wall belongs to eastern passage; it is not a documented outer west-facade door for the whole building."
+        },
+        "upper_front_central_door_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "upper_front_flanking_window_bays": {
+          "value": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "status": "explicit_bay_description_mapping",
+          "source_id": "CG-SITE236574",
+          "locator": "正文第2段次梢间为槛窗",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": "Zero-based west-to-east5bay mapping; individual window leaf counts unknown."
+        },
+        "upper_west_end_stair_present": {
+          "value": true,
+          "status": "direct_primary_body",
+          "source_id": "CG-SITE236574",
+          "locator": "正文第2段",
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "not_current_survey",
+          "note": null
+        },
+        "door_window_leaf_counts": {
+          "value": null,
+          "status": "unknown",
+          "source_id": null,
+          "locator": null,
+          "temporal_scope": "published_extant_description",
+          "measurement_status": "unknown",
+          "note": null
+        }
+      },
+      "dimensions": {
+        "body_width_m": 22.27754093992789,
+        "body_depth_m": 9.550467017642033,
+        "source_reference_slab_bottom_z_m": 0.0,
+        "floor_z_m": 0.32,
+        "level_break_z_m": 4.3,
+        "wall_top_z_m": 8.3,
+        "column_radius_m": 0.16,
+        "column_base_radius_m": 0.26,
+        "column_base_height_m": 0.16,
+        "beam_width_m": 0.4,
+        "beam_height_m": 0.36,
+        "wall_thickness_m": 0.22,
+        "enclosure_x_min_m": -11.028770469963945,
+        "enclosure_x_max_m": 11.028770469963945,
+        "enclosure_y_min_m": -4.665233508821016,
+        "enclosure_y_max_m": 4.665233508821016,
+        "veranda_front_depth_m": 0.11,
+        "veranda_rear_depth_m": 0.11,
+        "veranda_west_depth_m": 0.11,
+        "veranda_east_depth_m": 0.11,
+        "opening_frame_width_m": 0.08,
+        "opening_frame_depth_m": 0.12,
+        "leaf_panel_depth_m": 0.05
+      },
+      "roof": {
+        "roof_type": "juanpeng_xieshan",
+        "outer_width_m": 23.27754093992789,
+        "outer_depth_m": 10.550467017642033,
+        "eave_z_m": 8.55,
+        "top_z_m": 11.5,
+        "corner_lift_m": 0.0
+      },
+      "material_scheme": {
+        "base": "white_stone",
+        "column": "red_lacquer",
+        "beam": "painted_beam",
+        "wall": "red",
+        "frame": "red_lacquer",
+        "infill": "dark_wood",
+        "roof_main": "green",
+        "roof_edge": "yellow",
+        "roof_under": "dark_wood"
+      },
+      "partitions": [
+        {
+          "id": "ciyin_s0_east_passage_west_partition",
+          "storey_index": 0,
+          "normal_axis": "X",
+          "constant_m": 6.683262281978367,
+          "min_along_m": -4.665233508821016,
+          "max_along_m": 4.665233508821016,
+          "category_scope": "Documented westinteriorwall ofeastern groundpassage; notwholebuilding outerwest facade; position atstudy eastbay boundary."
+        }
+      ],
+      "openings": [
+        {
+          "id": "ciyin_ground_east_passage_south",
+          "wall_id": "s0_south",
+          "kind": "passage",
+          "center_along_m": 8.856016375971155,
+          "bottom_z_m": 0.32,
+          "width_m": 2.6,
+          "height_m": 2.9,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Officialeastend groundpassage north/southdoors; leafcountunknown andnotfabricated, clearstudy apertures inactualwalls.",
+          "fact_source_fields": [
+            "ground_east_end_bay_is_passage",
+            "ground_east_end_passage_door_sides"
+          ]
+        },
+        {
+          "id": "ciyin_ground_east_passage_north",
+          "wall_id": "s0_north",
+          "kind": "passage",
+          "center_along_m": 8.856016375971155,
+          "bottom_z_m": 0.32,
+          "width_m": 2.6,
+          "height_m": 2.9,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Officialeastend groundpassage north/southdoors; leafcountunknown andnotfabricated, clearstudy apertures inactualwalls.",
+          "fact_source_fields": [
+            "ground_east_end_bay_is_passage",
+            "ground_east_end_passage_door_sides"
+          ]
+        },
+        {
+          "id": "ciyin_ground_passage_west_interior_door",
+          "wall_id": "ciyin_s0_east_passage_west_partition",
+          "kind": "door",
+          "center_along_m": 0.0,
+          "bottom_z_m": 0.32,
+          "width_m": 2.0,
+          "height_m": 2.9,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Documented door inwestinteriorpartition ofeastpassage; doesnot authorize outerwest door.",
+          "fact_source_fields": [
+            "ground_east_passage_west_interior_door_present"
+          ]
+        },
+        {
+          "id": "ciyin_upper_front_central_door",
+          "wall_id": "s1_south",
+          "kind": "door",
+          "center_along_m": 0.0,
+          "bottom_z_m": 4.3,
+          "width_m": 2.6733049127913464,
+          "height_m": 3.0,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Documented upperfrontcentraldoor; leafcount and exact stair/balcony/interiorfloor geometry unbuilt.",
+          "fact_source_fields": [
+            "upper_front_central_door_present"
+          ]
+        },
+        {
+          "id": "ciyin_upper_front_window_bay_0",
+          "wall_id": "s1_south",
+          "kind": "window",
+          "center_along_m": -8.911016375971155,
+          "bottom_z_m": 5.2,
+          "width_m": 2.4950845852719237,
+          "height_m": 2.2,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Documented upperfront flanking sillwindow bay; leafcounts andpattern unknown.",
+          "fact_source_fields": [
+            "upper_front_flanking_window_bays"
+          ]
+        },
+        {
+          "id": "ciyin_upper_front_window_bay_1",
+          "wall_id": "s1_south",
+          "kind": "window",
+          "center_along_m": -4.455508187985578,
+          "bottom_z_m": 5.2,
+          "width_m": 2.4950845852719237,
+          "height_m": 2.2,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Documented upperfront flanking sillwindow bay; leafcounts andpattern unknown.",
+          "fact_source_fields": [
+            "upper_front_flanking_window_bays"
+          ]
+        },
+        {
+          "id": "ciyin_upper_front_window_bay_3",
+          "wall_id": "s1_south",
+          "kind": "window",
+          "center_along_m": 4.455508187985576,
+          "bottom_z_m": 5.2,
+          "width_m": 2.4950845852719237,
+          "height_m": 2.2,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Documented upperfront flanking sillwindow bay; leafcounts andpattern unknown.",
+          "fact_source_fields": [
+            "upper_front_flanking_window_bays"
+          ]
+        },
+        {
+          "id": "ciyin_upper_front_window_bay_4",
+          "wall_id": "s1_south",
+          "kind": "window",
+          "center_along_m": 8.911016375971155,
+          "bottom_z_m": 5.2,
+          "width_m": 2.4950845852719237,
+          "height_m": 2.2,
+          "leaf_count": null,
+          "pattern_category": null,
+          "dimension_status": "unmeasured_study",
+          "category_scope": "Documented upperfront flanking sillwindow bay; leafcounts andpattern unknown.",
+          "fact_source_fields": [
+            "upper_front_flanking_window_bays"
+          ]
+        }
+      ],
+      "deferred_documented_features": [],
+      "source_actual_actor_names": [
+        "way-40543909-p0_原轮廓主体"
+      ],
+      "allowed_hidden_source_actor_names": [
+        "way-40543909-p0_原轮廓主体"
+      ],
+      "source_containment_proof": {
+        "method": "Wholearea sourcepolygon/holes covers fullbody plus .5m all-side supportreserve; notbbox/point sampling",
+        "coordinate_clearance_inset_m": 0.12,
+        "reserved_support_margin_m": 0.5,
+        "safe_rectangle_local": [
+          [
+            11.638770469963944,
+            -5.2752335088210165
+          ],
+          [
+            11.638770469963944,
+            5.2752335088210165
+          ],
+          [
+            -11.638770469963944,
+            5.2752335088210165
+          ],
+          [
+            -11.638770469963944,
+            -5.2752335088210165
+          ]
+        ],
+        "body_rectangle_local": [
+          [
+            11.138770469963944,
+            -4.7752335088210165
+          ],
+          [
+            11.138770469963944,
+            4.7752335088210165
+          ],
+          [
+            -11.138770469963944,
+            4.7752335088210165
+          ],
+          [
+            -11.138770469963944,
+            -4.7752335088210165
+          ]
+        ],
+        "complete_body_plus_support_envelope_local": [
+          [
+            11.638770469963944,
+            -5.2752335088210165
+          ],
+          [
+            -11.638770469963944,
+            -5.2752335088210165
+          ],
+          [
+            -11.638770469963944,
+            5.2752335088210165
+          ],
+          [
+            11.638770469963944,
+            5.2752335088210165
+          ]
+        ],
+        "body_plus_support_outside_source_area_m2": 0.0,
+        "full_source_covers_body_plus_support": true
+      },
+      "parameter_evidence": {
+        "all_metric_values": {
+          "status": "unmeasured_study",
+          "current_field_measurement": false,
+          "source_flat6m_used_as_real_height": false,
+          "published_roof_or_body_metre_values_known": false
+        },
+        "storeys": {
+          "occupied_storeys": 2,
+          "status": "officialtext",
+          "upper_interior_floor_slab_generated": false,
+          "level_break_m": 4.3,
+          "level_break_status": "study_division_not_measured_floorheight"
+        },
+        "roof": {
+          "known_type": "juanpeng_xieshan",
+          "source_eaves_count": null,
+          "one_study_roof_not_two_eaves_inferred_from_two_storeys": true,
+          "requested_eave_reference_m": 8.5,
+          "study_eave_m": 8.55,
+          "reason_for_0_05m_adjustment": "Exceed .2m supportclearance without equalityrounding; numericalcontrol only."
+        },
+        "body_source": {
+          "registered_buildings_sha256": "0440f34777a70ba8d01002d199080fa05e73e24d2eef7d9606899af904d924b9",
+          "body_width_depth_from_registered_source_contained_study": true,
+          "all_sides_support_reserve_m": 0.5,
+          "actual_column_base_radius_m": 0.26,
+          "beam_width_m": 0.4,
+          "uppercolumn_diameter_m": 0.32
+        },
+        "verandas": {
+          "front_and_side_presence_source": "unknown_no_veranda_invented",
+          "world_sides": null,
+          "local_front_setback_m": 0.11,
+          "local_left_right_setbacks_m": 0.11,
+          "depth_status": "unmeasured_study",
+          "rear_halfwall_is_not_proof_of_rearveranda": true
+        },
+        "opening_sizes_and_leafcounts": {
+          "sizes": "unmeasured_study",
+          "leafcounts": null,
+          "lattice_geometry": null,
+          "no_unrecorded_frontdoor_storey_assignment": true
+        },
+        "palette": {
+          "roof_main_category": "green",
+          "roof_edge_category": "yellow",
+          "RGB_roughness_or_facade_materials_measured": false
+        }
+      },
+      "unbuilt": [
+        "all_current_surveyed_dimensions_and_control",
+        "exact_individual_baywidths",
+        "upper_floor_slabs_and_fullinteriors",
+        "precise_six_Bao_lightwell_sizes_and_rails",
+        "documented_stair_geometry",
+        "unknown_doorleaf_counts_and_lattice",
+        "exact_dougong_joinery_and_roof_tile_voids",
+        "complete_unrecorded_facades",
+        "whole_garden_reconstruction",
+        "runtime_collision_navigation_or_finalapproval"
+      ],
+      "source_actor_geometry_verified": true,
+      "historical_identity_confirmed": false,
+      "third_party_cost": 0,
+      "paid_service_calls": 0,
+      "human_approval": "pending"
+    }
+  ],
+  "allowed_hidden_source_actor_names": [
+    "way-40543909-p0_原轮廓主体",
+    "way-40543910-p0_原轮廓主体",
+    "way-40543911-p0_原轮廓主体"
+  ],
+  "base_native_sha256": "54a09df9df1030494bf354d06b9dfd96c05023e1f289c8c123579a8c1e673b38",
+  "base_manifest_sha256": "3c045304a3cb653b0db496ead776909a8471e427e7698119ecef71a5b7a51059",
+  "third_party_cost": 0,
+  "paid_service_calls": 0,
+  "human_approval": "pending",
+  "whole_city_complete": false,
+  "geometry_created": false,
+  "native_saved": false
+}

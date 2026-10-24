@@ -1,0 +1,3652 @@
+{
+  "schema": "v19-two-source-qualified-G14-hall-caller-profiles/1",
+  "buildings": [
+    {
+      "name_zh": "倦勤斋",
+      "source_part_id": "way-1341826246-p0",
+      "source_polygon_world": [
+        [
+          -311.031086,
+          462.314715
+        ],
+        [
+          -279.792002,
+          463.46825
+        ],
+        [
+          -280.073845,
+          471.162855
+        ],
+        [
+          -311.312898,
+          470.00932
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          -15.631338652635254,
+          -3.8498814255087876
+        ],
+        [
+          15.629035819774392,
+          -3.849881425508747
+        ],
+        [
+          15.631322389531467,
+          3.849883269225258
+        ],
+        [
+          -15.629021103991334,
+          3.8498821252983184
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -295.5524573399689,
+        466.7387843788309,
+        0.0
+      ],
+      "rotation_z_rad": 0.03690924916346723,
+      "source_actual_actor_names": [
+        "way-1341826246-p0_原轮廓主体"
+      ],
+      "original_source_record": {
+        "id": "way-1341826246-p0",
+        "osm_type": "way",
+        "osm_id": "1341826246",
+        "name": "倦勤斋",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -311.031086,
+            462.314715
+          ],
+          [
+            -279.792002,
+            463.46825
+          ],
+          [
+            -280.073845,
+            471.162855
+          ],
+          [
+            -311.312898,
+            470.00932
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/1341826246"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "historic": "yes",
+          "name": "倦勤斋",
+          "name:en": "Lodge of Retirement",
+          "name:zh": "倦勤斋"
+        },
+        "area_m2": 240.6973989237802,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "5eae7878a9ce3bc992b1982de9e5016de941970d8481bf204f3c1e80aeccaa87",
+      "source_actor_geometry_verified": true,
+      "actual_complete_projection_proof": {
+        "actor": "way-1341826246-p0_原轮廓主体",
+        "actual_signed_volume_m3": 1444.185693109408,
+        "actual_vertices": 8,
+        "actual_triangles": 12,
+        "bottom_cap": {
+          "actual_area_m2": 240.69761551823467,
+          "source_area_m2": 240.69739056065487,
+          "missing_outside_100um_m2": 0.0,
+          "extra_outside_100um_m2": 0.0,
+          "complete_boundary_hausdorff_m": 1.8319469973900693e-05,
+          "actual_complete_boundary_outside_source_tube_m": 0.0,
+          "source_complete_boundary_outside_actual_tube_m": 0.0,
+          "actual_components": [
+            {
+              "outer": [
+                [
+                  -311.3128967285156,
+                  470.00933837890625
+                ],
+                [
+                  -280.0738525390625,
+                  471.1628723144531
+                ],
+                [
+                  -279.7919921875,
+                  463.46826171875
+                ],
+                [
+                  -311.0310974121094,
+                  462.3147277832031
+                ]
+              ],
+              "holes": [],
+              "area_m2": 240.69761551823467
+            }
+          ],
+          "source_components": [
+            {
+              "outer": [
+                [
+                  -311.031086,
+                  462.314715
+                ],
+                [
+                  -279.792002,
+                  463.46825
+                ],
+                [
+                  -280.073845,
+                  471.162855
+                ],
+                [
+                  -311.312898,
+                  470.00932
+                ]
+              ],
+              "holes": [],
+              "area_m2": 240.69739056065487
+            }
+          ],
+          "EPS_m": 0.0001,
+          "AREA_EPS_m2": 1e-07,
+          "full_domain_not_bbox_or_point_sample": true
+        },
+        "whole_mesh_XY_projection": {
+          "actual_area_m2": 240.69761551823467,
+          "source_area_m2": 240.69739056065487,
+          "missing_outside_100um_m2": 0.0,
+          "extra_outside_100um_m2": 0.0,
+          "complete_boundary_hausdorff_m": 1.8319469973900693e-05,
+          "actual_complete_boundary_outside_source_tube_m": 0.0,
+          "source_complete_boundary_outside_actual_tube_m": 0.0,
+          "actual_components": [
+            {
+              "outer": [
+                [
+                  -311.0310974121094,
+                  462.3147277832031
+                ],
+                [
+                  -311.3128967285156,
+                  470.00933837890625
+                ],
+                [
+                  -280.0738525390625,
+                  471.1628723144531
+                ],
+                [
+                  -279.7919921875,
+                  463.46826171875
+                ]
+              ],
+              "holes": [],
+              "area_m2": 240.69761551823467
+            }
+          ],
+          "source_components": [
+            {
+              "outer": [
+                [
+                  -311.031086,
+                  462.314715
+                ],
+                [
+                  -279.792002,
+                  463.46825
+                ],
+                [
+                  -280.073845,
+                  471.162855
+                ],
+                [
+                  -311.312898,
+                  470.00932
+                ]
+              ],
+              "holes": [],
+              "area_m2": 240.69739056065487
+            }
+          ],
+          "EPS_m": 0.0001,
+          "AREA_EPS_m2": 1e-07,
+          "full_domain_not_bbox_or_point_sample": true
+        },
+        "closed_positive_original_source_body": true,
+        "real_building_footprint_or_height_confirmed": false
+      },
+      "frame_local_negative_y_reference_cardinal": "south",
+      "documentary_facing": "south",
+      "frame_method": "完整source质心/MRR边；玉粹east为qualified图证，其余未知正面仅reference轴",
+      "metric_scope": "unmeasured_study_source_model_coordinates",
+      "measured_world_azimuth": null,
+      "building_id": "juanqinzhai",
+      "builder": "hall",
+      "occupied_storeys": null,
+      "bays_x": 9,
+      "bays_y": null,
+      "study_bays_x": 9,
+      "study_bays_y": 1,
+      "eaves_tiers": null,
+      "study_eaves_tiers": 1,
+      "reference_floor_count": 1,
+      "reference_support_id": null,
+      "facing": "south",
+      "human_approval": "pending",
+      "historical_identity_confirmed": false,
+      "allowed_hidden_source_actor_names": [],
+      "source_assemblies_approved_for_replacement": [],
+      "source6m_proxy_height_is_real_building_height": false,
+      "third_party_cost": 0,
+      "paid_service_calls": 0,
+      "generated_geometry_verified": false,
+      "complete_reconstruction_proven": false,
+      "original_typed_factual_source_fields": {
+        "width_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "depth_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "ridge_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "total_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "floor_z_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "platform_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "platform_plan_dimensions_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "eave_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "each_storey_floor_z_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "exact_bay_widths_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "front_veranda_depth_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "bay_count_includes_veranda": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "bays_x": {
+          "value": 9,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "bays_y": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "eaves_tiers": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "interior_storey_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "occupied_storeys": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "facing": {
+          "value": "south",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "front_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "rear_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "side_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_front_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_rear_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_side_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "window_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "finial_dimensions_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "finial_material": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "world_anchor": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "current_2026_field_condition": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "current_public_access_open": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "post_1923_reconstruction_status": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "colour_rgb_hex": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "documentary_existing_description": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "官网具名现存式介绍，不是2026现场检查"
+        },
+        "construction_year": {
+          "value": 1772,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "historical_event_in_named_body_not_current_fabric_dating",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_type": {
+          "value": "juanpeng_yingshan",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_main_colour": {
+          "value": "green",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_edge_colour": {
+          "value": "yellow",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "front_veranda": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "front_painting_category": {
+          "value": "Suzhou_style",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "longitudinal_bay_partition": {
+          "value": {
+            "east": 5,
+            "west": 4
+          },
+          "status": "known",
+          "value_type": "object",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "east_five_front_opening_categories": {
+          "value": {
+            "middle": "door",
+            "remaining_four": "bubujin_zhizhai_windows"
+          },
+          "status": "known",
+          "value_type": "object",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "east_five_local_xianlou_present": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "east_five_xianlou_shape": {
+          "value": "concave_u_shape",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_internal_stage_present": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_internal_stage_roof": {
+          "value": "four_corner_pyramidal",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_internal_stage_finial": {
+          "value": "gilt_painted_wood",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_internal_stage_facing": {
+          "value": "east",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "relative_position": {
+          "value": "garden_north_end_behind_fuwang_against_north_wall",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "named_prototype": {
+          "value": "jianfu_jingshengzhai",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "two_side_corridors_join_fuwang": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_front_curved_wall_octagonal_gate_to_zhuxiang": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        }
+      },
+      "typed_factual_source_fields": {
+        "width_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "depth_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "ridge_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "total_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "floor_z_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "platform_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "platform_plan_dimensions_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "eave_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "each_storey_floor_z_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "exact_bay_widths_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "front_veranda_depth_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "bay_count_includes_veranda": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "bays_x": {
+          "value": 9,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "bays_y": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "eaves_tiers": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "interior_storey_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "occupied_storeys": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "facing": {
+          "value": "south",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "front_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "rear_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "side_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_front_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_rear_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_side_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "window_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "finial_dimensions_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "finial_material": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "world_anchor": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "current_2026_field_condition": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "current_public_access_open": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "post_1923_reconstruction_status": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "colour_rgb_hex": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "documentary_existing_description": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "官网具名现存式介绍，不是2026现场检查"
+        },
+        "construction_year": {
+          "value": 1772,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "historical_event_in_named_body_not_current_fabric_dating",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_type": {
+          "value": "juanpeng_yingshan",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_main_colour": {
+          "value": "green",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_edge_colour": {
+          "value": "yellow",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "front_veranda": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "front_painting_category": {
+          "value": "Suzhou_style",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "longitudinal_bay_partition": {
+          "value": {
+            "east": 5,
+            "west": 4
+          },
+          "status": "known",
+          "value_type": "object",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "east_five_front_opening_categories": {
+          "value": {
+            "middle": "door",
+            "remaining_four": "bubujin_zhizhai_windows"
+          },
+          "status": "known",
+          "value_type": "object",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "east_five_local_xianlou_present": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "east_five_xianlou_shape": {
+          "value": "concave_u_shape",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_internal_stage_present": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_internal_stage_roof": {
+          "value": "four_corner_pyramidal",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_internal_stage_finial": {
+          "value": "gilt_painted_wood",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_internal_stage_facing": {
+          "value": "east",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "relative_position": {
+          "value": "garden_north_end_behind_fuwang_against_north_wall",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "named_prototype": {
+          "value": "jianfu_jingshengzhai",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "two_side_corridors_join_fuwang": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "west_four_front_curved_wall_octagonal_gate_to_zhuxiang": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-JUANQIN",
+          "source_url": "https://www.dpm.org.cn/explore/building/236478.html",
+          "locator": "正文第1–5段；实际Chrome AX141–145",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        }
+      },
+      "known_facts": {
+        "width_m": null,
+        "depth_m": null,
+        "ridge_height_m": null,
+        "total_height_m": null,
+        "floor_z_m": null,
+        "platform_height_m": null,
+        "platform_plan_dimensions_m": null,
+        "eave_height_m": null,
+        "each_storey_floor_z_m": null,
+        "exact_bay_widths_m": null,
+        "front_veranda_depth_m": null,
+        "bay_count_includes_veranda": null,
+        "bays_x": 9,
+        "bays_y": null,
+        "eaves_tiers": null,
+        "interior_storey_count": null,
+        "occupied_storeys": null,
+        "facing": "south",
+        "front_door_leaf_count": null,
+        "rear_door_leaf_count": null,
+        "side_door_leaf_count": null,
+        "full_front_facade_schedule": null,
+        "full_rear_facade_schedule": null,
+        "full_side_facade_schedule": null,
+        "window_leaf_count": null,
+        "finial_dimensions_m": null,
+        "finial_material": null,
+        "world_anchor": null,
+        "current_2026_field_condition": null,
+        "current_public_access_open": null,
+        "post_1923_reconstruction_status": null,
+        "colour_rgb_hex": null,
+        "documentary_existing_description": true,
+        "construction_year": 1772,
+        "roof_type": "juanpeng_yingshan",
+        "roof_main_colour": "green",
+        "roof_edge_colour": "yellow",
+        "front_veranda": true,
+        "front_painting_category": "Suzhou_style",
+        "longitudinal_bay_partition": {
+          "east": 5,
+          "west": 4
+        },
+        "east_five_front_opening_categories": {
+          "middle": "door",
+          "remaining_four": "bubujin_zhizhai_windows"
+        },
+        "east_five_local_xianlou_present": true,
+        "east_five_xianlou_shape": "concave_u_shape",
+        "west_four_internal_stage_present": true,
+        "west_four_internal_stage_roof": "four_corner_pyramidal",
+        "west_four_internal_stage_finial": "gilt_painted_wood",
+        "west_four_internal_stage_facing": "east",
+        "relative_position": "garden_north_end_behind_fuwang_against_north_wall",
+        "named_prototype": "jianfu_jingshengzhai",
+        "two_side_corridors_join_fuwang": true,
+        "west_four_front_curved_wall_octagonal_gate_to_zhuxiang": true
+      },
+      "qualified_visual_reference": {
+        "official_article": 236478,
+        "text_facing": "south",
+        "text_main_bays": 9,
+        "text_front_veranda": true,
+        "text_main_roof": "juanpeng_yingshan",
+        "text_main_roof_colour": {
+          "main": "green",
+          "edge": "yellow"
+        },
+        "visual_front_reference": {
+          "source": "juanqinzhai-gallery-01.jpg",
+          "visible_central_red_panel_divisions": 4,
+          "evidence_type": "cropped_photo_reference_only",
+          "visible_side_window_groups": true,
+          "red_porch_columns_visible": true,
+          "historical_or_complete_leaf_count": null,
+          "complete_nine_bay_facade_count": null
+        },
+        "unknown": {
+          "west_four_complete_facade": null,
+          "side_rear_facades": null,
+          "all_door_window_leaf_counts": null,
+          "metric_xianlou_levels": null
+        },
+        "visual_limitations": [
+          "照片裁切、柱树遮挡，不能据局部四个红门分格填全九间门窗叶数。",
+          "刊p39室内方亭小戏台攒尖顶不属于主屋卷棚硬山顶。"
+        ]
+      },
+      "registration_file": "work/restoration-v19/registration/source-registration-evidence-01.json",
+      "registration_sha256": "4df276dff1531b5faf09e989bba79a983e6add739a64a2880fb59241ad9a0b23",
+      "dimensions": {
+        "body_width_m": 30.23238213428387,
+        "body_depth_m": 6.693063088166558,
+        "floor_z_m": 0.35,
+        "source_reference_slab_bottom_z_m": 0,
+        "source_reference_slab_top_z_m": 0.35,
+        "slab_thickness_m": 0.35,
+        "wall_thickness_m": 0.18,
+        "column_radius_m": 0.15,
+        "column_base_radius_m": 0.25,
+        "column_base_height_m": 0.15,
+        "column_top_z_m": 4.37,
+        "beam_width_m": 0.34,
+        "beam_height_m": 0.28,
+        "wall_top_z_m": 4.65,
+        "enclosure_x_min_m": -15.026191067141935,
+        "enclosure_x_max_m": 15.026191067141935,
+        "enclosure_y_min_m": -2.246531544083279,
+        "enclosure_y_max_m": 3.256531544083279,
+        "veranda_front_depth_m": 1.1,
+        "veranda_rear_depth_m": 0.09,
+        "veranda_west_depth_m": 0.09,
+        "veranda_east_depth_m": 0.09,
+        "door_height_m": 2.95,
+        "window_height_m": 1.9,
+        "window_sill_height_above_floor_m": 0.85,
+        "door_width_fraction_of_bay": 0.65,
+        "window_width_fraction_of_bay": 0.67,
+        "opening_frame_width_m": 0.07,
+        "opening_frame_depth_m": 0.12,
+        "leaf_panel_depth_m": 0.05
+      },
+      "roof_tiers": [
+        {
+          "tier_index": 0,
+          "roof_type": "juanpeng_yingshan",
+          "outer_width_m": 30.23238213428387,
+          "outer_depth_m": 7.243063088166558,
+          "eave_z_m": 5.45,
+          "top_z_m": 7.45,
+          "corner_lift_m": 0,
+          "additional_overhang_m": 0,
+          "annular": false,
+          "inner_width_m": null,
+          "inner_depth_m": null
+        }
+      ],
+      "material_scheme": {
+        "base": "grey",
+        "column": "grey",
+        "beam": "grey",
+        "wall": "grey",
+        "frame": "grey",
+        "infill": "grey",
+        "roof_under": "grey",
+        "roof_main": "green",
+        "roof_edge": "yellow"
+      },
+      "facades": {
+        "south": {
+          "schedule": [
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 0
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 1
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 2
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 3
+            },
+            {
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "bubujin_zhizhai_windows",
+              "category_scope": "DPM-JUANQIN east-five bay category only; one study aperture per qualified bay; physical aperture census and all leaf counts unknown",
+              "bay_index": 4
+            },
+            {
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "bubujin_zhizhai_windows",
+              "category_scope": "DPM-JUANQIN east-five bay category only; one study aperture per qualified bay; physical aperture census and all leaf counts unknown",
+              "bay_index": 5
+            },
+            {
+              "kind": "door",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "DPM-JUANQIN east-five bay category only; one study aperture per qualified bay; physical aperture census and all leaf counts unknown",
+              "bay_index": 6
+            },
+            {
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "bubujin_zhizhai_windows",
+              "category_scope": "DPM-JUANQIN east-five bay category only; one study aperture per qualified bay; physical aperture census and all leaf counts unknown",
+              "bay_index": 7
+            },
+            {
+              "kind": "window",
+              "leaf_count": null,
+              "pattern_category": "bubujin_zhizhai_windows",
+              "category_scope": "DPM-JUANQIN east-five bay category only; one study aperture per qualified bay; physical aperture census and all leaf counts unknown",
+              "bay_index": 8
+            }
+          ]
+        },
+        "north": {
+          "schedule": [
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 0
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 1
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 2
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 3
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 4
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 5
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 6
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 7
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 8
+            }
+          ]
+        },
+        "east": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact"
+        },
+        "west": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact"
+        }
+      },
+      "parameter_evidence": {
+        "all_metric_parameters": {
+          "status": "unmeasured_study",
+          "numeric_dimensions": {
+            "body_width_m": 30.23238213428387,
+            "body_depth_m": 6.693063088166558,
+            "floor_z_m": 0.35,
+            "source_reference_slab_bottom_z_m": 0,
+            "source_reference_slab_top_z_m": 0.35,
+            "slab_thickness_m": 0.35,
+            "wall_thickness_m": 0.18,
+            "column_radius_m": 0.15,
+            "column_base_radius_m": 0.25,
+            "column_base_height_m": 0.15,
+            "column_top_z_m": 4.37,
+            "beam_width_m": 0.34,
+            "beam_height_m": 0.28,
+            "wall_top_z_m": 4.65,
+            "enclosure_x_min_m": -15.026191067141935,
+            "enclosure_x_max_m": 15.026191067141935,
+            "enclosure_y_min_m": -2.246531544083279,
+            "enclosure_y_max_m": 3.256531544083279,
+            "veranda_front_depth_m": 1.1,
+            "veranda_rear_depth_m": 0.09,
+            "veranda_west_depth_m": 0.09,
+            "veranda_east_depth_m": 0.09,
+            "door_height_m": 2.95,
+            "window_height_m": 1.9,
+            "window_sill_height_above_floor_m": 0.85,
+            "door_width_fraction_of_bay": 0.65,
+            "window_width_fraction_of_bay": 0.67,
+            "opening_frame_width_m": 0.07,
+            "opening_frame_depth_m": 0.12,
+            "leaf_panel_depth_m": 0.05
+          },
+          "numeric_roof_controls": [
+            {
+              "tier_index": 0,
+              "roof_type": "juanpeng_yingshan",
+              "outer_width_m": 30.23238213428387,
+              "outer_depth_m": 7.243063088166558,
+              "eave_z_m": 5.45,
+              "top_z_m": 7.45,
+              "corner_lift_m": 0,
+              "additional_overhang_m": 0,
+              "annular": false,
+              "inner_width_m": null,
+              "inner_depth_m": null
+            }
+          ],
+          "equal_bay_spans_are_study_only": true,
+          "source6m_proxy_height_used": false,
+          "current_field_measurement": false
+        },
+        "reference_frame": {
+          "status": "unmeasured_study",
+          "origin_and_rotation": "complete source geometry registration only; not measured current world datum/azimuth",
+          "negative_y_cardinal_reference": "south",
+          "yucui_east_is_qualified_plan_inference_only": false,
+          "documentary_facing_unchanged": "south"
+        },
+        "eaves_tiers": {
+          "factual": null,
+          "study_shell_count": 1,
+          "status": "unmeasured_study"
+        },
+        "front_veranda": {
+          "published_category": true,
+          "depth_m": 1.1,
+          "status": "unmeasured_study"
+        },
+        "source_control_domains": {
+          "body_all_side_reserve_m": 0.5,
+          "roof_decorative_half_extent_budget_m": 0.09,
+          "proof": "exact Polygon.covers of entire rectangles including holes; no sample/bbox domain substitute",
+          "roof_budget_basis": "frozen G14 gable tube radii <=.06m; R hip tube radii <=.065m; .09m conservative budget; closed skins shift Z only",
+          "actual_generated_all_triangle_domain_test_required": true
+        },
+        "unknown_inert_opening_dimensions": {
+          "status": "required_API_controls_only",
+          "unresolved_wall_produces_no_aperture": true
+        },
+        "colors_and_finishes": {
+          "status": "unmeasured_study",
+          "category_only": "official green/yellow roof allocation; neutral grey for unqualified surfaces"
+        }
+      },
+      "unbuilt": [
+        "Current measured dimensions, datum, azimuth, exact unequal bay spans, roof curve and tile details",
+        "Actual occupied storeys, eave-tier census, all exact leaf counts, open states, joinery and exact lattice geometry",
+        "All unqualified facade holes and through-route/destination verification",
+        "Interiors, concealed roof structure, measured historic platform and physical tile cavity",
+        "Gallery/rock/mountain/wall connections and their independent source binding",
+        "West-four stage, east-five xianlou, Suzhou painting and curved wall/octagonal gate: facts retained, no dimensions invented"
+      ]
+    },
+    {
+      "name_zh": "玉粹轩",
+      "source_part_id": "way-40629263-p0",
+      "source_polygon_world": [
+        [
+          -310.989274,
+          439.39748
+        ],
+        [
+          -310.6733,
+          430.781299
+        ],
+        [
+          -303.560265,
+          431.047492
+        ],
+        [
+          -303.884796,
+          439.663674
+        ]
+      ],
+      "source_holes_world": [],
+      "source_polygon_local": [
+        [
+          4.311768609427523,
+          3.553657648976204
+        ],
+        [
+          -4.310201743686923,
+          3.560124754377866
+        ],
+        [
+          -4.310201743686917,
+          -3.5578894086084323
+        ],
+        [
+          4.312089615607632,
+          -3.555805537163482
+        ]
+      ],
+      "source_holes_local": [],
+      "anchor": [
+        -307.2768546016171,
+        435.2216239874102,
+        0.0
+      ],
+      "rotation_z_rad": 1.6082021368997128,
+      "source_actual_actor_names": [
+        "way-40629263-p0_原轮廓主体"
+      ],
+      "original_source_record": {
+        "id": "way-40629263-p0",
+        "osm_type": "way",
+        "osm_id": "40629263",
+        "name": "玉粹轩",
+        "parent_name": null,
+        "parent_relation_ids": [],
+        "polygon": [
+          [
+            -310.989274,
+            439.39748
+          ],
+          [
+            -310.6733,
+            430.781299
+          ],
+          [
+            -303.560265,
+            431.047492
+          ],
+          [
+            -303.884796,
+            439.663674
+          ]
+        ],
+        "holes": [],
+        "min_height": 0.0,
+        "height": 6.0,
+        "roof_height": 0.0,
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "tile_color": "grey",
+        "wall_color": "grey",
+        "source_refs": [
+          "https://www.openstreetmap.org/way/40629263"
+        ],
+        "height_source": "assumption:draft thickness 6 m above min_height; unverified",
+        "assumptions": [
+          "height missing/invalid; draft total height=min_height+6 m, unverified, not architectural measurement",
+          "roof:shape missing/unsupported; draft flat top, unverified",
+          "No roof colour tag; neutral grey palette unless roof colour is explicitly mapped",
+          "No wall colour/material tag; neutral grey palette"
+        ],
+        "original_tags": {
+          "building": "yes",
+          "historic": "yes",
+          "name": "玉粹轩",
+          "name:en": "Pavilion of Jade Purity",
+          "name:zh": "玉粹轩"
+        },
+        "area_m2": 61.33558234051994,
+        "source_geometry_retained": true,
+        "intersects_site": true,
+        "included_by_building_group": false
+      },
+      "source_record_sha256": "02665ca4befbb8002158ab1f993c55a51ba5e420d037fd1edae64d0705b85e06",
+      "source_actor_geometry_verified": true,
+      "actual_complete_projection_proof": {
+        "actor": "way-40629263-p0_原轮廓主体",
+        "actual_signed_volume_m3": 368.0139075703919,
+        "actual_vertices": 8,
+        "actual_triangles": 12,
+        "bottom_cap": {
+          "actual_area_m2": 61.33565126173198,
+          "source_area_m2": 61.33558537716357,
+          "missing_outside_100um_m2": 0.0,
+          "extra_outside_100um_m2": 0.0,
+          "complete_boundary_hausdorff_m": 2.070211100702885e-05,
+          "actual_complete_boundary_outside_source_tube_m": 0.0,
+          "source_complete_boundary_outside_actual_tube_m": 0.0,
+          "actual_components": [
+            {
+              "outer": [
+                [
+                  -310.9892883300781,
+                  439.3974609375
+                ],
+                [
+                  -303.8847961425781,
+                  439.6636657714844
+                ],
+                [
+                  -303.5602722167969,
+                  431.0474853515625
+                ],
+                [
+                  -310.6733093261719,
+                  430.7812805175781
+                ]
+              ],
+              "holes": [],
+              "area_m2": 61.33565126173198
+            }
+          ],
+          "source_components": [
+            {
+              "outer": [
+                [
+                  -310.989274,
+                  439.39748
+                ],
+                [
+                  -310.6733,
+                  430.781299
+                ],
+                [
+                  -303.560265,
+                  431.047492
+                ],
+                [
+                  -303.884796,
+                  439.663674
+                ]
+              ],
+              "holes": [],
+              "area_m2": 61.33558537716357
+            }
+          ],
+          "EPS_m": 0.0001,
+          "AREA_EPS_m2": 1e-07,
+          "full_domain_not_bbox_or_point_sample": true
+        },
+        "whole_mesh_XY_projection": {
+          "actual_area_m2": 61.33565126173198,
+          "source_area_m2": 61.33558537716357,
+          "missing_outside_100um_m2": 0.0,
+          "extra_outside_100um_m2": 0.0,
+          "complete_boundary_hausdorff_m": 2.070211100702885e-05,
+          "actual_complete_boundary_outside_source_tube_m": 0.0,
+          "source_complete_boundary_outside_actual_tube_m": 0.0,
+          "actual_components": [
+            {
+              "outer": [
+                [
+                  -310.6733093261719,
+                  430.7812805175781
+                ],
+                [
+                  -310.9892883300781,
+                  439.3974609375
+                ],
+                [
+                  -303.8847961425781,
+                  439.6636657714844
+                ],
+                [
+                  -303.5602722167969,
+                  431.0474853515625
+                ]
+              ],
+              "holes": [],
+              "area_m2": 61.33565126173198
+            }
+          ],
+          "source_components": [
+            {
+              "outer": [
+                [
+                  -310.989274,
+                  439.39748
+                ],
+                [
+                  -310.6733,
+                  430.781299
+                ],
+                [
+                  -303.560265,
+                  431.047492
+                ],
+                [
+                  -303.884796,
+                  439.663674
+                ]
+              ],
+              "holes": [],
+              "area_m2": 61.33558537716357
+            }
+          ],
+          "EPS_m": 0.0001,
+          "AREA_EPS_m2": 1e-07,
+          "full_domain_not_bbox_or_point_sample": true
+        },
+        "closed_positive_original_source_body": true,
+        "real_building_footprint_or_height_confirmed": false
+      },
+      "frame_local_negative_y_reference_cardinal": "east",
+      "documentary_facing": null,
+      "frame_method": "完整source质心/MRR边；玉粹east为qualified图证，其余未知正面仅reference轴",
+      "metric_scope": "unmeasured_study_source_model_coordinates",
+      "measured_world_azimuth": null,
+      "building_id": "yucuixuan",
+      "builder": "hall",
+      "occupied_storeys": null,
+      "bays_x": 3,
+      "bays_y": null,
+      "study_bays_x": 3,
+      "study_bays_y": 1,
+      "eaves_tiers": null,
+      "study_eaves_tiers": 1,
+      "reference_floor_count": 1,
+      "reference_support_id": null,
+      "facing": null,
+      "human_approval": "pending",
+      "historical_identity_confirmed": false,
+      "allowed_hidden_source_actor_names": [],
+      "source_assemblies_approved_for_replacement": [],
+      "source6m_proxy_height_is_real_building_height": false,
+      "third_party_cost": 0,
+      "paid_service_calls": 0,
+      "generated_geometry_verified": false,
+      "complete_reconstruction_proven": false,
+      "original_typed_factual_source_fields": {
+        "width_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "depth_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "ridge_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "total_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "floor_z_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "platform_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "platform_plan_dimensions_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "eave_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "each_storey_floor_z_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "exact_bay_widths_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "front_veranda_depth_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "bay_count_includes_veranda": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "bays_x": {
+          "value": 3,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "bays_y": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "eaves_tiers": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "interior_storey_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "occupied_storeys": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "facing": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "front_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "rear_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "side_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_front_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_rear_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_side_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "window_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "finial_dimensions_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "finial_material": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "world_anchor": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "current_2026_field_condition": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "current_public_access_open": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "post_1923_reconstruction_status": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "colour_rgb_hex": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "documentary_existing_description": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "官网具名现存式介绍，不是2026现场检查"
+        },
+        "construction_year": {
+          "value": 1772,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "historical_event_in_named_body_not_current_fabric_dating",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_type": {
+          "value": "juanpeng_xieshan",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_main_colour": {
+          "value": "yellow",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_eaves_and_ridge_colour": {
+          "value": "green",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "front_veranda": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "interior_room_count": {
+          "value": 3,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "south_room_name": {
+          "value": "dexianshi",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "north_room_function": {
+          "value": "Buddhist_room",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "relative_position": {
+          "value": "west_wall_opposite_fuwang_to_east",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "north_indoor_passage_to_zhuxiang": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "north_gallery_connects_east_to_fuwang": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "southeast_short_wall": {
+          "value": "coloured_stone_facing",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "south_rocks_and_steps": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "named_prototype": {
+          "value": "jianfu_ninghuitang",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        }
+      },
+      "typed_factual_source_fields": {
+        "width_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "depth_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "ridge_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "total_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "floor_z_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "platform_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "platform_plan_dimensions_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "eave_height_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "each_storey_floor_z_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "exact_bay_widths_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "front_veranda_depth_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "bay_count_includes_veranda": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "bays_x": {
+          "value": 3,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "bays_y": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "eaves_tiers": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "interior_storey_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "occupied_storeys": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "facing": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "front_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "rear_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "side_door_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_front_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_rear_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "full_side_facade_schedule": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "window_leaf_count": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "finial_dimensions_m": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "finial_material": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "world_anchor": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "current_2026_field_condition": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "current_public_access_open": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "post_1923_reconstruction_status": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "colour_rgb_hex": {
+          "value": null,
+          "status": "unknown",
+          "value_type": "null",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "unresolved_not_provided_in_read_individual_body",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "未知不从source标签、同类、词表或照片补值"
+        },
+        "documentary_existing_description": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": "官网具名现存式介绍，不是2026现场检查"
+        },
+        "construction_year": {
+          "value": 1772,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "historical_event_in_named_body_not_current_fabric_dating",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_type": {
+          "value": "juanpeng_xieshan",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_main_colour": {
+          "value": "yellow",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "roof_eaves_and_ridge_colour": {
+          "value": "green",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "front_veranda": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "interior_room_count": {
+          "value": 3,
+          "status": "known",
+          "value_type": "integer",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "south_room_name": {
+          "value": "dexianshi",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "north_room_function": {
+          "value": "Buddhist_room",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "relative_position": {
+          "value": "west_wall_opposite_fuwang_to_east",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "north_indoor_passage_to_zhuxiang": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "north_gallery_connects_east_to_fuwang": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "southeast_short_wall": {
+          "value": "coloured_stone_facing",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "south_rocks_and_steps": {
+          "value": true,
+          "status": "known",
+          "value_type": "boolean",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        },
+        "named_prototype": {
+          "value": "jianfu_ninghuitang",
+          "status": "known",
+          "value_type": "string",
+          "source_id": "DPM-YUCUI",
+          "source_url": "https://www.dpm.org.cn/explore/building/236460.html",
+          "locator": "具名正文170–172行，词表之前",
+          "measurement_scope": "named_documentary_typology_not_metric_survey",
+          "current_field_measurement": false,
+          "accessed_date": "2026-10-24",
+          "meaning": null
+        }
+      },
+      "known_facts": {
+        "width_m": null,
+        "depth_m": null,
+        "ridge_height_m": null,
+        "total_height_m": null,
+        "floor_z_m": null,
+        "platform_height_m": null,
+        "platform_plan_dimensions_m": null,
+        "eave_height_m": null,
+        "each_storey_floor_z_m": null,
+        "exact_bay_widths_m": null,
+        "front_veranda_depth_m": null,
+        "bay_count_includes_veranda": null,
+        "bays_x": 3,
+        "bays_y": null,
+        "eaves_tiers": null,
+        "interior_storey_count": null,
+        "occupied_storeys": null,
+        "facing": null,
+        "front_door_leaf_count": null,
+        "rear_door_leaf_count": null,
+        "side_door_leaf_count": null,
+        "full_front_facade_schedule": null,
+        "full_rear_facade_schedule": null,
+        "full_side_facade_schedule": null,
+        "window_leaf_count": null,
+        "finial_dimensions_m": null,
+        "finial_material": null,
+        "world_anchor": null,
+        "current_2026_field_condition": null,
+        "current_public_access_open": null,
+        "post_1923_reconstruction_status": null,
+        "colour_rgb_hex": null,
+        "documentary_existing_description": true,
+        "construction_year": 1772,
+        "roof_type": "juanpeng_xieshan",
+        "roof_main_colour": "yellow",
+        "roof_eaves_and_ridge_colour": "green",
+        "front_veranda": true,
+        "interior_room_count": 3,
+        "south_room_name": "dexianshi",
+        "north_room_function": "Buddhist_room",
+        "relative_position": "west_wall_opposite_fuwang_to_east",
+        "north_indoor_passage_to_zhuxiang": true,
+        "north_gallery_connects_east_to_fuwang": true,
+        "southeast_short_wall": "coloured_stone_facing",
+        "south_rocks_and_steps": true,
+        "named_prototype": "jianfu_ninghuitang"
+      },
+      "qualified_visual_reference": {
+        "official_article": 236460,
+        "text_main_bays": 3,
+        "text_front_veranda": true,
+        "text_main_roof": "juanpeng_xieshan",
+        "text_main_roof_colour": {
+          "main": "yellow",
+          "edge_ridge": "green"
+        },
+        "text_principal_facing": null,
+        "visual_sources": [
+          "yucuixuan-gallery-01.jpg",
+          "official-2025-pdfpage-04-render-144dpi.png"
+        ],
+        "visible_reference": [
+          "红廊柱与后退围护面",
+          "前台阶与台面",
+          "南侧石山"
+        ],
+        "diagram_inference": {
+          "porch_side_appears": "east",
+          "evidence_type": "qualified_diagram_relationship",
+          "exact_cardinal_facing_proven_by_named_text": false,
+          "permitted_to_replace_frozen_facing_null": false
+        },
+        "text_connections": [
+          "北通道通竹香馆",
+          "北游廊向东接符望阁",
+          "南石山与蹬道"
+        ],
+        "unknown": {
+          "gallery_joint_coordinates": null,
+          "passage_floor_levels": null,
+          "door_window_full_schedule": null,
+          "leaf_counts": null
+        }
+      },
+      "registration_file": "work/restoration-v19/registration/source-registration-evidence-01.json",
+      "registration_sha256": "4df276dff1531b5faf09e989bba79a983e6add739a64a2880fb59241ad9a0b23",
+      "dimensions": {
+        "body_width_m": 7.605170300802586,
+        "body_depth_m": 6.1035533753612485,
+        "floor_z_m": 0.35,
+        "source_reference_slab_bottom_z_m": 0,
+        "source_reference_slab_top_z_m": 0.35,
+        "slab_thickness_m": 0.35,
+        "wall_thickness_m": 0.18,
+        "column_radius_m": 0.15,
+        "column_base_radius_m": 0.25,
+        "column_base_height_m": 0.15,
+        "column_top_z_m": 4.37,
+        "beam_width_m": 0.34,
+        "beam_height_m": 0.28,
+        "wall_top_z_m": 4.65,
+        "enclosure_x_min_m": -3.712585150401293,
+        "enclosure_x_max_m": 3.712585150401293,
+        "enclosure_y_min_m": -1.9517766876806242,
+        "enclosure_y_max_m": 2.9617766876806244,
+        "veranda_front_depth_m": 1.1,
+        "veranda_rear_depth_m": 0.09,
+        "veranda_west_depth_m": 0.09,
+        "veranda_east_depth_m": 0.09,
+        "door_height_m": 2.95,
+        "window_height_m": 1.9,
+        "window_sill_height_above_floor_m": 0.85,
+        "door_width_fraction_of_bay": 0.65,
+        "window_width_fraction_of_bay": 0.67,
+        "opening_frame_width_m": 0.07,
+        "opening_frame_depth_m": 0.12,
+        "leaf_panel_depth_m": 0.05
+      },
+      "roof_tiers": [
+        {
+          "tier_index": 0,
+          "roof_type": "juanpeng_xieshan",
+          "outer_width_m": 8.155170300802586,
+          "outer_depth_m": 6.653553375361248,
+          "eave_z_m": 5.45,
+          "top_z_m": 7.45,
+          "corner_lift_m": 0.12,
+          "additional_overhang_m": 0,
+          "annular": false,
+          "inner_width_m": null,
+          "inner_depth_m": null
+        }
+      ],
+      "material_scheme": {
+        "base": "grey",
+        "column": "grey",
+        "beam": "grey",
+        "wall": "grey",
+        "frame": "grey",
+        "infill": "grey",
+        "roof_under": "grey",
+        "roof_main": "yellow",
+        "roof_edge": "green"
+      },
+      "facades": {
+        "south": {
+          "schedule": [
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 0
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 1
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 2
+            }
+          ]
+        },
+        "north": {
+          "schedule": [
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 0
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 1
+            },
+            {
+              "kind": "unresolved_wall",
+              "leaf_count": null,
+              "pattern_category": null,
+              "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact",
+              "bay_index": 2
+            }
+          ]
+        },
+        "east": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact"
+        },
+        "west": {
+          "kind": "unresolved_wall",
+          "leaf_count": null,
+          "pattern_category": null,
+          "category_scope": "unknown_enclosure_reference_not_a_historic_solid_wall_fact"
+        }
+      },
+      "parameter_evidence": {
+        "all_metric_parameters": {
+          "status": "unmeasured_study",
+          "numeric_dimensions": {
+            "body_width_m": 7.605170300802586,
+            "body_depth_m": 6.1035533753612485,
+            "floor_z_m": 0.35,
+            "source_reference_slab_bottom_z_m": 0,
+            "source_reference_slab_top_z_m": 0.35,
+            "slab_thickness_m": 0.35,
+            "wall_thickness_m": 0.18,
+            "column_radius_m": 0.15,
+            "column_base_radius_m": 0.25,
+            "column_base_height_m": 0.15,
+            "column_top_z_m": 4.37,
+            "beam_width_m": 0.34,
+            "beam_height_m": 0.28,
+            "wall_top_z_m": 4.65,
+            "enclosure_x_min_m": -3.712585150401293,
+            "enclosure_x_max_m": 3.712585150401293,
+            "enclosure_y_min_m": -1.9517766876806242,
+            "enclosure_y_max_m": 2.9617766876806244,
+            "veranda_front_depth_m": 1.1,
+            "veranda_rear_depth_m": 0.09,
+            "veranda_west_depth_m": 0.09,
+            "veranda_east_depth_m": 0.09,
+            "door_height_m": 2.95,
+            "window_height_m": 1.9,
+            "window_sill_height_above_floor_m": 0.85,
+            "door_width_fraction_of_bay": 0.65,
+            "window_width_fraction_of_bay": 0.67,
+            "opening_frame_width_m": 0.07,
+            "opening_frame_depth_m": 0.12,
+            "leaf_panel_depth_m": 0.05
+          },
+          "numeric_roof_controls": [
+            {
+              "tier_index": 0,
+              "roof_type": "juanpeng_xieshan",
+              "outer_width_m": 8.155170300802586,
+              "outer_depth_m": 6.653553375361248,
+              "eave_z_m": 5.45,
+              "top_z_m": 7.45,
+              "corner_lift_m": 0.12,
+              "additional_overhang_m": 0,
+              "annular": false,
+              "inner_width_m": null,
+              "inner_depth_m": null
+            }
+          ],
+          "equal_bay_spans_are_study_only": true,
+          "source6m_proxy_height_used": false,
+          "current_field_measurement": false
+        },
+        "reference_frame": {
+          "status": "unmeasured_study",
+          "origin_and_rotation": "complete source geometry registration only; not measured current world datum/azimuth",
+          "negative_y_cardinal_reference": "east",
+          "yucui_east_is_qualified_plan_inference_only": true,
+          "documentary_facing_unchanged": null
+        },
+        "eaves_tiers": {
+          "factual": null,
+          "study_shell_count": 1,
+          "status": "unmeasured_study"
+        },
+        "front_veranda": {
+          "published_category": true,
+          "depth_m": 1.1,
+          "status": "unmeasured_study"
+        },
+        "source_control_domains": {
+          "body_all_side_reserve_m": 0.5,
+          "roof_decorative_half_extent_budget_m": 0.09,
+          "proof": "exact Polygon.covers of entire rectangles including holes; no sample/bbox domain substitute",
+          "roof_budget_basis": "frozen G14 gable tube radii <=.06m; R hip tube radii <=.065m; .09m conservative budget; closed skins shift Z only",
+          "actual_generated_all_triangle_domain_test_required": true
+        },
+        "unknown_inert_opening_dimensions": {
+          "status": "required_API_controls_only",
+          "unresolved_wall_produces_no_aperture": true
+        },
+        "colors_and_finishes": {
+          "status": "unmeasured_study",
+          "category_only": "official green/yellow roof allocation; neutral grey for unqualified surfaces"
+        }
+      },
+      "unbuilt": [
+        "Current measured dimensions, datum, azimuth, exact unequal bay spans, roof curve and tile details",
+        "Actual occupied storeys, eave-tier census, all exact leaf counts, open states, joinery and exact lattice geometry",
+        "All unqualified facade holes and through-route/destination verification",
+        "Interiors, concealed roof structure, measured historic platform and physical tile cavity",
+        "Gallery/rock/mountain/wall connections and their independent source binding",
+        "Three interior rooms, Dexianshi/Buddhist-room fitout, north passage/gallery and south rocks/steps: facts retained, geometry unresolved"
+      ]
+    }
+  ],
+  "source_files_sha256": {
+    "work/courtyard_hall_buildings.py": "5123db7be8948e9bdb4dc6d8edb712d01ad98075e5e6a40251be5aa8f666a86d",
+    "work/four_hall_buildings.py": "1d3267d25946ecf468da3a9d60103ef522c202452f60d0e500643d14ce9dcc1a",
+    "work/restoration_buildings.py": "aac18ca8c219b8de544dd78d8a7b99000a4d0fe83d40553614065e0c998aaf60",
+    "work/forbidden_city_geometry.py": "23f815fc93057a0f69b66adc25536485fc05a33935f67fb1613073963e276efc",
+    "work/restoration-v18/prepare_profiles_v1.py": "c3994b2054fbe186f5be6263be121c67bb0fbbccc811062f31cb25fa4accc770",
+    "work/build_forbidden_city_restoration_v18.py": "91fbadf405d1acc33eae9f9c25dcc136f7996747878c33a0f2abd763008329b9",
+    "work/restoration-v19-preparation/facts-and-candidates.json": "1cd2f810ab3f910fa282abd46702eafc10e8c4d052311c89155f4e3954812f58",
+    "work/restoration-v19/registration/actual-source-actors.json": "66918efad977a1def89dbf33462ab9549c9fe661a28bb7bdd6d1cc6bf513e96d",
+    "work/restoration-v19/registration/actual-source-domain-checks-01.json": "3b9aeb8d72bab47da62f8397a4e3a70c199e60dd158cfd5b10509b20e95e1a33",
+    "work/restoration-v19/registration/source-registration-evidence-01.json": "4df276dff1531b5faf09e989bba79a983e6add739a64a2880fb59241ad9a0b23",
+    "work/restoration-v19/research/visual-facts-addon-01.json": "f7fbe89a0459d106f68ca8d7dc308ca07e8ee917d9bcef134348b39b807bc982",
+    "work/restoration-v19/hall-profile-prep/prepare_hall_profiles.py": "1dea011f5d02efdce5027675da6f910b45ae0914715754da88788cbeec769ed8"
+  },
+  "source_files": {
+    "work/courtyard_hall_buildings.py": "5123db7be8948e9bdb4dc6d8edb712d01ad98075e5e6a40251be5aa8f666a86d",
+    "work/four_hall_buildings.py": "1d3267d25946ecf468da3a9d60103ef522c202452f60d0e500643d14ce9dcc1a",
+    "work/restoration_buildings.py": "aac18ca8c219b8de544dd78d8a7b99000a4d0fe83d40553614065e0c998aaf60",
+    "work/forbidden_city_geometry.py": "23f815fc93057a0f69b66adc25536485fc05a33935f67fb1613073963e276efc",
+    "work/restoration-v18/prepare_profiles_v1.py": "c3994b2054fbe186f5be6263be121c67bb0fbbccc811062f31cb25fa4accc770",
+    "work/build_forbidden_city_restoration_v18.py": "91fbadf405d1acc33eae9f9c25dcc136f7996747878c33a0f2abd763008329b9",
+    "work/restoration-v19-preparation/facts-and-candidates.json": "1cd2f810ab3f910fa282abd46702eafc10e8c4d052311c89155f4e3954812f58",
+    "work/restoration-v19/registration/actual-source-actors.json": "66918efad977a1def89dbf33462ab9549c9fe661a28bb7bdd6d1cc6bf513e96d",
+    "work/restoration-v19/registration/actual-source-domain-checks-01.json": "3b9aeb8d72bab47da62f8397a4e3a70c199e60dd158cfd5b10509b20e95e1a33",
+    "work/restoration-v19/registration/source-registration-evidence-01.json": "4df276dff1531b5faf09e989bba79a983e6add739a64a2880fb59241ad9a0b23",
+    "work/restoration-v19/research/visual-facts-addon-01.json": "f7fbe89a0459d106f68ca8d7dc308ca07e8ee917d9bcef134348b39b807bc982",
+    "work/restoration-v19/hall-profile-prep/prepare_hall_profiles.py": "1dea011f5d02efdce5027675da6f910b45ae0914715754da88788cbeec769ed8"
+  },
+  "builder_contract": {
+    "module": "work/courtyard_hall_buildings.py",
+    "call": "G.build_hall(profile, collection, materials, mesh_cache)",
+    "profile_building_ids": [
+      "juanqinzhai",
+      "yucuixuan"
+    ],
+    "materials_source": "palette-v1.json",
+    "shared_support_object": null,
+    "source_floor_behavior": "G14 triangulates full source_polygon_local and all source_holes_local; exactly one reference slab",
+    "runtime_boolean_and_contact_validation_pending": true
+  },
+  "source_reference_floors_complete_original_shapes": true,
+  "facts_are_not_metric_survey": true,
+  "actual_generated_geometry_verified": false,
+  "native_opened": false,
+  "native_saved": false,
+  "Blender_started": false,
+  "old_actor_visibility_changed": false,
+  "third_party_cost": 0,
+  "paid_service_calls": 0,
+  "historical_identity_release": false,
+  "human_approval": "pending",
+  "whole_city_objective_complete": false
+}
