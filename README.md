@@ -8,6 +8,8 @@
 
 [旧阶段工程归档（V16–V20）](https://github.com/nikochen1997/forbidden-city-blender-study/releases/tag/archive-v16-v20-20261024)
 
+[其他历史文件归档（JSON、脚本、参数、测试和过程资料）](https://github.com/nikochen1997/forbidden-city-blender-study/releases/tag/history-files-20261024)
+
 每个阶段独立 ZIP，包含可编辑 `.blend`、阶段说明、模型清单、自有代码与选定的阶段渲染图。下载需要的阶段即可；SHA256 清单随 Release 提供。大文件放在 Release，未启用 Git LFS 或自动云渲染。
 
 | 阶段 | 内容 |
@@ -29,6 +31,8 @@
 公开模型仅清除了文件选择器目录、渲染输出路径中的本机信息；公开 PNG 清除了私人文本元数据，像素数据不变。模型几何、材质、镜头和可见性已对照原件核验。原始审计清单记录的是处理前 SHA；公开下载请以 Release 的 SHA256 清单为准。
 
 公开 manifest、profile 与少量代码中的本机项目根路径改为相对路径，原 SHA 与公开副本 SHA 分别记录，其他事实与参数保留。
+
+以上路径清理说明适用于五个过程 ZIP。其他历史文件 tar.gz 按项目所有者授权保留原字节，包括制作时的项目路径，以便按清单恢复历史文件；它们有独立的逐成员 SHA256 清单。当前制作必需的文件继续保留在本机。
 
 ## 许可与资料
 
