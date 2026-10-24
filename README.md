@@ -8,7 +8,9 @@
 
 [旧阶段工程归档（V16–V20）](https://github.com/nikochen1997/forbidden-city-blender-study/releases/tag/archive-v16-v20-20261024)
 
-[其他历史文件归档（JSON、脚本、参数、测试和过程资料）](https://github.com/nikochen1997/forbidden-city-blender-study/releases/tag/history-files-20261024)
+[已上传的精选历史文件归档](https://github.com/nikochen1997/forbidden-city-blender-study/releases/tag/history-files-20261024)
+
+按项目所有者最新要求，不再穷尽上传旧测试记录：已公开的附件继续保留，尚未上传的无用测试输出直接清理。公开归档不代表全部历史测试资料。
 
 每个阶段独立 ZIP，包含可编辑 `.blend`、阶段说明、模型清单、自有代码与选定的阶段渲染图。下载需要的阶段即可；SHA256 清单随 Release 提供。大文件放在 Release，未启用 Git LFS 或自动云渲染。
 
